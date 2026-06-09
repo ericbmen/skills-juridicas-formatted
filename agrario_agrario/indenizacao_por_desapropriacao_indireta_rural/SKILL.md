@@ -1,12 +1,12 @@
 ---
 name: agrario_agrario/indenizacao_por_desapropriacao_indireta_rural
 description: >
-  Gera petição inicial de ação de desapropriação indireta (apossamento administrativo), para reparação de proprietário rural cujo imóvel foi ocupado pelo Poder Público sem o devido processo expropriatório, com fundamento no Decreto-Lei 3.365/1941, no Código Civil e na jurisprudência do STJ, pleiteando
+  Gera petição inicial de ação de desapropriação indireta (apossamento administrativo), para reparação de proprietário rural cujo imóvel foi ocupado pelo Poder Público sem o devido processo expropriatório, com fundamento no Decreto-Lei 3.365/1941, no Código Civil e na jurisprudênci
 triggers:
-  - "Imóvel rural ocupado por obras públicas (estrada, linha de transmissão, usina, reservatório) sem decreto e indenização"
-  - "Área afetada por tombamento ou restrição ambiental que inviabilize toda a exploração econômica (desapropriação indireta por limitação administrativa)"
-  - "Área de assentamento do INCRA implantado em imóvel particular sem ação expropriatória formal"
-  - "Proprietário que perdeu a posse do imóvel para o Estado sem receber qualquer indenização"
+  - "Imóvel rural ocupado por obras públicas (estrada, linha de transmissão, usina, r"
+  - "Área afetada por tombamento ou restrição ambiental que inviabilize toda a explor"
+  - "Área de assentamento do INCRA implantado em imóvel particular sem ação expropria"
+  - "Proprietário que perdeu a posse do imóvel para o Estado sem receber qualquer ind"
 ---
 
 # Indenização por Desapropriação Indireta Rural
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Lucros cessantes calculados?
 - [ ] Foro correto (federal ou estadual) definido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROPRIETÁRIO (AUTOR):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
