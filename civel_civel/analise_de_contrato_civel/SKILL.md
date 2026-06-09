@@ -1,11 +1,11 @@
 ---
 name: civel_civel/analise_de_contrato_civel
 description: >
-  Realiza auditoria jurídica completa de contratos cíveis (prestação de serviços, compra e venda, locação, empreitada, parceria, etc.), analisando cláusula por cláusula, classificando riscos (alto/médio/baixo), identificando ilegalidades, omissões e sugerindo redação alternativa para cláusulas problem
+  Realiza auditoria jurídica completa de contratos cíveis (prestação de serviços, compra e venda, locação, empreitada, parceria, etc.), analisando cláusula por cláusula, classificando riscos (alto/médio/baixo), identificando ilegalidades, omissões e sugerindo redação alternativa pa
 triggers:
   - "Ao revisar contrato antes da assinatura pelo cliente"
   - "Para auditar contrato já assinado e identificar vulnerabilidades"
-  - "Para analisar contratos recebidos de terceiros (fornecedores, parceiros, locadores)"
+  - "Para analisar contratos recebidos de terceiros (fornecedores, parceiros, locador"
   - "Para verificar conformidade com o CC/2002 e legislação aplicável"
   - "Para preparar parecer sobre riscos contratuais"
 ---
@@ -122,11 +122,12 @@ Apresente em <checklist_validacao>:
 - [ ] Sugestões de nova redação foram fornecidas para cláusulas problemáticas?
 - [ ] LGPD foi considerada (se há tratamento de dados pessoais)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (quem pediu a análise):**
 - Nome: [nome do cliente]
 - Posição no contrato: [contratante / contratado / comprador / vendedor / locador / locatário]
