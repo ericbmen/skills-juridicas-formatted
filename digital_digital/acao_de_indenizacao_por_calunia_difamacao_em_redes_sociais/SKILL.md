@@ -3,10 +3,10 @@ name: digital_digital/acao_de_indenizacao_por_calunia_difamacao_em_redes_sociais
 description: >
   Gera peça de ação indenizatória por danos morais (e eventualmente materiais) decorrentes de publicações caluniosas ou difamatórias em redes sociais, fundamentada no Código Civil, Código Penal, Marco Civil da Internet e jurisprudência consolidada dos tribunais superiores.
 triggers:
-  - "Quando o cliente foi alvo de postagem falsa que atribui fato criminoso (calúnia — art. 138 CP)"
-  - "Quando publicação ofende a reputação sem imputar crime específico (difamação — art. 139 CP)"
-  - "Quando comentários, stories ou vídeos em redes sociais causaram dano à honra e imagem"
-  - "Quando a plataforma foi notificada e não removeu o conteúdo ilícito em prazo razoável"
+  - "Quando o cliente foi alvo de postagem falsa que atribui fato criminoso (calúnia "
+  - "Quando publicação ofende a reputação sem imputar crime específico (difamação — a"
+  - "Quando comentários, stories ou vídeos em redes sociais causaram dano à honra e i"
+  - "Quando a plataforma foi notificada e não removeu o conteúdo ilícito em prazo raz"
   - "Quando o ofensor é pessoa identificável e há prova documental das publicações"
 ---
 
