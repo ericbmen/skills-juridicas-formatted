@@ -8,7 +8,6 @@ triggers:
   - "Fixação consensual de alimentos entre ex-cônjuges"
   - "Partilha amigável de bens do casal"
   - "Conversão de separação em divórcio extrajudicial"
-  - "Acordo envolvendo filhos menores com prévia homologação judicial (Resolução CNJ 35/2007 c/c Provimento CNJ 100/2020)"
 ---
 
 # Acordo Extrajudicial Familiar
@@ -118,11 +117,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Requerimento de averbação no Registro Civil incluído?
 - [ ] Fundamentação legal correta (Lei 11.441/07, CPC, Res. CNJ 35/07)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE ACORDO:**
 - Natureza: [divórcio consensual | dissolução de união estável | acordo de alimentos | partilha amigável]
 - Data do casamento/início da união: [dd/mm/aaaa]
