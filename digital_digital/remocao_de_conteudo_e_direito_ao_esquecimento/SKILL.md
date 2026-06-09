@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Multa diária (astreinte) fixada no pedido de remoção?
 - [ ] Foro competente verificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (VÍTIMA):**
 - Nome completo: [nome]
 - CPF: [número]
