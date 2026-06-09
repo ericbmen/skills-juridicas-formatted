@@ -1,13 +1,13 @@
 ---
 name: civel_civel/acordo_judicial_e_extrajudicial_civel
 description: >
-  Gera termos de acordo judicial (para homologação em juízo) e extrajudicial completos para encerramento de litígios cíveis, com cláusulas de quitação, condições de pagamento, garantias, multas, prazos e demais termos necessários para segurança jurídica de ambas as partes, conforme arts. 487, III, "b"
+  Gera termos de acordo judicial (para homologação em juízo) e extrajudicial completos para encerramento de litígios cíveis, com cláusulas de quitação, condições de pagamento, garantias, multas, prazos e demais termos necessários para segurança jurídica de ambas as partes, conforme
 triggers:
   - "Para formalizar acordo entre as partes em processo judicial em andamento"
   - "Para redigir acordo extrajudicial com força de título executivo"
   - "Para encerrar litígio com quitação recíproca"
   - "Para submeter acordo à homologação judicial"
-  - "Para garantir que o acordo tenha todos os elementos para execução em caso de descumprimento"
+  - "Para garantir que o acordo tenha todos os elementos para execução em caso de des"
 ---
 
 # Acordo Judicial e Extrajudicial Cível
@@ -116,11 +116,12 @@ Apresente em <checklist_validacao>:
 - [ ] Se extrajudicial: assinatura de 2 testemunhas prevista (art. 784, IV, CPC)?
 - [ ] Acordo atende aos interesses do cliente?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE ACORDO:**
 [Judicial (processo em andamento) | Extrajudicial (sem processo ou para prevenção)]
 
