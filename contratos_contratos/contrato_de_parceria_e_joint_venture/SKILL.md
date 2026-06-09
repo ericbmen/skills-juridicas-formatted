@@ -1,13 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_parceria_e_joint_venture
 description: >
-  Elabora contrato de parceria empresarial ou joint venture (JV) completo, estruturando a colaboração entre empresas para um empreendimento comum, com definição de aportes, governança, distribuição de resultados, propriedade intelectual, exclusividade, resolução de conflitos e exit.
+  Elabora contrato de parceria empresarial ou joint venture (JV) completo, estruturando a colaboração entre empresas para um empreendimento comum, com definição de aportes, governança, distribuição de resultados, propriedade intelectual, exclusividade, resolução de conflitos e exit
 triggers:
-  - "Para formalizar parceria entre duas ou mais empresas para projeto ou empreendimento específico"
-  - "Quando empresas vão compartilhar recursos, tecnologia, clientela ou know-how em troca de resultados"
+  - "Para formalizar parceria entre duas ou mais empresas para projeto ou empreendime"
+  - "Quando empresas vão compartilhar recursos, tecnologia, clientela ou know-how em "
   - "Para estruturar joint venture contratual (sem criação de nova pessoa jurídica)"
-  - "Como alternativa à joint venture societária quando se quer evitar a criação de nova empresa"
-  - "Em parceria de distribuição, comercialização ou representação com participação nos resultados"
+  - "Como alternativa à joint venture societária quando se quer evitar a criação de n"
+  - "Em parceria de distribuição, comercialização ou representação com participação n"
 ---
 
 # Contrato de Parceria e Joint Venture
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Análise de necessidade de notificação ao CADE?
 - [ ] Resolução de conflitos (mediação/arbitragem) definida?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PARTES:**
 - Parte A: [razão social, CNPJ, endereço, representante]
 - Parte B: [razão social, CNPJ, endereço, representante]
