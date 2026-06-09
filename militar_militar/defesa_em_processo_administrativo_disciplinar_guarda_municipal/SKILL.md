@@ -1,14 +1,13 @@
 ---
 name: militar_militar/defesa_em_processo_administrativo_disciplinar_guarda_municipal
 description: >
-  Gera defesa escrita em Processo Administrativo Disciplinar (PAD) instaurado contra agente da Guarda Municipal, com fundamento na CF/88, na Lei 13.022/14 (Estatuto Geral das Guardas Municipais), na Lei 9.784/99 (processo administrativo federal subsidiário) e na legislação municipal específica, buscan
+  Gera defesa escrita em Processo Administrativo Disciplinar (PAD) instaurado contra agente da Guarda Municipal, com fundamento na CF/88, na Lei 13.022/14 (Estatuto Geral das Guardas Municipais), na Lei 9.784/99 (processo administrativo federal subsidiário) e na legislação municipa
 triggers:
-  - "Guarda municipal acusado de falta disciplinar grave (abuso de autoridade, uso indevido da força, abandono de posto, embriaguez em serviço)"
+  - "Guarda municipal acusado de falta disciplinar grave (abuso de autoridade, uso in"
   - "Instauração de PAD sem observância do contraditório e ampla defesa"
   - "PAD instaurado com base em denúncia anônima sem investigação prévia"
   - "Guarda municipal com risco de demissão ou exoneração por falta disciplinar"
-  - "PAD em que a comissão processante extrapolou os limites da portaria inaugural ou apurou fatos não relacionados ao objeto do processo"
-  - "Guarda municipal estável ameaçado de demissão sem processo regular"
+  - "PAD em que a comissão processante extrapolou os limites da portaria inaugural ou"
 ---
 
 # Defesa em Processo Administrativo Disciplinar - Guarda Municipal
@@ -115,11 +114,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Versão do guarda documentada (câmeras, testemunhas, relatórios)?
 - [ ] Proporcionalidade da sanção analisada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O PAD:**
 - Número do PAD: [nº]
 - Portaria inaugural nº: [nº e data]
