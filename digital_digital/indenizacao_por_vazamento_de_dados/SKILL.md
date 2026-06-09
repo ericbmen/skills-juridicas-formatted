@@ -3,7 +3,7 @@ name: digital_digital/indenizacao_por_vazamento_de_dados
 description: >
   Gera petição inicial para ação de indenização por danos morais e/ou materiais decorrentes de vazamento, uso indevido ou exposição não autorizada de dados pessoais, com base na LGPD, no CDC e no Código Civil, incluindo pedido de dano in re ipsa quando aplicável.
 triggers:
-  - "Quando o cliente teve dados pessoais vazados por empresa, banco ou plataforma digital"
+  - "Quando o cliente teve dados pessoais vazados por empresa, banco ou plataforma di"
   - "Para buscar indenização após incidente de segurança noticiado ou confirmado"
   - "Quando dados foram utilizados para fraudes em nome do titular"
   - "Para ações coletivas de consumidores afetados pelo mesmo vazamento"
@@ -107,11 +107,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da indenização fundamentado em precedentes razoáveis?
 - [ ] Provas documentais indicadas (prints, notificações, comprovantes de fraude)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (AUTOR):**
 - Nome completo: [nome]
 - CPF: [número]
