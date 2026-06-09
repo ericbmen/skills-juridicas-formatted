@@ -3,9 +3,9 @@ name: digital_digital/contrato_dpa_com_operador_de_dados
 description: >
   Gera Data Processing Agreement (DPA) — Acordo de Processamento de Dados — entre controlador e operador, conforme exigido pelo art. 37 da LGPD, com cláusulas de responsabilidade, sub-operadores, segurança, auditorias e notificação de incidentes.
 triggers:
-  - "Ao contratar fornecedor de software (SaaS, cloud, CRM, ERP) que acessa dados pessoais"
-  - "Para formalizar a relação com operadores de dados (agências de marketing, contabilidade, RH)"
-  - "Quando a empresa é operadora e precisa assinar DPA com seus clientes controladores"
+  - "Ao contratar fornecedor de software (SaaS, cloud, CRM, ERP) que acessa dados pes"
+  - "Para formalizar a relação com operadores de dados (agências de marketing, contab"
+  - "Quando a empresa é operadora e precisa assinar DPA com seus clientes controlador"
   - "Para adequação de contratos existentes à LGPD"
   - "Antes de qualquer transferência de dados pessoais a terceiros"
 ---
@@ -114,6 +114,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Exclusão/devolução de dados ao término regulamentada?
 - [ ] Transferência internacional contemplada (se aplicável)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
