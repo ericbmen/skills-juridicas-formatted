@@ -1,13 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_prestacao_de_servicos_pj
 description: >
-  Elabora contrato de prestação de serviços entre pessoas jurídicas (PJ-PJ) ou entre pessoa física prestadora de serviço por meio de sua empresa e tomador, com cláusulas que caracterizam a autonomia e independência do prestador, reduzindo o risco de reconhecimento de vínculo empregatício.
+  Elabora contrato de prestação de serviços entre pessoas jurídicas (PJ-PJ) ou entre pessoa física prestadora de serviço por meio de sua empresa e tomador, com cláusulas que caracterizam a autonomia e independência do prestador, reduzindo o risco de reconhecimento de vínculo empreg
 triggers:
-  - "Contratação de profissional autônomo que opera por meio de empresa (MEI, ME, LTDA)"
-  - "Contratos com consultores, especialistas, profissionais liberais ou prestadores de serviço recorrentes"
-  - "Quando a empresa quer formalizar relação com prestador de longo prazo sem vínculo empregatício"
-  - "Para contratos de prestação de serviços intelectuais, técnicos ou especializados por PJ"
-  - "Quando há risco de pejotização e o escritório precisa demonstrar a legalidade da relação"
+  - "Contratação de profissional autônomo que opera por meio de empresa (MEI, ME, LTD"
+  - "Contratos com consultores, especialistas, profissionais liberais ou prestadores "
+  - "Quando a empresa quer formalizar relação com prestador de longo prazo sem víncul"
+  - "Para contratos de prestação de serviços intelectuais, técnicos ou especializados"
+  - "Quando há risco de pejotização e o escritório precisa demonstrar a legalidade da"
 ---
 
 # Contrato de Prestação de Serviços PJ
@@ -92,11 +92,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Propriedade intelectual definida?
 - [ ] Risco trabalhista avaliado e alertado ao cliente?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TOMADOR DOS SERVIÇOS:**
 - Razão social: [nome]
 - CNPJ: [número]
