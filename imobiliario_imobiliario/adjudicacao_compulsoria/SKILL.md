@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/adjudicacao_compulsoria
 description: >
-  Gera petição inicial de ação de adjudicação compulsória para o promitente comprador que quitou o preço do imóvel mas não consegue obter a escritura definitiva por recusa ou impossibilidade do promitente vendedor. Fundamenta-se no direito real do promitente comprador (art. 1.417 CC/2002) e substitui 
+  Gera petição inicial de ação de adjudicação compulsória para o promitente comprador que quitou o preço do imóvel mas não consegue obter a escritura definitiva por recusa ou impossibilidade do promitente vendedor. Fundamenta-se no direito real do promitente comprador (art. 1.417 C
 triggers:
-  - "Quando o promissário comprador pagou integralmente o preço e o vendedor se recusa a outorgar a escritura definitiva"
-  - "Quando o vendedor faleceu e os herdeiros se recusam ou são inalcançáveis para assinar a escritura"
-  - "Quando a empresa vendedora foi encerrada ou faliu e não há representante para outorgar"
-  - "Quando há divergência sobre o saldo quitado e o vendedor condiciona a escritura a valores não devidos"
-  - "Para converter compromisso de compra e venda registrado (ou não) em propriedade plena"
-  - "Quando o promissário comprador está na posse do imóvel e necessita regularizar o título"
+  - "Quando o promissário comprador pagou integralmente o preço e o vendedor se recus"
+  - "Quando o vendedor faleceu e os herdeiros se recusam ou são inalcançáveis para as"
+  - "Quando a empresa vendedora foi encerrada ou faliu e não há representante para ou"
+  - "Quando há divergência sobre o saldo quitado e o vendedor condiciona a escritura "
+  - "Para converter compromisso de compra e venda registrado (ou não) em propriedade "
 ---
 
 # Adjudicação Compulsória
@@ -93,11 +92,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência da comarca do imóvel verificada?
 - [ ] Não há artigos ou súmulas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Promissário Comprador):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
