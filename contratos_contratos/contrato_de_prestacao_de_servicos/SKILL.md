@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_prestacao_de_servicos
 description: >
-  Elabora contratos de prestacao de servicos completos e personalizados, com fundamentacao nos arts. 593-609 do Codigo Civil (contrato de prestacao de servicos), arts. 421-422 CC (funcao social e boa-fe), observando o limite de prazo de 4 anos (art. 598 CC) e as regras de rescisao e retribuicao (arts.
+  Elabora contratos de prestacao de servicos completos e personalizados, com fundamentacao nos arts. 593-609 do Codigo Civil (contrato de prestacao de servicos), arts. 421-422 CC (funcao social e boa-fe), observando o limite de prazo de 4 anos (art. 598 CC) e as regras de rescisao 
 triggers:
-  - "Para contratar profissionais liberais, consultores, prestadores autonomos ou empresas de servicos"
-  - "Em contratos de TI, marketing, contabilidade, engenharia, comunicacao, design, saude"
-  - "Para formalizar relacoes com prestadores PJ (evitar reconhecimento de vinculo empregaticio)"
+  - "Para contratar profissionais liberais, consultores, prestadores autonomos ou emp"
+  - "Em contratos de TI, marketing, contabilidade, engenharia, comunicacao, design, s"
+  - "Para formalizar relacoes com prestadores PJ (evitar reconhecimento de vinculo em"
   - "Quando o servico tem natureza intelectual, tecnica ou especializada"
-  - "Para servicos continuados (mensais/recorrentes) ou por projeto (prazo determinado)"
-  - "Sempre que houver remuneracao por servico, independentemente do valor"
+  - "Para servicos continuados (mensais/recorrentes) ou por projeto (prazo determinad"
 ---
 
 # Contrato de Prestacao de Servicos
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -100,6 +99,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Propriedade intelectual das entregas esta definida?
 - [ ] Clausula LGPD incluida se ha tratamento de dados pessoais?
 - [ ] Duas testemunhas previstas para titulo executivo extrajudicial?
+
+---
 </framework>
 
 <dicas>
