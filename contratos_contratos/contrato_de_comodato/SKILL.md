@@ -3,11 +3,11 @@ name: contratos_contratos/contrato_de_comodato
 description: >
   Elabora contrato de comodato (empréstimo gratuito de bem infungível) completo, com identificação precisa do bem cedido, prazo, obrigações do comodatário, responsabilidade por danos e perda, hipóteses de devolução antecipada e encargos.
 triggers:
-  - "Empréstimo gratuito de equipamentos, máquinas, veículos, dispositivos eletrônicos, mobiliário ou imóvel"
-  - "Quando empresa disponibiliza bem para parceiro, fornecedor, colaborador ou terceiro sem cobrança de aluguel"
+  - "Empréstimo gratuito de equipamentos, máquinas, veículos, dispositivos eletrônico"
+  - "Quando empresa disponibiliza bem para parceiro, fornecedor, colaborador ou terce"
   - "Para formalizar o uso de bem de pessoa física por pessoa jurídica ou vice-versa"
-  - "Quando banco ou fornecedor disponibiliza terminal, equipamento ou infraestrutura para uso do cliente"
-  - "Para regularizar empréstimo de imóvel a colaborador ou familiar sem fins lucrativos"
+  - "Quando banco ou fornecedor disponibiliza terminal, equipamento ou infraestrutura"
+  - "Para regularizar empréstimo de imóvel a colaborador ou familiar sem fins lucrati"
 ---
 
 # Contrato de Comodato
@@ -85,11 +85,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Penalidade por mora na devolução incluída?
 - [ ] Hipóteses de devolução antecipada pelo comodante previstas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **COMODANTE (quem empresta):**
 - Nome/Razão social: [nome]
 - CPF/CNPJ: [número]
