@@ -1,13 +1,13 @@
 ---
 name: militar_militar/recurso_em_processo_administrativo_disciplinar_militar_pad
 description: >
-  Gera recurso administrativo contra decisão proferida em Processo Administrativo Disciplinar Militar (PAD), Inquérito Policial Militar (IPM) ou sindicância, com fundamento no Estatuto dos Militares (Lei 6.880/1980), nos regulamentos disciplinares das Forças Armadas (RDE, RDAER, RDM) ou das Polícias M
+  Gera recurso administrativo contra decisão proferida em Processo Administrativo Disciplinar Militar (PAD), Inquérito Policial Militar (IPM) ou sindicância, com fundamento no Estatuto dos Militares (Lei 6.880/1980), nos regulamentos disciplinares das Forças Armadas (RDE, RDAER, RD
 triggers:
-  - "Militar punido em PAD com pena de prisão disciplinar, detenção, suspensão ou repreensão"
-  - "Nulidade processual no PAD (ausência de defesa, comissão irregular, cerceamento de provas)"
+  - "Militar punido em PAD com pena de prisão disciplinar, detenção, suspensão ou rep"
+  - "Nulidade processual no PAD (ausência de defesa, comissão irregular, cerceamento "
   - "Punição desproporcional à transgressão disciplinar imputada"
   - "Recurso hierárquico ao superior da autoridade punidora"
-  - "Necessidade de recurso para preservar a ficha disciplinar do militar antes de concurso interno ou promoção"
+  - "Necessidade de recurso para preservar a ficha disciplinar do militar antes de co"
 ---
 
 # Recurso em Processo Administrativo Disciplinar Militar (PAD)
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Impacto na promoção ou concurso interno considerado?
 - [ ] Regulamento disciplinar específico da Força consultado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO DISCIPLINAR:**
 - Número do PAD/IPM/Sindicância: [número]
 - Força/Órgão: [ex: Exército — 14º BI; PM-SC — 3º BPM]
