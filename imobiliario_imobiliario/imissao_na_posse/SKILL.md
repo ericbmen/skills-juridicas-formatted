@@ -1,13 +1,13 @@
 ---
 name: imobiliario_imobiliario/imissao_na_posse
 description: >
-  Gera petição inicial de ação de imissão na posse para o proprietário (ou adquirente com título registrado) que nunca exerceu a posse do imóvel e precisa obtê-la judicialmente. Diferencia-se da reintegração de posse (quem perdeu a posse) e do despejo (relação locatícia), sendo cabível quando há propr
+  Gera petição inicial de ação de imissão na posse para o proprietário (ou adquirente com título registrado) que nunca exerceu a posse do imóvel e precisa obtê-la judicialmente. Diferencia-se da reintegração de posse (quem perdeu a posse) e do despejo (relação locatícia), sendo cab
 triggers:
-  - "Após arrematação judicial em leilão: arrematante com carta de arrematação registrada que não consegue tomar posse do imóvel"
-  - "Após adjudicação extrajudicial em alienação fiduciária (Lei 9.514/97): credor que consolidou a propriedade mas o devedor permanece no imóvel"
-  - "Quando o comprador registrou a escritura mas o vendedor ou terceiro se recusa a desocupar"
-  - "Para o adquirente de imóvel em inventário que nunca teve posse e o herdeiro/ocupante não sai"
-  - "Quando o imóvel foi adquirido por usucapião judicial e o réu não cumpre a sentença espontaneamente"
+  - "Após arrematação judicial em leilão: arrematante com carta de arrematação regist"
+  - "Após adjudicação extrajudicial em alienação fiduciária (Lei 9.514/97): credor qu"
+  - "Quando o comprador registrou a escritura mas o vendedor ou terceiro se recusa a "
+  - "Para o adquirente de imóvel em inventário que nunca teve posse e o herdeiro/ocup"
+  - "Quando o imóvel foi adquirido por usucapião judicial e o réu não cumpre a senten"
 ---
 
 # Imissão na Posse
@@ -94,11 +94,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor locativo calculado para período de ocupação indevida (se pedido)?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Proprietário):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
