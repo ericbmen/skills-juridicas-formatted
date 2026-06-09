@@ -1,13 +1,13 @@
 ---
 name: militar_militar/acao_de_indenizacao_por_acidente_em_servico_militar
 description: >
-  Gera petição inicial de ação de indenização por danos materiais e morais decorrentes de acidente sofrido por militar em serviço, com fundamento na CF/88, na Lei 6.880/80 (Estatuto dos Militares), na Lei 7.670/88 (auxílio-invalidez) e no Código Civil, buscando a responsabilização do Estado pelos dano
+  Gera petição inicial de ação de indenização por danos materiais e morais decorrentes de acidente sofrido por militar em serviço, com fundamento na CF/88, na Lei 6.880/80 (Estatuto dos Militares), na Lei 7.670/88 (auxílio-invalidez) e no Código Civil, buscando a responsabilização 
 triggers:
-  - "Militar acidentado em exercício, manobra, operação ou em atividade de serviço, com sequelas permanentes ou temporárias"
-  - "Morte de militar em serviço — ação proposta pelos dependentes (viúva, filhos, pais)"
-  - "Doença profissional ou ocupacional adquirida em razão do serviço militar (surdez por ruído de tiro; patologia por exposição a agentes químicos; TEPT — transtorno de estresse pós-traumático)"
-  - "Acidente com armamento ou veículo militar causado por falha do Estado no dever de guarda e manutenção"
-  - "Militar incapacitado permanentemente que além da reforma por incapacidade busca indenização civil"
+  - "Militar acidentado em exercício, manobra, operação ou em atividade de serviço, c"
+  - "Morte de militar em serviço — ação proposta pelos dependentes (viúva, filhos, pa"
+  - "Doença profissional ou ocupacional adquirida em razão do serviço militar (surdez"
+  - "Acidente com armamento ou veículo militar causado por falha do Estado no dever d"
+  - "Militar incapacitado permanentemente que além da reforma por incapacidade busca "
 ---
 
 # Ação de Indenização por Acidente em Serviço Militar
@@ -108,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano estético pleiteado separadamente (se houver deformidade)?
 - [ ] Constituição de capital garantidor para pensão mensal pleiteada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O PROCESSO:**
 - Juízo competente: [ex: 2ª Vara Federal de Manaus]
 - Valor da causa estimado: [R$ X]
