@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/incorporacao_imobiliaria_registro_e_compliance
 description: >
-  Gera parecer jurídico ou checklist completo para o registro de incorporação imobiliária no Cartório de Registro de Imóveis, conforme o art. 32 da Lei 4.591/64. Também analisa o regime de patrimônio de afetação, a minuta da convenção condominial, os contratos de promessa de compra e venda das unidade
+  Gera parecer jurídico ou checklist completo para o registro de incorporação imobiliária no Cartório de Registro de Imóveis, conforme o art. 32 da Lei 4.591/64. Também analisa o regime de patrimônio de afetação, a minuta da convenção condominial, os contratos de promessa de compra
 triggers:
-  - "Antes do lançamento de empreendimento imobiliário — verificar documentação para registro da incorporação"
-  - "Para estruturar o patrimônio de afetação (Lei 10.931/04) e proteger os adquirentes"
-  - "Para análise e revisão de minuta de convenção condominial e contrato padrão de compra e venda"
-  - "Para verificar a conformidade do empreendimento com os requisitos da Lei 4.591/64"
-  - "Quando o incorporador quer saber o que é necessário para lançar o empreendimento legalmente"
-  - "Para análise de due diligence em aquisição de incorporadora ou SPE com empreendimento em andamento"
+  - "Antes do lançamento de empreendimento imobiliário — verificar documentação para "
+  - "Para estruturar o patrimônio de afetação (Lei 10.931/04) e proteger os adquirent"
+  - "Para análise e revisão de minuta de convenção condominial e contrato padrão de c"
+  - "Para verificar a conformidade do empreendimento com os requisitos da Lei 4.591/6"
+  - "Quando o incorporador quer saber o que é necessário para lançar o empreendimento"
 ---
 
 # Incorporação Imobiliária — Registro e Compliance
@@ -100,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Normas locais (provimentos do CGJ/TJ) indicadas como [VERIFICAR]?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **INCORPORADOR:**
 - Nome/Razão social: [nome]
 - CPF/CNPJ: [número]
