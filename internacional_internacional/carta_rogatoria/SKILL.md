@@ -1,7 +1,7 @@
 ---
 name: internacional_internacional/carta_rogatoria
 description: >
-  Gera requerimento de expedição de carta rogatória para cumprimento de ato processual no exterior (citação, intimação, coleta de provas, penhora de bens), com fundamento nos arts. 26 a 41 do CPC, art. 105, I, "i" da CF/88 e nos tratados de cooperação jurídica internacional aplicáveis.
+  Gera requerimento de expedição de carta rogatória para cumprimento de ato processual no exterior (citação, intimação, coleta de provas, penhora de bens), com fundamento nos arts. 26 a 41 do CPC, art. 105, I, "i" da CF/88 e nos tratados de cooperação jurídica internacional aplicáv
 triggers:
   - "Necessidade de citar réu domiciliado no exterior"
   - "Intimação de testemunha residente fora do Brasil"
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentos para instruir a rogatória listados?
 - [ ] Necessidade de tradução para o idioma do país destinatário indicada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Juízo competente: [vara e comarca]
