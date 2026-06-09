@@ -1,10 +1,10 @@
 ---
 name: ambiental_ambiental/defesa_em_acao_civil_publica_ambiental
 description: >
-  Gera contestação completa em ação civil pública ambiental (ACP), proposta pelo Ministério Público, órgãos públicos ou associações, com fundamento na Lei 7.347/85, na Lei 6.938/81 (responsabilidade objetiva), na Lei 9.605/98 e na CF/88 (art. 225), explorando todas as teses de defesa: preliminares pro
+  Gera contestação completa em ação civil pública ambiental (ACP), proposta pelo Ministério Público, órgãos públicos ou associações, com fundamento na Lei 7.347/85, na Lei 6.938/81 (responsabilidade objetiva), na Lei 9.605/98 e na CF/88 (art. 225), explorando todas as teses de defe
 triggers:
   - "Ao ser citado em ACP ambiental proposta pelo MP, órgão público ou associação"
-  - "Para defender empresa, produtor rural ou pessoa física de pedidos de reparação de dano ambiental"
+  - "Para defender empresa, produtor rural ou pessoa física de pedidos de reparação d"
   - "Para resistir a pedidos de tutela de urgência em ACP ambiental"
   - "Quando houver TAC em negociação e precisar de peça de defesa paralela"
   - "Para questionar a legitimidade ativa do autor ou a competência do juízo"
@@ -120,11 +120,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Produção de prova pericial requerida?
 - [ ] Fundamentação com artigos reais da Lei 7.347/85 e Lei 6.938/81?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara e comarca: [vara e comarca]
