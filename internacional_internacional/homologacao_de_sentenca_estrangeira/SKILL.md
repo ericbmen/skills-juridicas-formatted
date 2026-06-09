@@ -5,9 +5,9 @@ description: >
 triggers:
   - "Sentença de divórcio proferida no exterior que precisa ser reconhecida no Brasil"
   - "Decisão estrangeira de alimentos, guarda ou adoção internacional"
-  - "Sentença cível ou comercial proferida fora do país que envolva bens ou pessoas no Brasil"
+  - "Sentença cível ou comercial proferida fora do país que envolva bens ou pessoas n"
   - "Decisão arbitral estrangeira com partes domiciliadas no Brasil"
-  - "Quando o cliente precisa executar título judicial estrangeiro em território nacional"
+  - "Quando o cliente precisa executar título judicial estrangeiro em território naci"
 ---
 
 # Homologação de Sentença Estrangeira
@@ -104,11 +104,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência do STJ (art. 105, I, "i", CF/88) referenciada?
 - [ ] Documentos listados e organizados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - País de origem da sentença: [país]
 - Órgão julgador estrangeiro: [nome do tribunal/juízo]
