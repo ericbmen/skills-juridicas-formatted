@@ -3,9 +3,9 @@ name: agrario_agrario/contrato_de_arrendamento_e_parceria_agricola
 description: >
   Gera contratos de arrendamento rural e de parceria agrícola em conformidade com o Estatuto da Terra (Lei 4.504/1964) e o Decreto 59.566/1966, assegurando cláusulas obrigatórias, prazo mínimo legal, preço máximo de arrendamento e percentuais de partilha da produção nas parcerias.
 triggers:
-  - "Proprietário rural que deseja arrendar a terra ou entrar em parceria com agricultor"
-  - "Arrendatário que precisa formalizar a ocupação da área e proteger seu investimento"
-  - "Necessidade de cláusulas protetivas do arrendatário (preferência de compra, prazo mínimo)"
+  - "Proprietário rural que deseja arrendar a terra ou entrar em parceria com agricul"
+  - "Arrendatário que precisa formalizar a ocupação da área e proteger seu investimen"
+  - "Necessidade de cláusulas protetivas do arrendatário (preferência de compra, praz"
   - "Parceria com partilha de produção ou de resultados entre proprietário e parceiro"
   - "Revisão ou renovação de contrato agrário existente"
 ---
@@ -92,11 +92,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Atividade explorada claramente definida?
 - [ ] Vedação de subarrendamento sem autorização?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE CONTRATO:**
 - Arrendamento rural ou parceria agrícola? [indique]
 
