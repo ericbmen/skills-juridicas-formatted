@@ -1,13 +1,13 @@
 ---
 name: aeronautico_aeronautico/indenizacao_por_atraso_de_voo
 description: >
-  Gera petição inicial para ação indenizatória por atraso de voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais e morais decorrentes da falha na prestação do serviço aéreo.
+  Gera petição inicial para ação indenizatória por atraso de voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais e morais decorrentes da falha na prestação 
 triggers:
   - "Atraso superior a 4 horas sem assistência material adequada"
   - "Atraso que causou perda de conexão, compromisso profissional ou familiar"
   - "Companhia não ofereceu alimentação, acomodação ou reacomodação em outro voo"
   - "Danos materiais comprovados decorrentes do atraso"
-  - "Atraso com chegada ao destino final com mais de 3 horas de diferença (parâmetro jurisprudencial)"
+  - "Atraso com chegada ao destino final com mais de 3 horas de diferença (parâmetro "
 ---
 
 # Indenização por Atraso de Voo
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo prescricional verificado?
 - [ ] Foro correto escolhido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: G33201]
