@@ -1,13 +1,13 @@
 ---
 name: administrativo_administrativo/recurso_contra_penalidade_em_contrato_administrativo
 description: >
-  Gera recurso administrativo completo contra penalidades aplicadas pela Administração Pública em contratos administrativos — multa contratual, advertência, suspensão temporária ou declaração de inidoneidade — com impugnação da fundamentação da penalidade, arguição de vícios formais (ausência de contr
+  Gera recurso administrativo completo contra penalidades aplicadas pela Administração Pública em contratos administrativos — multa contratual, advertência, suspensão temporária ou declaração de inidoneidade — com impugnação da fundamentação da penalidade, arguição de vícios formai
 triggers:
   - "Multa contratual aplicada por suposto atraso ou inexecução parcial do objeto"
-  - "Suspensão temporária do direito de licitar aplicada sem processo administrativo prévio"
+  - "Suspensão temporária do direito de licitar aplicada sem processo administrativo "
   - "Declaração de inidoneidade sem observância do contraditório e ampla defesa"
   - "Penalidade desproporcional ao descumprimento contratual"
-  - "Aplicação de penalidade por fato atribuível à própria Administração (atraso em pagamento, mudança de especificação)"
+  - "Aplicação de penalidade por fato atribuível à própria Administração (atraso em p"
 ---
 
 # Recurso contra Penalidade em Contrato Administrativo
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cálculo da multa conferido conforme cláusula contratual?
 - [ ] Suspensão da penalidade pedida durante o recurso?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONTRATO:**
 - Número do contrato: [número]
 - Órgão contratante: [nome completo]
