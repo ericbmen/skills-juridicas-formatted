@@ -1,12 +1,12 @@
 ---
 name: bancario_bancario/acao_de_indenizacao_por_inscricao_indevida_no_scr_banco_central
 description: >
-  Gera petição inicial de ação de indenização por danos morais e materiais decorrentes de inscrição indevida no Sistema de Informações de Crédito (SCR) do Banco Central do Brasil, com pedido de retificação dos dados e reparação pelos prejuízos causados ao consumidor no acesso ao crédito e nas relações
+  Gera petição inicial de ação de indenização por danos morais e materiais decorrentes de inscrição indevida no Sistema de Informações de Crédito (SCR) do Banco Central do Brasil, com pedido de retificação dos dados e reparação pelos prejuízos causados ao consumidor no acesso ao cr
 triggers:
-  - "Quando o consumidor descobre que há registro incorreto ou desatualizado no SCR do Bacen"
-  - "Para casos em que a instituição financeira registrou operação quitada ou inexistente"
+  - "Quando o consumidor descobre que há registro incorreto ou desatualizado no SCR d"
+  - "Para casos em que a instituição financeira registrou operação quitada ou inexist"
   - "Quando o cliente teve crédito negado em razão de informação errônea no SCR"
-  - "Para situações em que houve fraude e dados do consumidor foram usados indevidamente"
+  - "Para situações em que houve fraude e dados do consumidor foram usados indevidame"
   - "Quando o banco não corrigiu o registro após notificação extrajudicial formal"
 ---
 
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] LGPD (arts. 18-19) citada como reforço?
 - [ ] Foro no domicílio do consumidor (art. 101, I, CDC)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
