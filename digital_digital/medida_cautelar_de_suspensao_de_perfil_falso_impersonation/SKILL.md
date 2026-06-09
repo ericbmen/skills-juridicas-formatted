@@ -1,11 +1,11 @@
 ---
 name: digital_digital/medida_cautelar_de_suspensao_de_perfil_falso_impersonation
 description: >
-  Gera petição de tutela cautelar antecedente ou incidental para suspensão imediata de perfil falso em redes sociais que se passa por outra pessoa (impersonation), com pedido de revelação dos dados do criador do perfil, fundamentada no Marco Civil da Internet, LGPD, Código Civil e Código de Processo C
+  Gera petição de tutela cautelar antecedente ou incidental para suspensão imediata de perfil falso em redes sociais que se passa por outra pessoa (impersonation), com pedido de revelação dos dados do criador do perfil, fundamentada no Marco Civil da Internet, LGPD, Código Civil e 
 triggers:
-  - "Quando terceiro criou perfil em nome do cliente fingindo ser ele/ela em redes sociais"
-  - "Quando perfil falso está sendo usado para aplicar golpes, vender produtos ou fazer declarações ofensivas"
-  - "Quando a plataforma não removeu o perfil falso após notificação administrativa interna"
+  - "Quando terceiro criou perfil em nome do cliente fingindo ser ele/ela em redes so"
+  - "Quando perfil falso está sendo usado para aplicar golpes, vender produtos ou faz"
+  - "Quando a plataforma não removeu o perfil falso após notificação administrativa i"
   - "Quando a identidade profissional ou empresarial está sendo usurpada digitalmente"
   - "Quando há urgência e o dano se agrava a cada hora que o perfil permanece ativo"
 ---
