@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/indenizacao_por_inscricao_indevida_em_cadastros_de_inadimplentes
 description: >
-  Gera petição inicial de ação de indenização por danos morais (e materiais, quando aplicável) decorrentes de inscrição indevida do nome do cliente em cadastros de proteção ao crédito (SPC, Serasa, SCPC), com pedido de retirada imediata via tutela antecipada e reparação pelos danos causados.
+  Gera petição inicial de ação de indenização por danos morais (e materiais, quando aplicável) decorrentes de inscrição indevida do nome do cliente em cadastros de proteção ao crédito (SPC, Serasa, SCPC), com pedido de retirada imediata via tutela antecipada e reparação pelos danos
 triggers:
   - "Quando o cliente está negativado por dívida que já foi paga ou que não existe"
   - "Para cancelar negativação decorrente de fraude ou furto de identidade"
   - "Quando o banco negativou sem notificar previamente o devedor (Súmula 359 STJ)"
   - "Para buscar indenização por dano moral com base na inscrição indevida"
-  - "Quando o cliente tem outra negativação legítima, mas há inscrição indevida adicional"
+  - "Quando o cliente tem outra negativação legítima, mas há inscrição indevida adici"
 ---
 
 # Indenização por Inscrição Indevida em Cadastros de Inadimplentes
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral in re ipsa arguido?
 - [ ] JEC avaliado pelo valor da causa?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
