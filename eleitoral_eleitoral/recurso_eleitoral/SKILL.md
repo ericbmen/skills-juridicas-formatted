@@ -6,7 +6,7 @@ triggers:
   - "Para recorrer de decisões que indeferiram registro de candidatura"
   - "Para impugnar decisões em AIME, AIJE, representações ou outras ações eleitorais"
   - "Quando a sentença julgou procedente ação eleitoral contra o cliente"
-  - "Para recorrer de decisões sobre propaganda eleitoral, financiamento ou prestação de contas"
+  - "Para recorrer de decisões sobre propaganda eleitoral, financiamento ou prestação"
   - "Quando há divergência entre a decisão recorrida e a jurisprudência do TSE"
 ---
 
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Efeito suspensivo requerido se houver urgência?
 - [ ] Endereçamento correto (TRE ou TSE)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RECORRENTE:**
 - Nome/partido: [nome ou sigla]
 - Qualidade: [candidato / partido / coligação / Ministério Público]
