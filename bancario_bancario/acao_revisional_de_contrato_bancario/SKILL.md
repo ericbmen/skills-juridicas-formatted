@@ -1,12 +1,12 @@
 ---
 name: bancario_bancario/acao_revisional_de_contrato_bancario
 description: >
-  Gera petição inicial de ação revisional de contrato bancário para rediscutir encargos abusivos, taxa de juros, capitalização irregular, tarifas indevidas e cláusulas leoninas em contratos de empréstimo, financiamento, cartão de crédito e leasing, com pedido de revisão e devolução de valores pagos a 
+  Gera petição inicial de ação revisional de contrato bancário para rediscutir encargos abusivos, taxa de juros, capitalização irregular, tarifas indevidas e cláusulas leoninas em contratos de empréstimo, financiamento, cartão de crédito e leasing, com pedido de revisão e devolução
 triggers:
-  - "Quando o cliente suspeita que os juros cobrados são abusivos ou superiores ao pactuado"
-  - "Para questionar capitalização de juros (juros sobre juros) em contratos bancários"
+  - "Quando o cliente suspeita que os juros cobrados são abusivos ou superiores ao pa"
+  - "Para questionar capitalização de juros (juros sobre juros) em contratos bancário"
   - "Para revisar contratos com cobrança de tarifas e seguros não contratados"
-  - "Quando a dívida cresceu de forma desproporcional ao valor originalmente emprestado"
+  - "Quando a dívida cresceu de forma desproporcional ao valor originalmente empresta"
   - "Para buscar a devolução de valores pagos indevidamente ao longo do contrato"
 ---
 
@@ -110,6 +110,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido de perícia contábil incluído?
 - [ ] Repetição de indébito (art. 42 CDC) avaliada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
