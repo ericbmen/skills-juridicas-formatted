@@ -4,10 +4,10 @@ description: >
   Gera um contrato de compra e venda de imóvel completo e fundamentado, incluindo promessa ou escritura definitiva, com cláusulas essenciais de preço, pagamento, posse, evicção, vícios e penalidades, conforme os arts. 481-532 do Código Civil e legislação registral.
 triggers:
   - "Ao formalizar a venda de imóvel urbano ou rural entre particulares"
-  - "Para redigir compromisso de compra e venda (promessa) com ou sem cláusula de arrependimento"
+  - "Para redigir compromisso de compra e venda (promessa) com ou sem cláusula de arr"
   - "Em transações com pagamento parcelado que exigem cláusula resolutiva expressa"
-  - "Para padronizar contratos imobiliários no escritório com cláusulas de proteção ao cliente"
-  - "Quando há necessidade de cláusula de alienação fiduciária ou hipoteca no próprio instrumento"
+  - "Para padronizar contratos imobiliários no escritório com cláusulas de proteção a"
+  - "Quando há necessidade de cláusula de alienação fiduciária ou hipoteca no próprio"
 ---
 
 # Contrato de Compra e Venda de Imóvel
@@ -100,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cláusula penal proporcional e adequada?
 - [ ] Foro competente definido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE CONTRATO:**
 - [ ] Promessa de Compra e Venda (Compromisso)
 - [ ] Escritura Pública de Compra e Venda (Definitiva)
