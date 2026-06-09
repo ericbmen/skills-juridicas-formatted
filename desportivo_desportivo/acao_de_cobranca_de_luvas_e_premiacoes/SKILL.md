@@ -1,10 +1,10 @@
 ---
 name: desportivo_desportivo/acao_de_cobranca_de_luvas_e_premiacoes
 description: >
-  Gera petição inicial de reclamação trabalhista para cobrança de luvas não pagas e premiações por metas esportivas devidas ao atleta profissional, com fundamento na Lei Pelé (Lei 9.615/1998) e na CLT, incluindo correção monetária, juros de mora e reflexos nas verbas trabalhistas (FGTS, 13º, férias), 
+  Gera petição inicial de reclamação trabalhista para cobrança de luvas não pagas e premiações por metas esportivas devidas ao atleta profissional, com fundamento na Lei Pelé (Lei 9.615/1998) e na CLT, incluindo correção monetária, juros de mora e reflexos nas verbas trabalhistas (
 triggers:
-  - "Atleta que recebeu contrato prometendo luvas e nunca as recebeu total ou parcialmente"
-  - "Clube que não pagou premiações por título, classificação ou metas pactuadas em contrato ou aditivo"
+  - "Atleta que recebeu contrato prometendo luvas e nunca as recebeu total ou parcial"
+  - "Clube que não pagou premiações por título, classificação ou metas pactuadas em c"
   - "Atleta que recebeu apenas parte das luvas e o clube nega o valor integral"
   - "Campeonato ganho e prêmio não repassado conforme cláusula contratual"
   - "Cobrança de bônus por renovação de contrato que não foi honrado pelo clube"
@@ -103,11 +103,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Correção monetária e juros previstos?
 - [ ] Valor da causa calculado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA (RECLAMANTE):**
 - Nome completo: [nome]
 - CPF: [número]
