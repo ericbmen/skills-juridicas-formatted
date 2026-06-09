@@ -1,7 +1,7 @@
 ---
 name: ambiental_ambiental/acao_civil_publica_ambiental_dano_coletivo
 description: >
-  Gera petição inicial completa de Ação Civil Pública Ambiental para tutela de interesses difusos e coletivos em casos de dano ambiental coletivo, com pedidos de tutela de urgência, obrigações de fazer/não fazer, reparação integral do dano e indenização por dano moral coletivo, fundamentada na Lei 7.3
+  Gera petição inicial completa de Ação Civil Pública Ambiental para tutela de interesses difusos e coletivos em casos de dano ambiental coletivo, com pedidos de tutela de urgência, obrigações de fazer/não fazer, reparação integral do dano e indenização por dano moral coletivo, fun
 triggers:
   - "Desmatamento ilegal em área protegida causando dano à coletividade"
   - "Poluição de corpos hídricos com impacto difuso em comunidades ribeirinhas"
@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da causa informado?
 - [ ] Documentos disponíveis listados como anexos?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O DANO AMBIENTAL:**
 - Descrição do dano: [o que ocorreu — desmatamento, poluição, degradação de APP, etc.]
 - Localização: [endereço, coordenadas geográficas, município/UF]
