@@ -1,10 +1,10 @@
 ---
 name: bancario_bancario/contestacao_de_acao_monitoria_bancaria
 description: >
-  Gera embargos monitórios em ação monitória ajuizada por banco ou instituição financeira, com defesas processuais (nulidade do título, prescrição, ilegitimidade) e de mérito (abusividade contratual, excesso de cobrança, pagamento, novação), dentro do prazo de 15 dias previsto no art. 702 do CPC.
+  Gera embargos monitórios em ação monitória ajuizada por banco ou instituição financeira, com defesas processuais (nulidade do título, prescrição, ilegitimidade) e de mérito (abusividade contratual, excesso de cobrança, pagamento, novação), dentro do prazo de 15 dias previsto no a
 triggers:
-  - "Ao receber citação em ação monitória bancária (cobrança por documento sem força de título executivo)"
-  - "Para opor embargos quando o banco usa extratos, contratos ou boletos como "prova escrita""
+  - "Ao receber citação em ação monitória bancária (cobrança por documento sem força "
+  - "Para opor embargos quando o banco usa extratos, contratos ou boletos como "prova"
   - "Quando o valor cobrado está inflado por encargos abusivos ou juros excessivos"
   - "Para arguir prescrição da dívida cobrada via monitória"
   - "Quando o cliente tem prova de pagamento ou novação que extingue a dívida"
@@ -106,11 +106,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Efeito suspensivo automático dos embargos mencionado?
 - [ ] Perícia contábil requerida para recálculo?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DEVEDOR (EMBARGANTE):**
 - Nome completo: [nome]
 - CPF: [número]
