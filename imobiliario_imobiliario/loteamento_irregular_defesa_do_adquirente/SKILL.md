@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/loteamento_irregular_defesa_do_adquirente
 description: >
-  Gera petição inicial ou notificação extrajudicial para proteger o adquirente de lote em loteamento irregular ou clandestino, buscando a regularização do loteamento, a adjudicação compulsória do lote, indenização por vícios ou rescisão com devolução integral dos valores pagos. Também analisa a respon
+  Gera petição inicial ou notificação extrajudicial para proteger o adquirente de lote em loteamento irregular ou clandestino, buscando a regularização do loteamento, a adjudicação compulsória do lote, indenização por vícios ou rescisão com devolução integral dos valores pagos. Tam
 triggers:
-  - "Quando o comprador de lote descobriu que o loteamento não tem aprovação municipal ou registro no RI"
-  - "Quando o loteamento foi aprovado mas o loteador não implantou a infraestrutura prometida (ruas, calçadas, esgoto, luz)"
-  - "Para buscar adjudicação compulsória do lote (arts. 1.417-1.418 CC) quando o loteador não outorga escritura"
-  - "Quando o adquirente quer rescindir o contrato e reaver todos os valores pagos por culpa do loteador"
-  - "Para responsabilizar o Município que permitiu a ocupação sem infraestrutura ou que vendeu o lote irregular"
-  - "Para proteger o adquirente de penhora do lote em dívida do loteador (embargos de terceiro)"
+  - "Quando o comprador de lote descobriu que o loteamento não tem aprovação municipa"
+  - "Quando o loteamento foi aprovado mas o loteador não implantou a infraestrutura p"
+  - "Para buscar adjudicação compulsória do lote (arts. 1.417-1.418 CC) quando o lote"
+  - "Quando o adquirente quer rescindir o contrato e reaver todos os valores pagos po"
+  - "Para responsabilizar o Município que permitiu a ocupação sem infraestrutura ou q"
 ---
 
 # Loteamento Irregular — Defesa do Adquirente
@@ -98,11 +97,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] CDC aplicado ao adquirente consumidor?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Adquirente):**
 - Nome completo: [nome]
 - CPF: [número]
