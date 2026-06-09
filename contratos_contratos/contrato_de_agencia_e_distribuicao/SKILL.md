@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_agencia_e_distribuicao
 description: >
-  Elabora contratos de agencia e distribuicao fundamentados nos arts. 710-721 do Codigo Civil, que introduziram no direito brasileiro os contratos tipicos de agencia (agenciamento) e distribuicao. Distingue claramente agencia (o agente agencia negocios em nome do proponente, sem adquirir a mercadoria)
+  Elabora contratos de agencia e distribuicao fundamentados nos arts. 710-721 do Codigo Civil, que introduziram no direito brasileiro os contratos tipicos de agencia (agenciamento) e distribuicao. Distingue claramente agencia (o agente agencia negocios em nome do proponente, sem ad
 triggers:
   - "Para contratar agentes comerciais que atuam em nome do proponente"
   - "Para estruturar redes de distribuicao de produtos industrializados ou importados"
   - "Para definir exclusividade de territorio, produto ou marca"
-  - "Quando o distribuidor adquire e revende produtos por conta propria (risco proprio)"
-  - "Para formalizar relacoes com importadores, atacadistas ou distribuidores regionais"
-  - "Para evitar confusao entre agencia, distribuicao, representacao comercial e franquia"
+  - "Quando o distribuidor adquire e revende produtos por conta propria (risco propri"
+  - "Para formalizar relacoes com importadores, atacadistas ou distribuidores regiona"
 ---
 
 # Contrato de Agencia e Distribuicao
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -91,6 +90,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] As causas de rescisao motivada estao alinhadas com os arts. 716-717 CC?
 - [ ] Ha clausula de autonomia para afastar vinculo empregaticio?
 - [ ] Duas testemunhas previstas para titulo executivo extrajudicial?
+
+---
 </framework>
 
 <dicas>
