@@ -1,13 +1,13 @@
 ---
 name: ambiental_ambiental/defesa_em_auto_de_infracao_ambiental
 description: >
-  Gera defesa administrativa completa contra autos de infração lavrados por órgãos ambientais (IBAMA, ICMBio, órgãos estaduais do SISNAMA), com impugnação de multas, embargos, interdições e apreensões, fundamentada na Lei 9.605/98, no Decreto 6.514/2008 e nos princípios do processo administrativo (Lei
+  Gera defesa administrativa completa contra autos de infração lavrados por órgãos ambientais (IBAMA, ICMBio, órgãos estaduais do SISNAMA), com impugnação de multas, embargos, interdições e apreensões, fundamentada na Lei 9.605/98, no Decreto 6.514/2008 e nos princípios do processo
 triggers:
-  - "Ao receber auto de infração ambiental com prazo de defesa (em regra, 20 dias — art. 71 do Decreto 6.514/2008)"
-  - "Para impugnar multas por supressão de vegetação, desmatamento, queimada, poluição ou maus-tratos a animais"
-  - "Para requerer conversão de multa em serviços de preservação (art. 72, §4º, Lei 9.605/98)"
+  - "Ao receber auto de infração ambiental com prazo de defesa (em regra, 20 dias — a"
+  - "Para impugnar multas por supressão de vegetação, desmatamento, queimada, poluiçã"
+  - "Para requerer conversão de multa em serviços de preservação (art. 72, §4º, Lei 9"
   - "Para contestar embargos de obra ou atividade por infração ambiental"
-  - "Para questionar vícios formais no auto de infração (incompetência, nulidade, ausência de motivação)"
+  - "Para questionar vícios formais no auto de infração (incompetência, nulidade, aus"
 ---
 
 # Defesa em Auto de Infração Ambiental
@@ -117,11 +117,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Fundamentação com artigos reais da Lei 9.605/98 e Decreto 6.514/2008?
 - [ ] Documentos probatórios listados e anexados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTO DE INFRAÇÃO:**
 - Número do auto: [número]
 - Data de lavratura: [dd/mm/aaaa]
