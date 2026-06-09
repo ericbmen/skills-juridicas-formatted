@@ -3,8 +3,8 @@ name: bancario_bancario/contestacao_de_busca_e_apreensao
 description: >
   Gera contestação completa em ação de busca e apreensão de bem alienado fiduciariamente (Decreto-Lei 911/1969), com defesas processuais, arguição de irregularidades na notificação, revisão de contrato e pedido de emenda da mora, além de eventuais reconvenções.
 triggers:
-  - "Quando o devedor fiduciante recebe citação em ação de busca e apreensão do veículo ou bem"
-  - "Para levantar vícios na notificação extrajudicial prévia (requisito de validade da ação)"
+  - "Quando o devedor fiduciante recebe citação em ação de busca e apreensão do veícu"
+  - "Para levantar vícios na notificação extrajudicial prévia (requisito de validade "
   - "Para arguir abusividade de cláusulas contratuais que inflaram a dívida"
   - "Quando o cliente quer pagar o débito (emenda da mora) e evitar a perda do bem"
   - "Para contestar a liquidez e certeza do título apresentado pelo banco"
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cálculo do saldo devedor real solicitado como prova pericial?
 - [ ] Pedido de suspensão da consolidação da propriedade incluído?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DEVEDOR (CONTESTANTE):**
 - Nome completo: [nome]
 - CPF: [número]
