@@ -1,12 +1,12 @@
 ---
 name: administrativo_administrativo/acao_popular_improbidade_lesao_ao_patrimonio_publico
 description: >
-  Gera petição inicial completa de Ação Popular para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, ajuizada por cidadão, com pedido de suspensão do ato, responsabilização dos agentes envolvidos e reparação do dano, fundame
+  Gera petição inicial completa de Ação Popular para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, ajuizada por cidadão, com pedido de suspensão do ato, responsabilização dos agentes envolvidos e repara
 triggers:
-  - "Contrato administrativo celebrado com dispensa ou inexigibilidade de licitação fraudulenta"
+  - "Contrato administrativo celebrado com dispensa ou inexigibilidade de licitação f"
   - "Ato administrativo de alienação de bem público por valor abaixo do mercado"
   - "Concessão de benefício fiscal ou subsídio sem amparo legal"
-  - "Nomeação de servidor em cargo comissionado sem requisitos legais ou como ato de nepotismo"
+  - "Nomeação de servidor em cargo comissionado sem requisitos legais ou como ato de "
   - "Obra pública superfaturada ou realizada sem licitação, causando lesão ao erário"
 ---
 
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] MP foi intimado como fiscal da lei (art. 9º, Lei 4.717/65)?
 - [ ] Isenção de custas para o autor de boa-fé foi requerida?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATO LESIVO:**
 - Tipo de ato: [contrato / nomeação / alienação / concessão / obra / outro]
 - Número/identificação: [ex: Contrato nº 045/2026, Portaria nº 123/2026]
