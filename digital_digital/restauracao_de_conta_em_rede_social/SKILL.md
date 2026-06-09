@@ -1,12 +1,12 @@
 ---
 name: digital_digital/restauracao_de_conta_em_rede_social
 description: >
-  Gera notificação extrajudicial e/ou petição inicial para restauração de conta indevidamente suspensa ou excluída em redes sociais e plataformas digitais, com base no Marco Civil da Internet, CDC e teoria do abuso de direito, incluindo pedido de tutela antecipada quando houver urgência.
+  Gera notificação extrajudicial e/ou petição inicial para restauração de conta indevidamente suspensa ou excluída em redes sociais e plataformas digitais, com base no Marco Civil da Internet, CDC e teoria do abuso de direito, incluindo pedido de tutela antecipada quando houver urg
 triggers:
   - "Quando conta comercial ou pessoal foi suspensa ou excluída sem aviso adequado"
-  - "Para profissionais que dependem da conta para renda (influenciadores, empreendedores digitais)"
-  - "Quando a plataforma não apresentou justificativa ou violou seus próprios Termos de Uso"
-  - "Para solicitar restauração de perfil verificado ou conteúdo excluído indevidamente"
+  - "Para profissionais que dependem da conta para renda (influenciadores, empreended"
+  - "Quando a plataforma não apresentou justificativa ou violou seus próprios Termos "
+  - "Para solicitar restauração de perfil verificado ou conteúdo excluído indevidamen"
   - "Quando a suspensão causou dano financeiro ou à reputação mensurável"
 ---
 
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Multa diária (astreinte) incluída no pedido?
 - [ ] Representante legal da plataforma no Brasil identificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
