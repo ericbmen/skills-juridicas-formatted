@@ -1,13 +1,13 @@
 ---
 name: administrativo_administrativo/pedido_de_acesso_a_informacao_lai_recurso
 description: >
-  Gera tanto o pedido inicial de acesso à informação (via e-SIC ou protocolo físico) quanto o recurso administrativo completo contra a negativa, resposta incompleta, resposta intempestiva ou omissão do órgão público, fundamentado na Lei 12.527/2011 (LAI), no Decreto 7.724/2012 e na CF/88 art. 5º XXXII
+  Gera tanto o pedido inicial de acesso à informação (via e-SIC ou protocolo físico) quanto o recurso administrativo completo contra a negativa, resposta incompleta, resposta intempestiva ou omissão do órgão público, fundamentado na Lei 12.527/2011 (LAI), no Decreto 7.724/2012 e na
 triggers:
-  - "Solicitação inicial de documentos, contratos, dados ou informações a órgão público federal, estadual ou municipal"
-  - "Negativa de acesso sem fundamentação adequada ou sem enquadramento nas hipóteses legais de sigilo"
+  - "Solicitação inicial de documentos, contratos, dados ou informações a órgão públi"
+  - "Negativa de acesso sem fundamentação adequada ou sem enquadramento nas hipóteses"
   - "Resposta incompleta que não atende integralmente ao pedido formulado"
-  - "Omissão do órgão em responder no prazo legal de 20 dias (art. 11, LAI) + 10 dias de prorrogação"
-  - "Recurso à CGU (federal) ou ao órgão recursal estadual/municipal após negativa de segunda instância"
+  - "Omissão do órgão em responder no prazo legal de 20 dias (art. 11, LAI) + 10 dias"
+  - "Recurso à CGU (federal) ou ao órgão recursal estadual/municipal após negativa de"
 ---
 
 # Pedido de Acesso à Informação (LAI) + Recurso
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A instância recursal correta foi identificada?
 - [ ] O pedido subsidiário de acesso parcial foi incluído (art. 7º, §2º)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PEDIDO ORIGINAL:**
 - Protocolo LAI nº: [número — se já protocolado]
 - Data do pedido: [dd/mm/aaaa]
