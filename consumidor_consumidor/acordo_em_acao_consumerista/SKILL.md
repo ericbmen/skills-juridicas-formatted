@@ -1,7 +1,7 @@
 ---
 name: consumidor_consumidor/acordo_em_acao_consumerista
 description: >
-  Redige um termo de acordo judicial ou extrajudicial completo em ação consumerista, com composição detalhada de danos materiais e morais, obrigações de fazer/não fazer, forma de pagamento, cláusula penal e quitação. Funciona tanto para acordo em audiência de conciliação quanto para acordo extrajudici
+  Redige um termo de acordo judicial ou extrajudicial completo em ação consumerista, com composição detalhada de danos materiais e morais, obrigações de fazer/não fazer, forma de pagamento, cláusula penal e quitação. Funciona tanto para acordo em audiência de conciliação quanto par
 triggers:
   - "Para formalizar acordo em audiência de conciliação no JEC (art. 21 Lei 9.099/95)"
   - "Para compor acordo extrajudicial entre consumidor e fornecedor"
@@ -130,11 +130,12 @@ Apresente em <checklist_validacao>:
 - [ ] Se judicial: pedido de homologação incluso?
 - [ ] Se extrajudicial: testemunhas previstas?
 - [ ] Pontos de atenção: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONSUMIDOR:**
 - Nome: [nome completo]
 - CPF: [número]
