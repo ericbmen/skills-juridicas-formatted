@@ -1,13 +1,13 @@
 ---
 name: ambiental_ambiental/recurso_administrativo_contra_auto_de_infracao_do_ibama
 description: >
-  Gera recurso administrativo completo em segunda instância contra decisão que manteve (total ou parcialmente) auto de infração ambiental lavrado pelo IBAMA, dirigido ao IBAMA/DIINF ou à Câmara de Recursos do IBAMA (CRAMP), com impugnação da fundamentação da decisão recorrida, reapresentação das teses
+  Gera recurso administrativo completo em segunda instância contra decisão que manteve (total ou parcialmente) auto de infração ambiental lavrado pelo IBAMA, dirigido ao IBAMA/DIINF ou à Câmara de Recursos do IBAMA (CRAMP), com impugnação da fundamentação da decisão recorrida, reap
 triggers:
-  - "Após decisão da primeira instância que manteve ou reduziu parcialmente a multa ambiental do IBAMA"
-  - "Para impugnar erros de fundamentação da decisão administrativa de primeira instância"
+  - "Após decisão da primeira instância que manteve ou reduziu parcialmente a multa a"
+  - "Para impugnar erros de fundamentação da decisão administrativa de primeira instâ"
   - "Quando surgirem fatos novos ou documentos não apresentados na defesa inicial"
   - "Para questionar a dosimetria da multa mantida na primeira instância"
-  - "Quando a decisão recorrida desrespeitou o contraditório ou a motivação obrigatória (Lei 9.784/99)"
+  - "Quando a decisão recorrida desrespeitou o contraditório ou a motivação obrigatór"
 ---
 
 # Recurso Administrativo contra Auto de Infração do IBAMA
@@ -95,11 +95,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dosimetria da multa questionada com parâmetros do art. 75, Lei 9.605/98?
 - [ ] Documentos novos juntados (se houver)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTO DE INFRAÇÃO:**
 - Número do auto: [número]
 - Órgão autuante: [IBAMA / Superintendência Regional]
