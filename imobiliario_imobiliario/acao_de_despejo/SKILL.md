@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/acao_de_despejo
 description: >
-  Gera uma petição inicial de ação de despejo completa e fundamentada, abrangendo as modalidades de falta de pagamento (art. 62), denúncia vazia (arts. 46, 57 e 573 CC), infração contratual (art. 9º, II) e demais hipóteses previstas na Lei 8.245/91 (Lei do Inquilinato), com pedidos de liminar, tutela 
+  Gera uma petição inicial de ação de despejo completa e fundamentada, abrangendo as modalidades de falta de pagamento (art. 62), denúncia vazia (arts. 46, 57 e 573 CC), infração contratual (art. 9º, II) e demais hipóteses previstas na Lei 8.245/91 (Lei do Inquilinato), com pedidos
 triggers:
   - "Quando o locatário está inadimplente com aluguéis e encargos da locação"
   - "Para retomada do imóvel por denúncia vazia após término do prazo contratual"
-  - "Em caso de infração contratual pelo locatário (sublocação não autorizada, alteração do imóvel, uso diverso do pactuado)"
-  - "Para despejo por necessidade de reparações urgentes determinadas pelo Poder Público"
-  - "Quando há necessidade de uso próprio, demolição, edificação ou reforma substancial (art. 9º, III e IV)"
-  - "Para retomada de imóvel cedido a título gratuito (art. 59, §1º, IX)"
+  - "Em caso de infração contratual pelo locatário (sublocação não autorizada, altera"
+  - "Para despejo por necessidade de reparações urgentes determinadas pelo Poder Públ"
+  - "Quando há necessidade de uso próprio, demolição, edificação ou reforma substanci"
 ---
 
 # Ação de Despejo
@@ -109,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da causa = 12 aluguéis vigentes (art. 58, III)?
 - [ ] Foro competente correto (situação do imóvel)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **MODALIDADE DE DESPEJO:**
 - [ ] Falta de pagamento (art. 9º, III c/c art. 62)
 - [ ] Denúncia vazia — residencial (art. 46)
