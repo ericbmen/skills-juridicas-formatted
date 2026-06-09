@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/mandado_de_seguranca_em_concurso_publico
 description: >
-  Gera um mandado de segurança em matéria de concurso público completo e fundamentado, com demonstração do direito líquido e certo do candidato, pedido liminar e requerimentos, para impugnar ato coator da banca ou da Administração que viole o edital ou os princípios constitucionais do concurso público
+  Gera um mandado de segurança em matéria de concurso público completo e fundamentado, com demonstração do direito líquido e certo do candidato, pedido liminar e requerimentos, para impugnar ato coator da banca ou da Administração que viole o edital ou os princípios constitucionais
 triggers:
-  - "Contra eliminação do candidato por critério não previsto no edital (vinculação ao instrumento convocatório)"
-  - "Contra convocação fora da ordem classificatória (preterição ilegal — art. 37, IV, CF/88)"
+  - "Contra eliminação do candidato por critério não previsto no edital (vinculação a"
+  - "Contra convocação fora da ordem classificatória (preterição ilegal — art. 37, IV"
   - "Para garantir o direito de nomeação dentro do prazo de validade do concurso"
-  - "Contra anulação de questão com gabarito errado ou desrespeito ao gabarito oficial"
+  - "Contra anulação de questão com gabarito errado ou desrespeito ao gabarito oficia"
   - "Contra eliminação em fase de sindicância de vida pregressa sem contraditório"
-  - "Contra exclusão em avaliação médica ou psicológica sem fundamentação legal"
 ---
 
 # Mandado de Segurança em Concurso Público
@@ -95,11 +94,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido liminar fundamentado (fumus + periculum)?
 - [ ] Não há menção a jurisprudência inventada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONCURSO PÚBLICO:**
 - Órgão/Entidade: [ex: Polícia Militar de SC, INSS, Tribunal de Justiça]
 - Cargo: [ex: Soldado PM, Analista do Seguro Social]
