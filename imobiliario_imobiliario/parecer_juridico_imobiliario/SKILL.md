@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/parecer_juridico_imobiliario
 description: >
-  Gera um parecer jurídico imobiliário completo e fundamentado, abrangendo análise de viabilidade de negócio, identificação de riscos jurídicos, due diligence documental, regularização de imóveis e recomendações estratégicas. O parecer contempla análise de matrícula, certidões, situação registral, urb
+  Gera um parecer jurídico imobiliário completo e fundamentado, abrangendo análise de viabilidade de negócio, identificação de riscos jurídicos, due diligence documental, regularização de imóveis e recomendações estratégicas. O parecer contempla análise de matrícula, certidões, sit
 triggers:
   - "Antes de adquirir um imóvel — due diligence completa para o comprador"
   - "Para analisar viabilidade jurídica de empreendimento imobiliário"
-  - "Quando há dúvidas sobre a regularidade do imóvel (matrícula, averbações, habite-se)"
-  - "Para avaliar riscos de penhora, hipoteca, gravames ou ações judiciais sobre o imóvel"
-  - "Na regularização de imóvel (usucapião, retificação, averbação de construção, desmembramento)"
-  - "Para emitir opinião fundamentada sobre conflitos de direito imobiliário"
+  - "Quando há dúvidas sobre a regularidade do imóvel (matrícula, averbações, habite-"
+  - "Para avaliar riscos de penhora, hipoteca, gravames ou ações judiciais sobre o im"
+  - "Na regularização de imóvel (usucapião, retificação, averbação de construção, des"
 ---
 
 # Parecer Jurídico Imobiliário
@@ -115,11 +114,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Recomendações são práticas, específicas e com prazos?
 - [ ] Ressalvas e limitações do parecer estão claras?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **OBJETIVO DO PARECER:**
 - [ ] Due diligence para aquisição
 - [ ] Viabilidade de empreendimento imobiliário
