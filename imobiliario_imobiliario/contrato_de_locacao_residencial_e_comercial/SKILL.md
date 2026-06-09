@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/contrato_de_locacao_residencial_e_comercial
 description: >
-  Gera minuta completa de contrato de locação de imóvel urbano, residencial ou comercial, com todas as cláusulas essenciais exigidas pela Lei 8.245/91 (Lei do Inquilinato), incluindo identificação das partes, descrição do imóvel, prazo, valor e reajuste, garantia locatícia, benfeitorias, multa rescisó
+  Gera minuta completa de contrato de locação de imóvel urbano, residencial ou comercial, com todas as cláusulas essenciais exigidas pela Lei 8.245/91 (Lei do Inquilinato), incluindo identificação das partes, descrição do imóvel, prazo, valor e reajuste, garantia locatícia, benfeit
 triggers:
-  - "Para locação residencial: aluguel de casa, apartamento ou outro imóvel para fins de moradia"
-  - "Para locação comercial: aluguel de sala, loja, galpão ou outro imóvel para atividade empresarial"
+  - "Para locação residencial: aluguel de casa, apartamento ou outro imóvel para fins"
+  - "Para locação comercial: aluguel de sala, loja, galpão ou outro imóvel para ativi"
   - "Para locação de temporada (até 90 dias — art. 48, Lei 8.245/91)"
   - "Para renovação ou aditamento de contrato de locação existente"
-  - "Quando o contrato atual está desatualizado ou sem cláusulas essenciais de proteção ao locador"
-  - "Para formalizar locação que estava sendo realizada verbalmente"
+  - "Quando o contrato atual está desatualizado ou sem cláusulas essenciais de proteç"
 ---
 
 # Contrato de Locação Residencial e Comercial
@@ -101,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cláusula de multa rescisória proporcional ao tempo restante?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **LOCADOR(ES):**
 - Nome completo: [nome]
 - CPF: [número]
