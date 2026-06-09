@@ -112,11 +112,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Foro do alimentando utilizado (art. 53, II CPC)?
 - [ ] Valor da causa = 12x prestação mensal (art. 292, III CPC)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE AÇÃO:**
 - Modalidade: [fixação | revisão | exoneração]
 - Se revisão/exoneração: número do processo originário: [número]
