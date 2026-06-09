@@ -1,10 +1,10 @@
 ---
 name: digital_digital/denuncia_de_crime_cibernetico
 description: >
-  Gera notícia de fato / boletim de ocorrência estruturado e queixa-crime ou representação para crimes cibernéticos previstos na Lei 12.737/2012 (Lei Carolina Dieckmann), Lei 14.155/2021 e Código Penal, incluindo invasão de dispositivo, estelionato digital, pornografia de vingança e outros.
+  Gera notícia de fato / boletim de ocorrência estruturado e queixa-crime ou representação para crimes cibernéticos previstos na Lei 12.737/2012 (Lei Carolina Dieckmann), Lei 14.155/2021 e Código Penal, incluindo invasão de dispositivo, estelionato digital, pornografia de vingança 
 triggers:
-  - "Quando o cliente teve dispositivo invadido (computador, celular, conta de email/rede social)"
-  - "Para denunciar estelionato praticado por meio digital (phishing, clonagem de WhatsApp)"
+  - "Quando o cliente teve dispositivo invadido (computador, celular, conta de email/"
+  - "Para denunciar estelionato praticado por meio digital (phishing, clonagem de Wha"
   - "Após divulgação não autorizada de imagens íntimas (art. 218-C CP)"
   - "Para comunicar ameaças, extorsões ou stalking praticados online"
   - "Quando há necessidade de quebra de sigilo telemático para identificar criminoso"
@@ -113,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Provas digitais coletadas e preservadas (prints com URL e data)?
 - [ ] Delegacia especializada em crimes cibernéticos identificada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VÍTIMA:**
 - Nome completo: [nome]
 - CPF: [número]
