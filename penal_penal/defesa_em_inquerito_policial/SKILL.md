@@ -1,14 +1,13 @@
 ---
 name: penal_penal/defesa_em_inquerito_policial
 description: >
-  Gera manifestação defensiva completa no âmbito do inquérito policial, incluindo pedido de diligências, requerimento de acesso aos autos, manifestação sobre indiciamento e argumentação para evitar o oferecimento de denúncia, com fundamento no art. 14 do CPP, Súmula Vinculante 14 do STF e Estatuto da 
+  Gera manifestação defensiva completa no âmbito do inquérito policial, incluindo pedido de diligências, requerimento de acesso aos autos, manifestação sobre indiciamento e argumentação para evitar o oferecimento de denúncia, com fundamento no art. 14 do CPP, Súmula Vinculante 14 d
 triggers:
-  - "Quando o cliente é investigado em inquérito policial e precisa de atuação defensiva proativa"
+  - "Quando o cliente é investigado em inquérito policial e precisa de atuação defens"
   - "Para requerer diligências investigatórias favoráveis à defesa (art. 14 CPP)"
   - "Para se manifestar contra o indiciamento ou apresentar versão defensiva"
   - "Para garantir acesso aos autos do inquérito (Súmula Vinculante 14/STF)"
   - "Para apresentar argumentos que evitem o oferecimento de denúncia pelo MP"
-  - "Para padronizar a atuação defensiva na fase pré-processual"
 ---
 
 # Defesa em Inquérito Policial
@@ -126,11 +125,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Requerimentos formulados de forma clara e subsidiária?
 - [ ] Prazo do inquérito foi verificado (investigado preso x solto)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **INQUÉRITO:**
 - Número do IP/procedimento: [número]
 - Delegacia: [delegacia e cidade]
