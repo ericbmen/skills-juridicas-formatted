@@ -1,13 +1,13 @@
 ---
 name: digital_digital/contrato_de_desenvolvimento_de_software_saas
 description: >
-  Gera contrato completo de desenvolvimento de software sob demanda ou prestação de serviços SaaS (Software as a Service), cobrindo propriedade intelectual, SLA, proteção de dados (LGPD), sigilo, responsabilidades, rescisão e resolução de conflitos — tanto para o desenvolvedor quanto para o contratant
+  Gera contrato completo de desenvolvimento de software sob demanda ou prestação de serviços SaaS (Software as a Service), cobrindo propriedade intelectual, SLA, proteção de dados (LGPD), sigilo, responsabilidades, rescisão e resolução de conflitos — tanto para o desenvolvedor quan
 triggers:
-  - "Quando empresa contrata desenvolvedor/software house para criar sistema ou plataforma sob medida"
+  - "Quando empresa contrata desenvolvedor/software house para criar sistema ou plata"
   - "Quando startup vai licenciar seu software como SaaS para clientes empresariais"
-  - "Quando há necessidade de definir claramente a titularidade do código e propriedade intelectual"
-  - "Quando o contrato envolve tratamento de dados pessoais de usuários finais (necessidade de DPA embutido)"
-  - "Quando é preciso estabelecer SLA, suporte, manutenção e evolução do sistema após entrega"
+  - "Quando há necessidade de definir claramente a titularidade do código e proprieda"
+  - "Quando o contrato envolve tratamento de dados pessoais de usuários finais (neces"
+  - "Quando é preciso estabelecer SLA, suporte, manutenção e evolução do sistema após"
 ---
 
 # Contrato de Desenvolvimento de Software (SaaS)
