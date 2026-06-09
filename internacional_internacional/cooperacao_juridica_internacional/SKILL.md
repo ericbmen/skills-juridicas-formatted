@@ -1,10 +1,10 @@
 ---
 name: internacional_internacional/cooperacao_juridica_internacional
 description: >
-  Gera requerimentos e petições relacionadas à cooperação jurídica internacional em matéria penal e cível — incluindo pedidos de Mutual Legal Assistance (MLAT/MLAT), auxílio direto, transferência de presos, recuperação de ativos no exterior e comunicação com organismos internacionais (Interpol, Europo
+  Gera requerimentos e petições relacionadas à cooperação jurídica internacional em matéria penal e cível — incluindo pedidos de Mutual Legal Assistance (MLAT/MLAT), auxílio direto, transferência de presos, recuperação de ativos no exterior e comunicação com organismos internaciona
 triggers:
-  - "Necessidade de obter prova no exterior em investigação criminal ou processo cível"
-  - "Recuperação de ativos ilícitos transferidos para o exterior (art. 8º, Lei 9.613/1998)"
+  - "Necessidade de obter prova no exterior em investigação criminal ou processo cíve"
+  - "Recuperação de ativos ilícitos transferidos para o exterior (art. 8º, Lei 9.613/"
   - "Pedido de transferência de pessoa presa para cumprir pena no Brasil"
   - "Bloqueio de contas ou bens no exterior a pedido do MP ou da defesa"
   - "Comunicação com autoridades estrangeiras via canais de cooperação"
@@ -104,11 +104,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentos para instruir o pedido listados?
 - [ ] Autoridade central brasileira identificada (DRCI/MJ)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Juízo ou autoridade no Brasil: [vara, comarca ou MP]
