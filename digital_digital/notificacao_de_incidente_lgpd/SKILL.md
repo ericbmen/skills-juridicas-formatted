@@ -6,7 +6,7 @@ triggers:
   - "Ao identificar violação, vazamento ou acesso não autorizado a dados pessoais"
   - "Para notificar a ANPD dentro do prazo legal após confirmação do incidente"
   - "Para comunicar os titulares cujos dados foram comprometidos"
-  - "Quando o cliente (controlador) precisa documentar o incidente e mitigar riscos legais"
+  - "Quando o cliente (controlador) precisa documentar o incidente e mitigar riscos l"
   - "Para construir o relatório de impacto à proteção de dados (RIPD) pós-incidente"
 ---
 
@@ -100,6 +100,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Medidas de contenção documentadas?
 - [ ] DPO identificado e seu contato incluído?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
