@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_franquia_e_circular_de_oferta_de_franquia_cof
 description: >
-  Elabora a Circular de Oferta de Franquia (COF) e o Contrato de Franquia conforme a Lei 13.966/2019 (Lei de Franquias), que revogou a Lei 8.955/1994. Estrutura os documentos com todos os requisitos legais obrigatorios da COF (art. 2o Lei 13.966/2019), incluindo historico do franqueador, descricao do 
+  Elabora a Circular de Oferta de Franquia (COF) e o Contrato de Franquia conforme a Lei 13.966/2019 (Lei de Franquias), que revogou a Lei 8.955/1994. Estrutura os documentos com todos os requisitos legais obrigatorios da COF (art. 2o Lei 13.966/2019), incluindo historico do franqu
 triggers:
   - "Para redigir a COF antes de qualquer negociacao de franquia"
   - "Para elaborar o contrato de franquia entre franqueador e franqueado"
   - "Para revisar contratos de franquia recebidos de terceiros"
   - "Quando um negocio decide expandir via sistema de franquias"
   - "Para avaliar obrigacoes pre-contratuais do franqueador (COF)"
-  - "Em renovacoes de contratos de franquia existentes"
 ---
 
 # Contrato de Franquia e Circular de Oferta de Franquia (COF)
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -128,6 +127,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Clausula de confidencialidade e nao concorrencia incluida?
 - [ ] Clausula LGPD incluida?
 - [ ] Foro eleito conforme art. 7o Lei 13.966/2019?
+
+---
 </framework>
 
 <dicas>
