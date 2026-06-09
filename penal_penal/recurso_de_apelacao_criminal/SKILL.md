@@ -4,9 +4,9 @@ description: >
   Gera um recurso de apelação criminal completo e fundamentado (art. 593 do CPP), com preliminares recursais, razões de mérito, pedidos de reforma e prequestionamento, pronto para interposição perante o Tribunal competente.
 triggers:
   - "Ao receber sentença condenatória ou absolutória que se pretende reformar"
-  - "Para impugnar decisões definitivas ou com força de definitivas (art. 593, II, CPP)"
-  - "Para recorrer de decisões do Tribunal do Júri nas hipóteses do art. 593, III, CPP"
-  - "Quando o prazo de 5 dias para interposição estiver correndo e precisar agilizar a peça"
+  - "Para impugnar decisões definitivas ou com força de definitivas (art. 593, II, CP"
+  - "Para recorrer de decisões do Tribunal do Júri nas hipóteses do art. 593, III, CP"
+  - "Quando o prazo de 5 dias para interposição estiver correndo e precisar agilizar "
   - "Para padronizar recursos de apelação criminal no escritório"
 ---
 
@@ -133,11 +133,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prequestionamento incluído para eventual recurso superior?
 - [ ] Pedidos formulados de forma clara e subsidiária?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara Criminal de origem: [vara e comarca]
