@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/notificacao_de_descumprimento_contratual
 description: >
-  Elabora notificacoes extrajudiciais completas para constituicao em mora e comunicacao formal de descumprimento contratual, com fundamentacao nos arts. 394-405 do Codigo Civil (mora e inadimplemento), arts. 472-475 (distrato e resilicao), arts. 408-416 (clausula penal) e legislacao especifica aplicav
+  Elabora notificacoes extrajudiciais completas para constituicao em mora e comunicacao formal de descumprimento contratual, com fundamentacao nos arts. 394-405 do Codigo Civil (mora e inadimplemento), arts. 472-475 (distrato e resilicao), arts. 408-416 (clausula penal) e legislaca
 triggers:
   - "Quando uma parte descumpre obrigacao contratual (total ou parcialmente)"
   - "Para constituir formalmente o devedor em mora (art. 397, paragrafo unico, CC)"
-  - "Antes de ingressar com acao judicial (etapa pre-contenciosa obrigatoria em muitos casos)"
+  - "Antes de ingressar com acao judicial (etapa pre-contenciosa obrigatoria em muito"
   - "Para preservar direitos e produzir prova documental do descumprimento"
   - "Quando e necessario fixar prazo para cumprimento sob pena de rescisao"
-  - "Para acionar clausula penal compensatoria ou moratoria prevista no contrato"
 ---
 
 # Notificacao de Descumprimento Contratual
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -143,6 +142,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A notificacao serve como prova pre-constituida para eventual acao judicial?
 - [ ] O meio de envio garante comprovacao de recebimento?
 - [ ] Pontos que exigem atencao especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
