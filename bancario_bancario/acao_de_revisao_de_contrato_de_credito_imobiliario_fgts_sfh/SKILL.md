@@ -1,10 +1,10 @@
 ---
 name: bancario_bancario/acao_de_revisao_de_contrato_de_credito_imobiliario_fgts_sfh
 description: >
-  Gera petição inicial de ação revisional de contrato de financiamento imobiliário vinculado ao Sistema Financeiro da Habitação (SFH) ou com utilização de FGTS, com pedido de revisão de cláusulas abusivas, recálculo das prestações, devolução de valores pagos a maior e eventual afastamento de encargos 
+  Gera petição inicial de ação revisional de contrato de financiamento imobiliário vinculado ao Sistema Financeiro da Habitação (SFH) ou com utilização de FGTS, com pedido de revisão de cláusulas abusivas, recálculo das prestações, devolução de valores pagos a maior e eventual afas
 triggers:
-  - "Quando o saldo devedor não diminui apesar do pagamento regular das parcelas (amortização negativa)"
-  - "Para revisar taxa de juros acima do limite legal do SFH (12% ao ano — Lei 4.380/64)"
+  - "Quando o saldo devedor não diminui apesar do pagamento regular das parcelas (amo"
+  - "Para revisar taxa de juros acima do limite legal do SFH (12% ao ano — Lei 4.380/"
   - "Quando há cobrança cumulada de TR e IPCA no mesmo contrato sem previsão legal"
   - "Para casos de anatocismo (juros sobre juros) em financiamentos imobiliários"
   - "Quando o banco aplica encargos de mora abusivos além dos previstos na lei do SFH"
@@ -120,11 +120,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Tutela antecipada avaliada (suspensão de execução, se houver)?
 - [ ] Prazo prescricional verificado? (10 anos — art. 205 CC ou 5 anos CDC)
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (MUTUÁRIO):**
 - Nome completo: [nome]
 - CPF: [número]
