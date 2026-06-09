@@ -1,13 +1,13 @@
 ---
 name: digital_digital/contrato_de_influenciador_digital_publicidade
 description: >
-  Gera contrato de prestação de serviços entre marca/anunciante e influenciador digital, cobrindo entregas de conteúdo, uso de imagem, direitos autorais sobre posts, exclusividade por segmento, obrigações de disclosure (publicidade identificada), CONAR, remuneração, rescisão e proteção de dados — tant
+  Gera contrato de prestação de serviços entre marca/anunciante e influenciador digital, cobrindo entregas de conteúdo, uso de imagem, direitos autorais sobre posts, exclusividade por segmento, obrigações de disclosure (publicidade identificada), CONAR, remuneração, rescisão e prot
 triggers:
-  - "Quando marca fecha parceria paga com influenciador (post, stories, reels, unboxing, review patrocinado)"
-  - "Quando influenciador precisa de contrato para formalizar parceria e proteger seus direitos de imagem"
-  - "Quando há cláusula de exclusividade por nicho/concorrente que precisa ser delimitada"
-  - "Quando a campanha envolve uso da imagem do influenciador fora das redes (mídia offline, site da marca)"
-  - "Quando a parceria é recorrente (ambassador, embaixador de marca) com cronograma de entregas mensais"
+  - "Quando marca fecha parceria paga com influenciador (post, stories, reels, unboxi"
+  - "Quando influenciador precisa de contrato para formalizar parceria e proteger seu"
+  - "Quando há cláusula de exclusividade por nicho/concorrente que precisa ser delimi"
+  - "Quando a campanha envolve uso da imagem do influenciador fora das redes (mídia o"
+  - "Quando a parceria é recorrente (ambassador, embaixador de marca) com cronograma "
 ---
 
 # Contrato de Influenciador Digital (Publicidade)
