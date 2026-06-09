@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/recurso_ao_banco_central_reclamacao_formal
 description: >
-  Gera peça formal de reclamação administrativa dirigida ao Banco Central do Brasil (BCB) contra instituição financeira por descumprimento de normas prudenciais, cobranças abusivas, falhas no atendimento ou violação de regulamentação bancária, com estrutura adequada ao canal oficial do Consumidor.gov.
+  Gera peça formal de reclamação administrativa dirigida ao Banco Central do Brasil (BCB) contra instituição financeira por descumprimento de normas prudenciais, cobranças abusivas, falhas no atendimento ou violação de regulamentação bancária, com estrutura adequada ao canal oficia
 triggers:
-  - "Quando a reclamação no SAC do banco não foi resolvida em até 5 dias úteis (Res. CMN 4.949/21)"
-  - "Para registrar descumprimento de normas do Banco Central por parte da instituição financeira"
+  - "Quando a reclamação no SAC do banco não foi resolvida em até 5 dias úteis (Res. "
+  - "Para registrar descumprimento de normas do Banco Central por parte da instituiçã"
   - "Quando o banco mantém registro incorreto no SCR e se recusa a corrigir"
   - "Para casos de tarifas bancárias cobradas em desacordo com a Res. BCB 4.196/2023"
-  - "Quando há abuso em contratos de crédito regulados pelo BCB (cheque especial, rotativo do cartão, etc.)"
+  - "Quando há abuso em contratos de crédito regulados pelo BCB (cheque especial, rot"
 ---
 
 # Recurso ao Banco Central (Reclamação Formal)
@@ -98,11 +98,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Consumidor.gov.br avaliado como canal complementar?
 - [ ] Ação judicial paralela avaliada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RECLAMANTE:**
 - Nome completo: [nome]
 - CPF: [número]
