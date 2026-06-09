@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/embargos_de_terceiro_imobiliario
 description: >
-  Gera petição inicial de embargos de terceiro para proteger o possuidor ou proprietário de imóvel que está sendo atingido por penhora, arresto, sequestro ou outra constrição judicial em processo do qual não é parte. Aplica-se especialmente ao promissário comprador que não registrou o compromisso, ao 
+  Gera petição inicial de embargos de terceiro para proteger o possuidor ou proprietário de imóvel que está sendo atingido por penhora, arresto, sequestro ou outra constrição judicial em processo do qual não é parte. Aplica-se especialmente ao promissário comprador que não registro
 triggers:
-  - "Quando um imóvel comprado (mas ainda sem escritura registrada) foi penhorado em dívida do vendedor"
-  - "Quando o compromissário comprador (com contrato quitado) tem o imóvel penhorado em ação contra o promitente vendedor"
-  - "Quando o cônjuge tem meação atingida por penhora de dívida própria do outro cônjuge"
-  - "Quando o credor penhorou imóvel que já foi vendido a terceiro antes da penhora, mesmo sem registro"
-  - "Para o adquirente em arrematação que vê o bem constrito por dívida posterior à arrematação"
-  - "Para sócio que vê bem pessoal constrito em execução contra a sociedade por desconsideração improcedente"
+  - "Quando um imóvel comprado (mas ainda sem escritura registrada) foi penhorado em "
+  - "Quando o compromissário comprador (com contrato quitado) tem o imóvel penhorado "
+  - "Quando o cônjuge tem meação atingida por penhora de dívida própria do outro cônj"
+  - "Quando o credor penhorou imóvel que já foi vendido a terceiro antes da penhora, "
+  - "Para o adquirente em arrematação que vê o bem constrito por dívida posterior à a"
 ---
 
 # Embargos de Terceiro (Imobiliário)
@@ -99,11 +98,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido de liminar de suspensão da constrição incluído?
 - [ ] Não há artigos ou súmulas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **EMBARGANTE (Terceiro Prejudicado):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
