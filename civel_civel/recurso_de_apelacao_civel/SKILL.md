@@ -1,11 +1,11 @@
 ---
 name: civel_civel/recurso_de_apelacao_civel
 description: >
-  Gera um recurso de apelação cível completo com razões de reforma da sentença, fundamentação jurídica sólida, demonstração do error in judicando e/ou error in procedendo, prequestionamento para eventual recurso especial/extraordinário e pedidos recursais, seguindo os arts. 1.009 a 1.014 do CPC/2015.
+  Gera um recurso de apelação cível completo com razões de reforma da sentença, fundamentação jurídica sólida, demonstração do error in judicando e/ou error in procedendo, prequestionamento para eventual recurso especial/extraordinário e pedidos recursais, seguindo os arts. 1.009 a
 triggers:
   - "Ao interpor apelação contra sentença cível desfavorável (total ou parcialmente)"
   - "Para estruturar razões recursais com argumentação persuasiva para o Tribunal"
-  - "Para garantir o prequestionamento de matéria constitucional e infraconstitucional"
+  - "Para garantir o prequestionamento de matéria constitucional e infraconstituciona"
   - "Para impugnar sentença com vícios de fundamentação (art. 489, §1º, CPC)"
   - "Para padronizar recursos de apelação do escritório"
 ---
@@ -118,11 +118,12 @@ Apresente em <checklist_validacao>:
 - [ ] Prequestionamento dos dispositivos legais realizado?
 - [ ] Error in judicando e/ou error in procedendo demonstrados?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **APELANTE:**
 - Nome completo / Razão social: [nome]
 - CPF/CNPJ: [número]
