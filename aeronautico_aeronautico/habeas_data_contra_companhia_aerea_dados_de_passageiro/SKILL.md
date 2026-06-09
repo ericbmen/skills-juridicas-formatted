@@ -1,14 +1,13 @@
 ---
 name: aeronautico_aeronautico/habeas_data_contra_companhia_aerea_dados_de_passageiro
 description: >
-  Gera petição inicial para ação de habeas data contra companhia aérea para acesso, retificação ou exclusão de dados pessoais do passageiro mantidos nos sistemas da empresa, com fundamento na CF/88 (art. 5º, LXXII), na Lei do Habeas Data (Lei 9.507/1992), na Lei Geral de Proteção de Dados Pessoais (LG
+  Gera petição inicial para ação de habeas data contra companhia aérea para acesso, retificação ou exclusão de dados pessoais do passageiro mantidos nos sistemas da empresa, com fundamento na CF/88 (art. 5º, LXXII), na Lei do Habeas Data (Lei 9.507/1992), na Lei Geral de Proteção d
 triggers:
-  - "Companhia aérea nega acesso ao histórico de voos, dados cadastrais ou registros de programa de fidelidade do passageiro"
-  - "Passageiro solicita retificação de dados incorretos (nome errado, data de nascimento, número de documento) e a companhia recusa"
-  - "Passageiro descobre que seus dados foram compartilhados indevidamente com terceiros ou autoridades estrangeiras"
-  - "Passageiro incluído indevidamente em lista de restrição de embarque (no-fly list) e não consegue acessar os dados que fundamentaram a inclusão"
-  - "Companhia se recusa a excluir dados pessoais após solicitação do titular (direito ao esquecimento/exclusão — LGPD)"
-  - "Necessidade de obter dados para fundamentar outra ação judicial (ex: comprovar quantos voos foram realizados para fins de ação trabalhista ou previdenciária)"
+  - "Companhia aérea nega acesso ao histórico de voos, dados cadastrais ou registros "
+  - "Passageiro solicita retificação de dados incorretos (nome errado, data de nascim"
+  - "Passageiro descobre que seus dados foram compartilhados indevidamente com tercei"
+  - "Passageiro incluído indevidamente em lista de restrição de embarque (no-fly list"
+  - "Companhia se recusa a excluir dados pessoais após solicitação do titular (direit"
 ---
 
 # Habeas Data contra Companhia Aérea (Dados de Passageiro)
@@ -112,11 +111,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência verificada (Justiça Federal ou Estadual)?
 - [ ] Dano moral por violação da LGPD pleiteado (se houver compartilhamento indevido)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **OS DADOS:**
 - Que dados o passageiro busca: [acesso a dados / retificação de dado incorreto / exclusão de dados / informação sobre compartilhamento]
 - Descrição precisa dos dados: [ex: histórico de voos dos últimos 5 anos / dado de nome incorreto no cadastro / dados compartilhados com autoridade estrangeira / inclusão em lista de restrição]
