@@ -3,12 +3,11 @@ name: imobiliario_imobiliario/analise_de_matricula_imobiliaria
 description: >
   Realiza uma análise completa de matrícula imobiliária, identificando ônus, gravames, irregularidades na cadeia dominial, averbações pendentes e riscos jurídicos para a transação, com base na Lei 6.015/73 (Lei de Registros Públicos) e no Código Civil.
 triggers:
-  - "Antes de fechar qualquer negócio imobiliário (compra, venda, permuta, dação em pagamento)"
+  - "Antes de fechar qualquer negócio imobiliário (compra, venda, permuta, dação em p"
   - "Para realizar due diligence imobiliária em operações de maior valor"
   - "Quando há suspeita de irregularidades na cadeia de proprietários"
-  - "Para verificar existência de penhoras, hipotecas, usufruto ou alienação fiduciária"
+  - "Para verificar existência de penhoras, hipotecas, usufruto ou alienação fiduciár"
   - "Para instruir parecer de viabilidade jurídica da aquisição"
-  - "Ao analisar imóvel recebido em garantia (hipoteca, alienação fiduciária)"
 ---
 
 # Análise de Matrícula Imobiliária
@@ -114,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Conclusão é clara sobre viabilidade (sim/não/com ressalvas)?
 - [ ] Riscos foram classificados por gravidade?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **MATRÍCULA:**
 [Cole aqui o conteúdo INTEGRAL da certidão de matrícula, incluindo todos os registros (R) e averbações (AV), do primeiro ao último]
 
