@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/usucapiao_extrajudicial
 description: >
-  Gera requerimento de usucapião extrajudicial dirigido ao Oficial de Registro de Imóveis, conforme o procedimento do art. 216-A do CPC/2015 e do Provimento CNJ nº 65/17 (e atualizações). É uma via mais célere e menos custosa que a ação judicial de usucapião, exigindo a anuência dos titulares do domín
+  Gera requerimento de usucapião extrajudicial dirigido ao Oficial de Registro de Imóveis, conforme o procedimento do art. 216-A do CPC/2015 e do Provimento CNJ nº 65/17 (e atualizações). É uma via mais célere e menos custosa que a ação judicial de usucapião, exigindo a anuência do
 triggers:
-  - "Quando o possuidor preenche os requisitos de qualquer modalidade de usucapião (ordinária, extraordinária, especial urbana ou rural, familiar, pro labore)"
-  - "Quando o proprietário registrado ou seus herdeiros são conhecidos e podem ser contatados para assinar a anuência"
+  - "Quando o possuidor preenche os requisitos de qualquer modalidade de usucapião (o"
+  - "Quando o proprietário registrado ou seus herdeiros são conhecidos e podem ser co"
   - "Quando os confrontantes são conhecidos e podem assinar a planta de demarcação"
   - "Quando não há litígio sobre a posse e a situação é relativamente pacífica"
-  - "Para regularizar imóveis que estão na posse do atual ocupante há muitos anos sem que a propriedade tenha sido transferida formalmente"
-  - "Alternativa mais rápida ao processo judicial quando os requisitos estão documentalmente demonstráveis"
+  - "Para regularizar imóveis que estão na posse do atual ocupante há muitos anos sem"
 ---
 
 # Usucapião Extrajudicial
@@ -100,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Provimento CNJ vigente verificado para a circunscrição específica?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **REQUERENTE:**
 - Nome completo: [nome]
 - CPF: [número]
