@@ -1,14 +1,13 @@
 ---
 name: consumidor_consumidor/contestacao_em_acao_consumerista
 description: >
-  Redige uma contestação completa para defesa do fornecedor em ação consumerista, com preliminares processuais, excludentes de responsabilidade (art. 12, §3º e art. 14, §3º do CDC), impugnação de danos e pedidos, fundamentação no CDC, CC e jurisprudência do STJ. Abrange vícios, defeitos, cobrança inde
+  Redige uma contestação completa para defesa do fornecedor em ação consumerista, com preliminares processuais, excludentes de responsabilidade (art. 12, §3º e art. 14, §3º do CDC), impugnação de danos e pedidos, fundamentação no CDC, CC e jurisprudência do STJ. Abrange vícios, def
 triggers:
   - "Para defender empresa/fornecedor em ação de consumidor"
-  - "Para alegar excludentes de responsabilidade (culpa exclusiva do consumidor, inexistência de defeito, etc.)"
+  - "Para alegar excludentes de responsabilidade (culpa exclusiva do consumidor, inex"
   - "Para impugnar pedidos de dano moral excessivos"
   - "Para contestar pedidos de restituição em dobro (demonstrar engano justificável)"
   - "Para defender em ação de negativação (comprovar débito legítimo)"
-  - "Para defesa em Juizados Especiais Cíveis ou Varas Cíveis"
 ---
 
 # Contestação em Ação Consumerista
@@ -114,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido subsidiário de redução incluso?
 - [ ] Documentos essenciais juntados ou indicados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **FORNECEDOR (RÉU/CONTESTANTE):**
 - Razão social: [nome da empresa]
 - CNPJ: [número]
