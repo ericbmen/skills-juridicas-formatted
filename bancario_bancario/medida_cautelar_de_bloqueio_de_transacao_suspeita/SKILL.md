@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/medida_cautelar_de_bloqueio_de_transacao_suspeita
 description: >
-  Gera petição de medida cautelar antecedente (ou tutela de urgência incidental) para bloqueio judicial de valores envolvidos em transação bancária suspeita ou fraudulenta, com pedido de indisponibilidade das contas de destino via SISBAJUD, visando preservar o patrimônio do cliente enquanto tramita a 
+  Gera petição de medida cautelar antecedente (ou tutela de urgência incidental) para bloqueio judicial de valores envolvidos em transação bancária suspeita ou fraudulenta, com pedido de indisponibilidade das contas de destino via SISBAJUD, visando preservar o patrimônio do cliente
 triggers:
-  - "Quando o cliente sofreu fraude bancária recente e os valores ainda podem ser rastreados e bloqueados"
-  - "Para impedir que o fraudador movimente os valores antes que a ação principal seja julgada"
+  - "Quando o cliente sofreu fraude bancária recente e os valores ainda podem ser ras"
+  - "Para impedir que o fraudador movimente os valores antes que a ação principal sej"
   - "Quando há forte indício de fraude e urgência na preservação do patrimônio"
-  - "Para situações em que o banco se recusa a bloquear administrativamente e os valores estão em conta identificada"
-  - "Quando há necessidade de bloquear conta de empresa suspeita de intermediar golpes financeiros"
+  - "Para situações em que o banco se recusa a bloquear administrativamente e os valo"
+  - "Quando há necessidade de bloquear conta de empresa suspeita de intermediar golpe"
 ---
 
 # Medida Cautelar de Bloqueio de Transação Suspeita
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Segredo de justiça requerido?
 - [ ] Prazo de 30 dias para ação principal registrado no calendário?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **REQUERENTE (VÍTIMA):**
 - Nome completo: [nome]
 - CPF: [número]
