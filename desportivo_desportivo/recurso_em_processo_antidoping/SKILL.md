@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/recurso_em_processo_antidoping
 description: >
-  Gera recurso e defesa em processo antidoping instaurado perante tribunal desportivo ou autoridade antidoping nacional, com fundamento no Código Mundial Antidoping (WADA), nas Regras Antidoping da confederação específica e no Código Brasileiro de Justiça Desportiva (CBJD), contestando a violação impu
+  Gera recurso e defesa em processo antidoping instaurado perante tribunal desportivo ou autoridade antidoping nacional, com fundamento no Código Mundial Antidoping (WADA), nas Regras Antidoping da confederação específica e no Código Brasileiro de Justiça Desportiva (CBJD), contest
 triggers:
   - "Atleta notificado de resultado analítico adverso (RAA) em exame antidoping"
-  - "Atleta que alega uso terapêutico da substância detectada (AUT — Autorização de Uso Terapêutico)"
-  - "Caso de contaminação por suplemento alimentar ou medicamento sem prescrição do atleta"
+  - "Atleta que alega uso terapêutico da substância detectada (AUT — Autorização de U"
+  - "Caso de contaminação por suplemento alimentar ou medicamento sem prescrição do a"
   - "Resultado atípico que precisa de confirmação antes da suspensão"
-  - "Recurso de decisão condenatória antidoping ao CAS (Court of Arbitration for Sport) ou ao STJD"
+  - "Recurso de decisão condenatória antidoping ao CAS (Court of Arbitration for Spor"
 ---
 
 # Recurso em Processo Antidoping
@@ -100,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo para recurso verificado?
 - [ ] Estratégia de comunicação considerada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA:**
 - Nome completo: [nome]
 - CPF: [número]
