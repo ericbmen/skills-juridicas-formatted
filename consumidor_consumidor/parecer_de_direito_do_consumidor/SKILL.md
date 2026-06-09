@@ -1,14 +1,13 @@
 ---
 name: consumidor_consumidor/parecer_de_direito_do_consumidor
 description: >
-  Elabora parecer jurídico completo em Direito do Consumidor, com análise técnica aprofundada de questões de compliance consumerista, responsabilidade civil do fornecedor, gestão de risco em relações de consumo, adequação de práticas comerciais ao CDC e jurisprudência dominante do STJ. Funciona como o
+  Elabora parecer jurídico completo em Direito do Consumidor, com análise técnica aprofundada de questões de compliance consumerista, responsabilidade civil do fornecedor, gestão de risco em relações de consumo, adequação de práticas comerciais ao CDC e jurisprudência dominante do 
 triggers:
   - "Para avaliar risco jurídico de práticas comerciais à luz do CDC"
-  - "Para emitir opinião sobre compliance consumerista (adequação de contratos, políticas de troca, garantia)"
-  - "Para analisar responsabilidade civil por fato ou vício do produto/serviço (arts. 12-14, 18-20 CDC)"
+  - "Para emitir opinião sobre compliance consumerista (adequação de contratos, polít"
+  - "Para analisar responsabilidade civil por fato ou vício do produto/serviço (arts."
   - "Para avaliar exposição a danos morais coletivos e individuais"
   - "Para analisar cláusulas contratuais potencialmente abusivas (art. 51 CDC)"
-  - "Para orientar sobre recall e gestão de crise de produto defeituoso (art. 10 CDC)"
 ---
 
 # Parecer de Direito do Consumidor
@@ -192,6 +191,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Há pontos que exigem verificação adicional? [liste]
 - [ ] A interface com LGPD foi considerada (se dados de consumidores envolvidos)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
