@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/defesa_em_processo_administrativo_disciplinar_pad
 description: >
-  Gera uma defesa completa em Processo Administrativo Disciplinar (PAD) instaurado contra servidor público federal (Lei 8.112/90) ou estadual/municipal (legislação específica), com impugnação das irregularidades do processo, análise das infrações imputadas, demonstração da ausência de culpabilidade e 
+  Gera uma defesa completa em Processo Administrativo Disciplinar (PAD) instaurado contra servidor público federal (Lei 8.112/90) ou estadual/municipal (legislação específica), com impugnação das irregularidades do processo, análise das infrações imputadas, demonstração da ausência
 triggers:
   - "Ao receber intimação para apresentar defesa em PAD por infração disciplinar"
-  - "Para impugnar a instauração ilegal do PAD (vício de competência, ausência de indícios)"
-  - "Para demonstrar nulidades processuais (ausência de contraditório, cerceamento de defesa)"
+  - "Para impugnar a instauração ilegal do PAD (vício de competência, ausência de ind"
+  - "Para demonstrar nulidades processuais (ausência de contraditório, cerceamento de"
   - "Quando a infração imputada não corresponde à conduta do servidor"
-  - "Contra aplicação de penalidade desproporcional (advertência vs. suspensão vs. demissão)"
-  - "Para arguir a prescrição disciplinar (art. 142, Lei 8.112/90)"
+  - "Contra aplicação de penalidade desproporcional (advertência vs. suspensão vs. de"
 ---
 
 # Defesa em Processo Administrativo Disciplinar (PAD)
@@ -102,11 +101,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Provas foram requeridas formalmente?
 - [ ] Não há menção a artigos ou normas inexistentes?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PAD:**
 - Número do PAD: [número]
 - Órgão / Repartição: [nome do órgão]
