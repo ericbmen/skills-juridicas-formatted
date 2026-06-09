@@ -1,13 +1,13 @@
 ---
 name: aeronautico_aeronautico/acao_de_indenizacao_por_acidente_aereo_vitimas_e_familiares
 description: >
-  Gera petição inicial para ação indenizatória por danos decorrentes de acidente aéreo, incluindo morte, lesão corporal grave, invalidez permanente ou danos psicológicos. Abrange tanto as vítimas diretas (sobreviventes) quanto os familiares (cônjuge, filhos, pais, irmãos) em casos de óbito. Fundamenta
+  Gera petição inicial para ação indenizatória por danos decorrentes de acidente aéreo, incluindo morte, lesão corporal grave, invalidez permanente ou danos psicológicos. Abrange tanto as vítimas diretas (sobreviventes) quanto os familiares (cônjuge, filhos, pais, irmãos) em casos 
 triggers:
-  - "Passageiro faleceu em acidente aéreo (família busca indenização por danos materiais e morais)"
-  - "Sobrevivente de acidente aéreo com lesões corporais, invalidez parcial ou permanente"
-  - "Danos psicológicos graves (PTSD, fobias, transtornos de ansiedade) decorrentes do acidente"
+  - "Passageiro faleceu em acidente aéreo (família busca indenização por danos materi"
+  - "Sobrevivente de acidente aéreo com lesões corporais, invalidez parcial ou perman"
+  - "Danos psicológicos graves (PTSD, fobias, transtornos de ansiedade) decorrentes d"
   - "Ação de reparação de danos proposta pelos dependentes econômicos da vítima fatal"
-  - "Acidentes envolvendo aeronaves de táxi aéreo, aviação experimental ou aviação geral"
+  - "Acidentes envolvendo aeronaves de táxi aéreo, aviação experimental ou aviação ge"
 ---
 
 # Ação de Indenização por Acidente Aéreo (Vítimas e Familiares)
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo prescricional verificado?
 - [ ] Valor da causa correto (soma de todos os pedidos)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O ACIDENTE:**
 - Data e local do acidente: [dd/mm/aaaa — cidade/UF ou aeroporto]
 - Tipo de acidente: [queda, pouso forçado, colisão, etc.]
