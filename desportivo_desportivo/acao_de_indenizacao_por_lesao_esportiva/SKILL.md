@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/acao_de_indenizacao_por_lesao_esportiva
 description: >
-  Gera petição inicial de ação indenizatória (cumulada com reclamação trabalhista ou proposta na Justiça Comum) por lesão sofrida pelo atleta profissional durante a atividade desportiva ou em razão de negligência do clube empregador (ausência de assistência médica, sobrecarga de treinos, instalações i
+  Gera petição inicial de ação indenizatória (cumulada com reclamação trabalhista ou proposta na Justiça Comum) por lesão sofrida pelo atleta profissional durante a atividade desportiva ou em razão de negligência do clube empregador (ausência de assistência médica, sobrecarga de tr
 triggers:
-  - "Atleta que sofreu lesão grave em treino ou jogo e o clube não forneceu tratamento médico adequado"
-  - "Clube que forçou atleta lesionado a treinar ou jogar sem alta médica, agravando a lesão"
-  - "Lesão que encerrou ou comprometeu a carreira do atleta por negligência comprovada do clube"
-  - "Atleta que ficou sem remuneração durante o período de tratamento e o clube não cumpriu obrigação contratual"
-  - "Omissão do clube em providenciar seguro de acidentes pessoais obrigatório para atletas profissionais"
+  - "Atleta que sofreu lesão grave em treino ou jogo e o clube não forneceu tratament"
+  - "Clube que forçou atleta lesionado a treinar ou jogar sem alta médica, agravando "
+  - "Lesão que encerrou ou comprometeu a carreira do atleta por negligência comprovad"
+  - "Atleta que ficou sem remuneração durante o período de tratamento e o clube não c"
+  - "Omissão do clube em providenciar seguro de acidentes pessoais obrigatório para a"
 ---
 
 # Ação de Indenização por Lesão Esportiva
@@ -111,11 +111,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Perícia médica requerida para quantificar a incapacidade?
 - [ ] Competência jurisdicional correta (Trabalhista vs. Comum)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA (AUTOR):**
 - Nome completo: [nome]
 - CPF: [número]
