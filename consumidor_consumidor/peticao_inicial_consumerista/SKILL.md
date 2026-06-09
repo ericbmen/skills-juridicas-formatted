@@ -1,14 +1,13 @@
 ---
 name: consumidor_consumidor/peticao_inicial_consumerista
 description: >
-  Gera uma petição inicial consumerista completa e fundamentada, com qualificação das partes, narrativa fática persuasiva, fundamentação no CDC (Lei 8.078/90) e legislação correlata, pedidos de danos materiais e morais, inversão do ônus da prova e requerimentos finais. Abrange vícios do produto/serviç
+  Gera uma petição inicial consumerista completa e fundamentada, com qualificação das partes, narrativa fática persuasiva, fundamentação no CDC (Lei 8.078/90) e legislação correlata, pedidos de danos materiais e morais, inversão do ônus da prova e requerimentos finais. Abrange víci
 triggers:
   - "Ao ajuizar ação de consumidor contra fornecedor (vício, defeito, falha)"
   - "Para cobrar restituição por cobrança indevida (art. 42, parágrafo único, CDC)"
   - "Para pleitear danos morais por negativação indevida em cadastros restritivos"
   - "Para reclamar vícios de produto (art. 18 CDC) ou de serviço (art. 20 CDC)"
-  - "Para responsabilizar por fato do produto (art. 12 CDC) ou do serviço (art. 14 CDC)"
-  - "Para ações em Juizados Especiais Cíveis (até 40 salários mínimos) ou Varas Cíveis"
+  - "Para responsabilizar por fato do produto (art. 12 CDC) ou do serviço (art. 14 CD"
 ---
 
 # Petição Inicial Consumerista
@@ -114,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Para Vara Cível: art. 319 CPC atendido?
 - [ ] Pedido de justiça gratuita (se aplicável)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONSUMIDOR (AUTOR):**
 - Nome completo: [nome]
 - Nacionalidade: [brasileira(o)]
