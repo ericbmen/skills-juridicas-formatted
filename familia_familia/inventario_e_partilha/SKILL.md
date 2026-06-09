@@ -4,7 +4,7 @@ description: >
   Gera petição de inventário completa — judicial ou extrajudicial — com primeiras declarações, descrição do acervo, cálculo de quinhões, plano de partilha e recolhimento do ITCMD, nos termos do CPC e do Código Civil.
 triggers:
   - "Inventário judicial (quando há menores, incapazes, testamento ou litígio)"
-  - "Inventário extrajudicial (consenso, maiores, capazes, sem testamento — orientação para escritura)"
+  - "Inventário extrajudicial (consenso, maiores, capazes, sem testamento — orientaçã"
   - "Arrolamento sumário (bens de menor valor ou herdeiros concordes)"
   - "Partilha de bens do falecido entre herdeiros"
   - "Inventário com sobrepartilha (bens descobertos após partilha)"
@@ -123,11 +123,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dívidas do espólio relacionadas?
 - [ ] Foro do último domicílio do falecido utilizado (art. 48 CPC)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DO FALECIDO(A):**
 - Nome completo: [nome]
 - CPF: [número]
