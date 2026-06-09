@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/parecer_sobre_contrato
 description: >
-  Elabora pareceres juridicos completos sobre contratos, analisando viabilidade, riscos, clausulas abusivas, omissoes e conformidade legal, com fundamentacao nos arts. 104 e 166-167 (validade dos negocios juridicos), arts. 421-480 (contratos em geral), CDC, LGPD e legislacao setorial aplicavel. Aplica
+  Elabora pareceres juridicos completos sobre contratos, analisando viabilidade, riscos, clausulas abusivas, omissoes e conformidade legal, com fundamentacao nos arts. 104 e 166-167 (validade dos negocios juridicos), arts. 421-480 (contratos em geral), CDC, LGPD e legislacao setori
 triggers:
   - "Antes de assinar um contrato recebido da outra parte (due diligence contratual)"
   - "Para analisar riscos e clausulas desfavoraveis em minuta recebida"
-  - "Quando o cliente pede opiniao juridica sobre viabilidade de uma operacao contratual"
+  - "Quando o cliente pede opiniao juridica sobre viabilidade de uma operacao contrat"
   - "Para identificar clausulas abusivas, nulas ou anulaveis"
   - "Ao revisar contratos de adesao (CDC) e verificar conformidade"
-  - "Para avaliar exposicao a riscos financeiros, operacionais e juridicos"
 ---
 
 # Parecer sobre Contrato
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -211,6 +210,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A conclusao esta clara: viavel, viavel com ressalvas ou inviavel?
 - [ ] A ressalva profissional esta incluida?
 - [ ] Pontos que exigem atencao especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
