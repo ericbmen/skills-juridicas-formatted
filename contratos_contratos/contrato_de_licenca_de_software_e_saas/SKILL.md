@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_licenca_de_software_e_saas
 description: >
-  Elabora contratos de licenciamento de software (on-premise ou SaaS) fundamentados na Lei 9.609/1998 (Lei do Software), Lei 9.610/1998 (Lei de Direitos Autorais) e LGPD, estruturando clausulas de licenca de uso, restricoes de uso, SLA (nivel de servico), privacidade de dados, backups, interrupcao de 
+  Elabora contratos de licenciamento de software (on-premise ou SaaS) fundamentados na Lei 9.609/1998 (Lei do Software), Lei 9.610/1998 (Lei de Direitos Autorais) e LGPD, estruturando clausulas de licenca de uso, restricoes de uso, SLA (nivel de servico), privacidade de dados, back
 triggers:
   - "Para licenciar software desenvolvido internamente para terceiros"
   - "Para contratar sistemas SaaS (ERPs, CRMs, plataformas de gestao)"
   - "Para elaborar EULA (End User License Agreement) de aplicativos"
   - "Para contratos de desenvolvimento de software sob encomenda"
   - "Para acordos de uso de plataformas digitais com dados sensíveis"
-  - "Para revisar contratos de software recebidos de fornecedores"
 ---
 
 # Contrato de Licenca de Software e SaaS
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -97,6 +96,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A clausula de limitacao de responsabilidade esta equilibrada?
 - [ ] A propriedade intelectual do software esta claramente do licenciante?
 - [ ] Duas testemunhas ou aceite eletronico com registro?
+
+---
 </framework>
 
 <dicas>
