@@ -4,10 +4,10 @@ description: >
   Gera petição de ação de consignação em pagamento ou petição de purgação da mora em ação de busca e apreensão, para situações em que o banco recusa o recebimento do pagamento ou o devedor precisa depositar o valor em juízo para afastar a inadimplência e evitar a perda do bem.
 triggers:
   - "Quando o banco se recusa a receber o pagamento de parcelas ou do saldo devedor"
-  - "Para purgar a mora em ação de busca e apreensão (5 dias após a liminar — art. 3º §1º DL 911/69)"
-  - "Quando há dúvida sobre o valor correto a pagar (banco cobra a mais, cliente paga o que entende devido)"
+  - "Para purgar a mora em ação de busca e apreensão (5 dias após a liminar — art. 3º"
+  - "Quando há dúvida sobre o valor correto a pagar (banco cobra a mais, cliente paga"
   - "Para interromper a contagem de juros moratórios mediante depósito judicial"
-  - "Quando o credor é incerto ou há litígio sobre quem deve receber (cessão de crédito contestada)"
+  - "Quando o credor é incerto ou há litígio sobre quem deve receber (cessão de crédi"
 ---
 
 # Consignação e Purgação da Mora
@@ -107,11 +107,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Depósito realizado simultaneamente ao protocolo?
 - [ ] Pedido de devolução do bem incluído (se for o caso)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
