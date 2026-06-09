@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/recurso_ao_tas_cas_tribunal_arbitral_do_esporte
 description: >
-  Gera petição de apelação (Statement of Appeal) e Memorial de Recurso (Appeal Brief) ao Tribunal Arbitral do Esporte — TAS/CAS (Court of Arbitration for Sport, Lausanne, Suíça), para impugnar decisão de federação internacional, da FIFA, do COI ou de outro órgão desportivo, em matéria de transferência
+  Gera petição de apelação (Statement of Appeal) e Memorial de Recurso (Appeal Brief) ao Tribunal Arbitral do Esporte — TAS/CAS (Court of Arbitration for Sport, Lausanne, Suíça), para impugnar decisão de federação internacional, da FIFA, do COI ou de outro órgão desportivo, em maté
 triggers:
-  - "Atleta ou clube que recebeu decisão desfavorável da FIFA DRC ou FIFA Disciplinary Committee e deseja recorrer ao TAS/CAS"
-  - "Atleta sancionado por antidoping por federação internacional (WADA/CBDD) e quer recorrer ao TAS/CAS"
-  - "Atleta declarado inelegível por federação internacional e que busca suspensão da inelegibilidade por medida cautelar"
-  - "Clube que discorda de decisão da FIFA sobre transfer fee, solidariedade ou training compensation"
-  - "Atleta ou clube envolvido em disputa arbitral internacional sobre contrato desportivo não resolvida pela DRC"
+  - "Atleta ou clube que recebeu decisão desfavorável da FIFA DRC ou FIFA Disciplinar"
+  - "Atleta sancionado por antidoping por federação internacional (WADA/CBDD) e quer "
+  - "Atleta declarado inelegível por federação internacional e que busca suspensão da"
+  - "Clube que discorda de decisão da FIFA sobre transfer fee, solidariedade ou train"
+  - "Atleta ou clube envolvido em disputa arbitral internacional sobre contrato despo"
 ---
 
 # Recurso ao TAS/CAS (Tribunal Arbitral do Esporte)
@@ -120,11 +120,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Custas do TAS/CAS verificadas (gratuidade em antidoping — R65)?
 - [ ] Idioma: rascunho em português validado — peça final em inglês/francês por tradutor jurídico?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RECORRENTE (APPELLANT):**
 - Nome completo: [nome do atleta ou clube]
 - CPF/CNPJ ou passaporte: [número]
