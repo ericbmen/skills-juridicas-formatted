@@ -125,11 +125,12 @@ Apresente em <checklist_validacao>:
 - [ ] Reconvenção foi avaliada (art. 343, CPC)?
 - [ ] Honorários de sucumbência requeridos (art. 85, CPC)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RÉU (quem está sendo defendido):**
 - Nome completo / Razão social: [nome]
 - Nacionalidade: [brasileira(o)]
