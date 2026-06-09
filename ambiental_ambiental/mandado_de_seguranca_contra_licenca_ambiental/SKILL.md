@@ -1,10 +1,10 @@
 ---
 name: ambiental_ambiental/mandado_de_seguranca_contra_licenca_ambiental
 description: >
-  Gera petição inicial de Mandado de Segurança para atacar ato de autoridade ambiental relacionado a licença ambiental — seja para anular licença concedida ilegalmente a terceiro (MS de terceiro prejudicado), seja para compelir o órgão a conceder licença indevidamente negada (MS do empreendedor). Fund
+  Gera petição inicial de Mandado de Segurança para atacar ato de autoridade ambiental relacionado a licença ambiental — seja para anular licença concedida ilegalmente a terceiro (MS de terceiro prejudicado), seja para compelir o órgão a conceder licença indevidamente negada (MS do
 triggers:
-  - "Licença ambiental concedida a terceiro com violação das normas de licenciamento (EIA/RIMA, audiência pública, competência)"
-  - "Licença negada sem fundamentação adequada, com abuso de poder ou desvio de finalidade"
+  - "Licença ambiental concedida a terceiro com violação das normas de licenciamento "
+  - "Licença negada sem fundamentação adequada, com abuso de poder ou desvio de final"
   - "Renovação de licença indeferida por ato ilegal do órgão ambiental"
   - "Condicionantes da licença impostas de forma abusiva, ilegais ou desproporcionais"
   - "Omissão do órgão em apreciar pedido de licença dentro do prazo legal"
@@ -99,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A competência do juízo está correta (federal se ato do IBAMA)?
 - [ ] Cópia do ato coator está disponível para anexar?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATO COATOR:**
 - Descrição do ato: [licença concedida / negada / condicionante / omissão]
 - Número do ato/processo administrativo: [número]
