@@ -1,12 +1,12 @@
 ---
 name: militar_militar/acao_de_reintegracao_ao_servico_militar_exclusao_ilegal
 description: >
-  Gera petição inicial de ação ordinária (ou mandado de segurança com pedido de reintegração) para militar excluído ilegalmente das Forças Armadas ou das Polícias Militares estaduais, com fundamento no Estatuto dos Militares (Lei 6.880/80), na CF/88 e na legislação específica da força, buscando a anul
+  Gera petição inicial de ação ordinária (ou mandado de segurança com pedido de reintegração) para militar excluído ilegalmente das Forças Armadas ou das Polícias Militares estaduais, com fundamento no Estatuto dos Militares (Lei 6.880/80), na CF/88 e na legislação específica da fo
 triggers:
-  - "Militar excluído a bem da disciplina sem processo administrativo regular (PAD) ou sem observância do contraditório e ampla defesa"
-  - "Exclusão fundada em crime pelo qual o militar foi absolvido na Justiça Militar ou na Justiça comum"
-  - "Exclusão de militar estável sem observância do procedimento previsto na Lei 6.880/80 e no regulamento disciplinar da força"
-  - "Exclusão por motivo discriminatório (saúde, filiação sindical, testemunho em processo contra superior)"
+  - "Militar excluído a bem da disciplina sem processo administrativo regular (PAD) o"
+  - "Exclusão fundada em crime pelo qual o militar foi absolvido na Justiça Militar o"
+  - "Exclusão de militar estável sem observância do procedimento previsto na Lei 6.88"
+  - "Exclusão por motivo discriminatório (saúde, filiação sindical, testemunho em pro"
   - "Militar reformado ou da reserva que busca reversão de ato administrativo ilegal"
 ---
 
@@ -103,11 +103,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Danos materiais calculados (período, remuneração, progressões)?
 - [ ] Juízo competente verificado (Federal x Estadual)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Juízo competente: [ex: 3ª Vara Federal de Florianópolis / 2ª Vara da Fazenda Pública — SC]
 - Valor da causa estimado: [R$ X]
