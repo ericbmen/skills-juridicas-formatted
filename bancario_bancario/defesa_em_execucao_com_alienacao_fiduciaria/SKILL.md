@@ -3,9 +3,9 @@ name: bancario_bancario/defesa_em_execucao_com_alienacao_fiduciaria
 description: >
   Gera embargos à execução ou impugnação ao cumprimento de sentença em processos executivos bancários com garantia de alienação fiduciária, explorando excesso de execução, nulidades, abusividades contratuais e o direito à purga da mora antes da consolidação da propriedade.
 triggers:
-  - "Quando o banco ajuizou execução extrajudicial ou judicial com base em contrato de alienação fiduciária"
-  - "Para opor embargos à execução com fundamento em excesso de execução ou nulidade do título"
-  - "Quando a consolidação da propriedade foi decretada sem observância dos requisitos legais"
+  - "Quando o banco ajuizou execução extrajudicial ou judicial com base em contrato d"
+  - "Para opor embargos à execução com fundamento em excesso de execução ou nulidade "
+  - "Quando a consolidação da propriedade foi decretada sem observância dos requisito"
   - "Para contestar o valor cobrado na execução por abusividades contratuais"
   - "Quando o cliente quer negociar e precisa de tempo processual para isso"
 ---
@@ -108,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Nulidade do leilão verificada (se já realizado)?
 - [ ] Perícia contábil requerida?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DEVEDOR (EMBARGANTE):**
 - Nome completo: [nome]
 - CPF: [número]
