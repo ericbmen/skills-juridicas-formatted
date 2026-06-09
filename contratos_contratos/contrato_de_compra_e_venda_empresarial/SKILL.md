@@ -1,13 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_compra_e_venda_empresarial
 description: >
-  Elabora contrato de compra e venda empresarial completo para operações B2B — compra de mercadorias, produtos, ativos empresariais ou participação societária — com cláusulas de garantia, condições de pagamento, transferência de propriedade, risco, vícios redibitórios, entrega e resolução de conflitos
+  Elabora contrato de compra e venda empresarial completo para operações B2B — compra de mercadorias, produtos, ativos empresariais ou participação societária — com cláusulas de garantia, condições de pagamento, transferência de propriedade, risco, vícios redibitórios, entrega e re
 triggers:
   - "Compra e venda de mercadorias em grande volume entre empresas"
-  - "Aquisição de ativo empresarial específico (máquina, frota, equipamento, software)"
-  - "Compra de participação societária (quotas ou ações) — ver também skill de M&A para operações complexas"
-  - "Quando o fornecedor e comprador querem estabelecer condições gerais de fornecimento recorrente"
-  - "Para substituir ordens de compra/pedidos informais por instrumento contratual robusto"
+  - "Aquisição de ativo empresarial específico (máquina, frota, equipamento, software"
+  - "Compra de participação societária (quotas ou ações) — ver também skill de M&A pa"
+  - "Quando o fornecedor e comprador querem estabelecer condições gerais de fornecime"
+  - "Para substituir ordens de compra/pedidos informais por instrumento contratual ro"
 ---
 
 # Contrato de Compra e Venda Empresarial
@@ -93,11 +93,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cláusula penal proporcional e dentro dos limites legais?
 - [ ] Responsabilidade tributária pela operação definida?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VENDEDOR:**
 - Razão social / Nome: [nome]
 - CNPJ / CPF: [número]
