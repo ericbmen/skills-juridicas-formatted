@@ -1,13 +1,13 @@
 ---
 name: agrario_agrario/defesa_em_desapropriacao_rural
 description: >
-  Gera contestação e peças de defesa em ação de desapropriação rural para fins de reforma agrária, com fundamento na Lei Complementar 76/1993, no Decreto-Lei 3.365/1941 e na CF/88, contestando vícios do decreto expropriatório, impugnando o laudo de avaliação do expropriante e requerendo justa indeniza
+  Gera contestação e peças de defesa em ação de desapropriação rural para fins de reforma agrária, com fundamento na Lei Complementar 76/1993, no Decreto-Lei 3.365/1941 e na CF/88, contestando vícios do decreto expropriatório, impugnando o laudo de avaliação do expropriante e reque
 triggers:
-  - "Proprietário rural citado em ação de desapropriação para fins de reforma agrária (INCRA)"
+  - "Proprietário rural citado em ação de desapropriação para fins de reforma agrária"
   - "Imóvel classificado como improdutivo pelo INCRA sem fundamento técnico adequado"
   - "Laudo de avaliação do expropriante subavaliando o imóvel ou as benfeitorias"
   - "Vícios no processo administrativo de vistoria ou no decreto desapropriatório"
-  - "Necessidade de contestar o cumprimento da função social para evitar a desapropriação"
+  - "Necessidade de contestar o cumprimento da função social para evitar a desapropri"
 ---
 
 # Defesa em Desapropriação Rural
@@ -104,11 +104,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Honorários advocatícios incluídos?
 - [ ] Prazo de contestação verificado (LC 76/1993: 15 dias)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROPRIETÁRIO (RÉU):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
