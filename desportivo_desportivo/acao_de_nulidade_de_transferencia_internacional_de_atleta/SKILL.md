@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/acao_de_nulidade_de_transferencia_internacional_de_atleta
 description: >
-  Gera petição (junto à FIFA/DRC, ao STJD ou à Justiça Comum) para declarar a nulidade de transferência internacional de atleta profissional realizada em violação à Lei Pelé (Lei 9.615/1998), aos Regulamentos da FIFA (RSTP — Regulamento sobre Estatuto e Transferência de Jogadores), às normas da CBF ou
+  Gera petição (junto à FIFA/DRC, ao STJD ou à Justiça Comum) para declarar a nulidade de transferência internacional de atleta profissional realizada em violação à Lei Pelé (Lei 9.615/1998), aos Regulamentos da FIFA (RSTP — Regulamento sobre Estatuto e Transferência de Jogadores),
 triggers:
-  - "Atleta transferido para clube estrangeiro sem sua anuência ou mediante vício de vontade (coação, dolo, lesão)"
-  - "Transferência realizada sem o pagamento ou com pagamento insuficiente da cláusula penal prevista no contrato"
-  - "Clube que cedeu o atleta a terceiro sem o consentimento expresso do atleta (art. 39 da Lei 9.615/1998)"
+  - "Atleta transferido para clube estrangeiro sem sua anuência ou mediante vício de "
+  - "Transferência realizada sem o pagamento ou com pagamento insuficiente da cláusul"
+  - "Clube que cedeu o atleta a terceiro sem o consentimento expresso do atleta (art."
   - "Transferência de atleta menor de 18 anos em violação ao art. 19 do RSTP/FIFA"
-  - "Transfer fee pago abaixo do valor de mercado em razão de fraude, conluio ou simulação entre os clubes"
+  - "Transfer fee pago abaixo do valor de mercado em razão de fraude, conluio ou simu"
 ---
 
 # Ação de Nulidade de Transferência Internacional de Atleta
@@ -113,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Atleta menor de 18 anos? (exceções FIFA RSTP, art. 19 analisadas?)
 - [ ] Tutela de urgência requerida para suspender o registro no exterior?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA:**
 - Nome completo: [nome]
 - CPF: [número]
