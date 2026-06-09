@@ -1,7 +1,7 @@
 ---
 name: aeronautico_aeronautico/indenizacao_por_extravio_de_bagagem
 description: >
-  Gera petição inicial para ação indenizatória por extravio, avaria ou furto de bagagem em voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais pelo conteúdo da bagagem e danos 
+  Gera petição inicial para ação indenizatória por extravio, avaria ou furto de bagagem em voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais pelo conteúdo
 triggers:
   - "Bagagem despachada não entregue no destino (extravio total)"
   - "Bagagem entregue com avaria (danos físicos ao conteúdo ou à mala)"
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral fundamentado?
 - [ ] Prazo prescricional verificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: G33045]
