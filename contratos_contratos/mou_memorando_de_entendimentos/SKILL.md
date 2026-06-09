@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/mou_memorando_de_entendimentos
 description: >
-  Elabora Memorando de Entendimentos (MOU — Memorandum of Understanding) completo, definindo o escopo das negociações entre as partes, os termos preliminares acordados, a natureza vinculante ou não de cada cláusula, a confidencialidade e os próximos passos para a formalização do negócio definitivo.
+  Elabora Memorando de Entendimentos (MOU — Memorandum of Understanding) completo, definindo o escopo das negociações entre as partes, os termos preliminares acordados, a natureza vinculante ou não de cada cláusula, a confidencialidade e os próximos passos para a formalização do ne
 triggers:
-  - "Antes da celebração de contrato definitivo de parceria, joint venture, aquisição ou fusão"
+  - "Antes da celebração de contrato definitivo de parceria, joint venture, aquisição"
   - "Para formalizar os termos já negociados oralmente e dar segurança às tratativas"
   - "Quando as partes precisam de período de due diligence antes do fechamento"
   - "Para estabelecer exclusividade de negociação por prazo determinado"
-  - "Em negócios internacionais onde o MOU é etapa padrão antes do contrato definitivo"
-  - "Para fixar premissas comerciais e financeiras que orientarão a redação do contrato"
+  - "Em negócios internacionais onde o MOU é etapa padrão antes do contrato definitiv"
 ---
 
 # MOU — Memorando de Entendimentos
@@ -87,11 +86,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Responsabilidade por ruptura das negociações abordada?
 - [ ] Lei aplicável e foro definidos?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PARTES:**
 - Parte A: [nome/razão social, CPF/CNPJ, endereço, representante]
 - Parte B: [nome/razão social, CPF/CNPJ, endereço, representante]
