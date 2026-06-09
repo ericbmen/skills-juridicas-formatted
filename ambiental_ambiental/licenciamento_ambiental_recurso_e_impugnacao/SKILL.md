@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/licenciamento_ambiental_recurso_e_impugnacao
 description: >
-  Gera recursos administrativos contra indeferimento, condicionantes abusivas, exigências ilegais e revogação de licenças ambientais (LP, LI, LO), com base na Resolução CONAMA 237/97, na Lei 6.938/81 (PNMA), na LC 140/2011 (competências do licenciamento) e na Lei 9.784/99 (processo administrativo fede
+  Gera recursos administrativos contra indeferimento, condicionantes abusivas, exigências ilegais e revogação de licenças ambientais (LP, LI, LO), com base na Resolução CONAMA 237/97, na Lei 6.938/81 (PNMA), na LC 140/2011 (competências do licenciamento) e na Lei 9.784/99 (processo
 triggers:
   - "Ao receber decisão de indeferimento de licença ambiental (LP, LI ou LO)"
   - "Para impugnar condicionantes ilegais ou desproporcionais impostas na licença"
   - "Para recorrer da suspensão ou revogação de licença ambiental"
   - "Para questionar incompetência do órgão licenciador (conflito LC 140/2011)"
-  - "Para impugnar exigências de estudos ambientais sem previsão legal (EIA/RIMA desnecessário)"
-  - "Para pleitear renovação de licença de operação com prazo vencido"
+  - "Para impugnar exigências de estudos ambientais sem previsão legal (EIA/RIMA desn"
 ---
 
 # Licenciamento Ambiental — Recurso e Impugnação
@@ -112,11 +111,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Fundamentação com artigos reais da legislação ambiental?
 - [ ] Documentação técnica de suporte listada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO DE LICENCIAMENTO:**
 - Número do processo: [número]
 - Órgão licenciador: [IBAMA / órgão estadual / SMMA]
