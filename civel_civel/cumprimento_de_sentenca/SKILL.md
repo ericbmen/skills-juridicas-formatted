@@ -1,14 +1,13 @@
 ---
 name: civel_civel/cumprimento_de_sentenca
 description: >
-  Gera uma petição de cumprimento de sentença completa para obrigação de pagar quantia certa (definitivo ou provisório), seguindo rigorosamente os arts. 513 a 519 e 523 a 527 do CPC/2015, com memorial de cálculo discriminado conforme art. 524, intimação do devedor na forma correta, requerimento de pen
+  Gera uma petição de cumprimento de sentença completa para obrigação de pagar quantia certa (definitivo ou provisório), seguindo rigorosamente os arts. 513 a 519 e 523 a 527 do CPC/2015, com memorial de cálculo discriminado conforme art. 524, intimação do devedor na forma correta,
 triggers:
-  - "Para iniciar o cumprimento de sentença de obrigação de pagar quantia certa (definitiva)"
-  - "Para requerer cumprimento provisório de sentença (pendente recurso sem efeito suspensivo)"
-  - "Quando houver sentença condenatória transitada em julgado e o devedor não pagar voluntariamente"
+  - "Para iniciar o cumprimento de sentença de obrigação de pagar quantia certa (defi"
+  - "Para requerer cumprimento provisório de sentença (pendente recurso sem efeito su"
+  - "Quando houver sentença condenatória transitada em julgado e o devedor não pagar "
   - "Para executar acordos judiciais homologados (art. 515, II e III, CPC)"
-  - "Para executar decisões que concedam tutela provisória de urgência ou evidência (art. 519, CPC)"
-  - "Para cobrar valores decorrentes de sentença arbitral (art. 515, VII, CPC)"
+  - "Para executar decisões que concedam tutela provisória de urgência ou evidência ("
 ---
 
 # Cumprimento de Sentença
@@ -135,11 +134,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Medidas de constrição patrimonial foram especificadas?
 - [ ] O valor total do débito está correto e atualizado até a data do protocolo?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DADOS DO PROCESSO:**
 - Número dos autos: [número]
 - Vara/Juízo: [vara cível]
