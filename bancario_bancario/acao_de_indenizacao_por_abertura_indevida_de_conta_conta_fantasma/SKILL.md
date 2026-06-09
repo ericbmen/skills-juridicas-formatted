@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/acao_de_indenizacao_por_abertura_indevida_de_conta_conta_fantasma
 description: >
-  Gera petição inicial de ação de indenização por danos morais e materiais contra instituição financeira que abriu conta bancária em nome do consumidor sem seu conhecimento ou consentimento, com pedido de encerramento imediato da conta, exclusão de débitos gerados em seu nome e reparação pelos prejuíz
+  Gera petição inicial de ação de indenização por danos morais e materiais contra instituição financeira que abriu conta bancária em nome do consumidor sem seu conhecimento ou consentimento, com pedido de encerramento imediato da conta, exclusão de débitos gerados em seu nome e rep
 triggers:
   - "Quando o consumidor descobre que tem conta aberta em banco sem ter solicitado"
-  - "Para casos de conta digital aberta fraudulentamente com dados obtidos em vazamentos"
-  - "Quando há cobranças, negativações ou débitos gerados por conta que o cliente desconhece"
-  - "Para situações em que o banco abriu conta com documentos falsificados em nome do cliente"
-  - "Quando a abertura indevida da conta foi usada como "conta laranja" para atividades ilícitas"
+  - "Para casos de conta digital aberta fraudulentamente com dados obtidos em vazamen"
+  - "Quando há cobranças, negativações ou débitos gerados por conta que o cliente des"
+  - "Para situações em que o banco abriu conta com documentos falsificados em nome do"
+  - "Quando a abertura indevida da conta foi usada como "conta laranja" para atividad"
 ---
 
 # Ação de Indenização por Abertura Indevida de Conta (Conta Fantasma)
@@ -125,11 +125,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral in re ipsa fundamentado?
 - [ ] JEC avaliado pelo valor da causa?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (AUTOR):**
 - Nome completo: [nome]
 - CPF: [número]
