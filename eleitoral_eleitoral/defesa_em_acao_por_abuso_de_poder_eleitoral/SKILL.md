@@ -1,12 +1,12 @@
 ---
 name: eleitoral_eleitoral/defesa_em_acao_por_abuso_de_poder_eleitoral
 description: >
-  Gera defesa completa em Ação de Investigação Judicial Eleitoral (AIJE) ou em Ação de Impugnação de Mandato Eletivo (AIME) movidas por abuso do poder econômico ou político, contestando a viabilidade da ação, a suficiência das provas, a potencialidade de influência no resultado e a dosimetria da sançã
+  Gera defesa completa em Ação de Investigação Judicial Eleitoral (AIJE) ou em Ação de Impugnação de Mandato Eletivo (AIME) movidas por abuso do poder econômico ou político, contestando a viabilidade da ação, a suficiência das provas, a potencialidade de influência no resultado e a
 triggers:
-  - "Quando o cliente (candidato eleito ou em campanha) é réu em AIJE por abuso de poder"
+  - "Quando o cliente (candidato eleito ou em campanha) é réu em AIJE por abuso de po"
   - "Para contestar AIME ajuizada após a diplomação por alegado abuso"
   - "Quando há representação eleitoral que pode evoluir para cassação do registro"
-  - "Para construir defesa quando há uso legítimo de recursos financeiros que foi mal interpretado"
+  - "Para construir defesa quando há uso legítimo de recursos financeiros que foi mal"
   - "Quando a acusação de uso da máquina pública é infundada ou exagerada"
 ---
 
@@ -108,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Proporcionalidade da sanção contestada?
 - [ ] Contra-provas e testemunhas de defesa indicadas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RÉUS (DEFENDIDOS):**
 - Nome: [nome do candidato]
 - Cargo: [cargo disputado / mandato em exercício]
