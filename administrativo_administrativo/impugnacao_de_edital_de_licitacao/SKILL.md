@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/impugnacao_de_edital_de_licitacao
 description: >
-  Gera uma impugnação de edital de licitação completa e fundamentada, identificando cláusulas restritivas, ilegais ou que violem os princípios constitucionais da licitação, com pedido de correção ou anulação das disposições irregulares, nos termos da Lei 14.133/2021 (Nova Lei de Licitações).
+  Gera uma impugnação de edital de licitação completa e fundamentada, identificando cláusulas restritivas, ilegais ou que violem os princípios constitucionais da licitação, com pedido de correção ou anulação das disposições irregulares, nos termos da Lei 14.133/2021 (Nova Lei de Li
 triggers:
-  - "Contra cláusulas do edital que restrinjam a competitividade sem justificativa técnica (art. 9º, Lei 14.133/2021)"
+  - "Contra cláusulas do edital que restrinjam a competitividade sem justificativa té"
   - "Contra exigências de habilitação desproporcionais ou ilegais"
   - "Quando houver especificações direcionadas a determinado fornecedor"
   - "Contra prazos de apresentação de proposta inferiores aos mínimos legais"
-  - "Quando o objeto não estiver claramente descrito (violação do art. 11, Lei 14.133/2021)"
-  - "Contra critérios de julgamento ilegais ou que violem a isonomia (art. 37, XXI, CF/88)"
+  - "Quando o objeto não estiver claramente descrito (violação do art. 11, Lei 14.133"
 ---
 
 # Impugnação de Edital de Licitação
@@ -94,11 +93,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Não há menção a jurisprudência inventada?
 - [ ] Há pedido de suspensão da licitação se a ilegalidade for grave?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO LICITATÓRIO:**
 - Modalidade: [Pregão Eletrônico | Concorrência | Concurso | Leilão | Diálogo Competitivo]
 - Número: [ex: Pregão Eletrônico nº 001/2026]
