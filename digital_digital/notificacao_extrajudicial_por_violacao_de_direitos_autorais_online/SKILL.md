@@ -1,13 +1,13 @@
 ---
 name: digital_digital/notificacao_extrajudicial_por_violacao_de_direitos_autorais_online
 description: >
-  Gera notificação extrajudicial formal por violação de direitos autorais na internet (uso não autorizado de obra protegida em site, redes sociais, plataformas de streaming, e-commerce, blogs ou aplicativos), com base na Lei de Direitos Autorais, com pedido de cessação imediata do uso, remoção do cont
+  Gera notificação extrajudicial formal por violação de direitos autorais na internet (uso não autorizado de obra protegida em site, redes sociais, plataformas de streaming, e-commerce, blogs ou aplicativos), com base na Lei de Direitos Autorais, com pedido de cessação imediata do 
 triggers:
-  - "Quando foto, vídeo, texto, música, software, design ou obra própria foi usada sem autorização em ambiente digital"
-  - "Quando e-commerce está vendendo produto com imagem ou conteúdo protegido do cliente"
-  - "Quando curso online, blog ou canal no YouTube reproduziu conteúdo autoral sem licença"
-  - "Quando empresa usou obra do cliente (logotipo, ilustração, trilha sonora) sem contrato"
-  - "Quando é necessário formalizar a violação antes de ajuizar ação de indenização ou pedir DMCA Takedown"
+  - "Quando foto, vídeo, texto, música, software, design ou obra própria foi usada se"
+  - "Quando e-commerce está vendendo produto com imagem ou conteúdo protegido do clie"
+  - "Quando curso online, blog ou canal no YouTube reproduziu conteúdo autoral sem li"
+  - "Quando empresa usou obra do cliente (logotipo, ilustração, trilha sonora) sem co"
+  - "Quando é necessário formalizar a violação antes de ajuizar ação de indenização o"
 ---
 
 # Notificação Extrajudicial por Violação de Direitos Autorais Online
