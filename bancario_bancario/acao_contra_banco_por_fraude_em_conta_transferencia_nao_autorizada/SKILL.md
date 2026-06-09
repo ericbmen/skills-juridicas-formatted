@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/acao_contra_banco_por_fraude_em_conta_transferencia_nao_autorizada
 description: >
-  Gera petição inicial de ação de indenização e restituição contra instituição financeira por transferências não autorizadas realizadas por fraudadores (estelionato, phishing, SIM swap, golpe do falso banco, acesso indevido ao aplicativo), com pedido de devolução dos valores e reparação por danos mora
+  Gera petição inicial de ação de indenização e restituição contra instituição financeira por transferências não autorizadas realizadas por fraudadores (estelionato, phishing, SIM swap, golpe do falso banco, acesso indevido ao aplicativo), com pedido de devolução dos valores e repa
 triggers:
-  - "Quando o cliente sofreu transferências PIX, TED ou DOC realizadas sem sua autorização"
+  - "Quando o cliente sofreu transferências PIX, TED ou DOC realizadas sem sua autori"
   - "Para casos de golpe do falso funcionário bancário com acesso ao aplicativo"
   - "Quando houve SIM swap (clonagem de chip) e fraude nas contas vinculadas"
-  - "Para situações de phishing em que dados bancários foram capturados e usados por terceiros"
-  - "Quando o banco se recusa a reembolsar alegando que a transação foi "reconhecida como legítima""
+  - "Para situações de phishing em que dados bancários foram capturados e usados por "
+  - "Quando o banco se recusa a reembolsar alegando que a transação foi "reconhecida "
 ---
 
 # Ação contra Banco por Fraude em Conta (Transferência Não Autorizada)
@@ -118,11 +118,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral fundamentado além da mera indignação?
 - [ ] Prazo prescricional verificado? (5 anos CDC)
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE (AUTOR):**
 - Nome completo: [nome]
 - CPF: [número]
