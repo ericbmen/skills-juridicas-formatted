@@ -1,13 +1,13 @@
 ---
 name: aeronautico_aeronautico/acao_contra_companhia_aerea_por_escala_perdida_conexao_perdida
 description: >
-  Gera petição inicial para ação indenizatória por perda de escala/conexão em voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006). Abrange situações em que o atraso no voo de origem causou a perda da cone
+  Gera petição inicial para ação indenizatória por perda de escala/conexão em voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006). Abrange situações em que o atraso no voo de origem ca
 triggers:
-  - "Passageiro perdeu voo de conexão por atraso no voo de origem operado pela mesma companhia"
-  - "Passageiro perdeu conexão e a companhia não ofereceu reacomodação adequada ou tempestiva"
-  - "Perda de conexão resultou em perda de compromisso relevante (reunião, evento, viagem de lua de mel, cirurgia)"
+  - "Passageiro perdeu voo de conexão por atraso no voo de origem operado pela mesma "
+  - "Passageiro perdeu conexão e a companhia não ofereceu reacomodação adequada ou te"
+  - "Perda de conexão resultou em perda de compromisso relevante (reunião, evento, vi"
   - "Companhia se recusou a arcar com nova hospedagem, alimentação e transporte"
-  - "Conexão perdida em voo internacional com danos superiores aos limites da Convenção de Montreal"
+  - "Conexão perdida em voo internacional com danos superiores aos limites da Convenç"
 ---
 
 # Ação contra Companhia Aérea por Escala Perdida (Conexão Perdida)
@@ -110,11 +110,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo prescricional verificado?
 - [ ] Foro correto (JECível x Vara Cível) definido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO DE ORIGEM (primeiro trecho):**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: LA3045]
