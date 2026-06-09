@@ -1,13 +1,13 @@
 ---
 name: digital_digital/acao_de_indenizacao_por_deep_fake_uso_nao_autorizado_de_imagem
 description: >
-  Gera peça de ação indenizatória por uso não autorizado de imagem e voz mediante tecnologia de deep fake, com pedido de tutela de urgência para remoção do conteúdo sintético, fundamentada nos direitos da personalidade (CC), na Lei de Direitos Autorais, no Marco Civil da Internet, na LGPD (biometria f
+  Gera peça de ação indenizatória por uso não autorizado de imagem e voz mediante tecnologia de deep fake, com pedido de tutela de urgência para remoção do conteúdo sintético, fundamentada nos direitos da personalidade (CC), na Lei de Direitos Autorais, no Marco Civil da Internet, 
 triggers:
-  - "Quando imagem e voz da vítima foram manipuladas por IA para criar vídeo/áudio falso sem autorização"
-  - "Quando deep fake pornográfico foi criado e distribuído (LGPD + Marco Civil art. 21 + CP)"
-  - "Quando deep fake é usado para golpe publicitário (influenciador falso, endosso de produto não feito)"
-  - "Quando político, celebridade ou profissional tem sua imagem usada em conteúdo enganoso gerado por IA"
-  - "Quando empresa usa imagem de pessoa real em campanha sem contrato, com manipulação por IA"
+  - "Quando imagem e voz da vítima foram manipuladas por IA para criar vídeo/áudio fa"
+  - "Quando deep fake pornográfico foi criado e distribuído (LGPD + Marco Civil art. "
+  - "Quando deep fake é usado para golpe publicitário (influenciador falso, endosso d"
+  - "Quando político, celebridade ou profissional tem sua imagem usada em conteúdo en"
+  - "Quando empresa usa imagem de pessoa real em campanha sem contrato, com manipulaç"
 ---
 
 # Ação de Indenização por Deep Fake (Uso Não Autorizado de Imagem)
