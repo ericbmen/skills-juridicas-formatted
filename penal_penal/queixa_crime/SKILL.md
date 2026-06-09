@@ -3,9 +3,9 @@ name: penal_penal/queixa_crime
 description: >
   Gera uma queixa-crime completa e fundamentada para ação penal privada (arts. 30, 31 e 41 do CPP), com exposição do fato criminoso, qualificação do querelado, classificação do crime, rol de testemunhas e requerimentos, pronta para oferecimento perante o Juízo Criminal competente.
 triggers:
-  - "Quando o cliente é vítima de crime de ação penal privada (ex.: crimes contra a honra — calúnia, difamação, injúria)"
-  - "Para iniciar ação penal privada dentro do prazo decadencial de 6 meses (art. 38 CPP)"
-  - "Quando o MP não oferece denúncia em caso de ação penal privada subsidiária da pública (art. 29 CPP)"
+  - "Quando o cliente é vítima de crime de ação penal privada (ex.: crimes contra a h"
+  - "Para iniciar ação penal privada dentro do prazo decadencial de 6 meses (art. 38 "
+  - "Quando o MP não oferece denúncia em caso de ação penal privada subsidiária da pú"
   - "Para crimes que dependem exclusivamente da iniciativa do ofendido"
   - "Para padronizar queixas-crime no escritório criminal"
 ---
@@ -142,11 +142,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Se crime de menor potencial ofensivo, competência do JECrim?
 - [ ] Se crime contra a honra, prevista a audiência de conciliação (art. 520 CPP)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **QUERELANTE (ofendido):**
 - Nome completo: [nome]
 - Nacionalidade: [brasileira(o)]
