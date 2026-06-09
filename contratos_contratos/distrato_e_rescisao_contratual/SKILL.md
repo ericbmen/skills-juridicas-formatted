@@ -5,9 +5,9 @@ description: >
 triggers:
   - "Quando ambas as partes concordam em encerrar um contrato antes do prazo"
   - "Para formalizar rescisão amigável evitando litígio futuro"
-  - "Quando há necessidade de rescindir contrato com pendências financeiras a resolver"
-  - "Para encerrar contratos de prestação de serviços, fornecimento, locação, parceria ou licenciamento"
-  - "Quando o cliente quer rescindir unilateralmente e precisa da notificação adequada (art. 473 CC)"
+  - "Quando há necessidade de rescindir contrato com pendências financeiras a resolve"
+  - "Para encerrar contratos de prestação de serviços, fornecimento, locação, parceri"
+  - "Quando o cliente quer rescindir unilateralmente e precisa da notificação adequad"
 ---
 
 # Distrato e Rescisão Contratual
@@ -101,6 +101,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A destinação da propriedade intelectual está clara?
 - [ ] A multa rescisória respeita o limite legal e o previsto no contrato original?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
