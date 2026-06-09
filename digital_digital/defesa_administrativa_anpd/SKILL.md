@@ -3,10 +3,10 @@ name: digital_digital/defesa_administrativa_anpd
 description: >
   Gera defesa administrativa completa em processo sancionador da ANPD (Autoridade Nacional de Proteção de Dados), com argumentação técnico-jurídica para afastar ou reduzir sanções previstas no art. 52 da LGPD, incluindo advertência, multa e publicização da infração.
 triggers:
-  - "Ao receber auto de infração ou notificação de abertura de processo sancionador pela ANPD"
+  - "Ao receber auto de infração ou notificação de abertura de processo sancionador p"
   - "Para apresentar defesa prévia antes da imposição de sanção"
   - "Para recorrer de decisão sancionadora da ANPD"
-  - "Quando o cliente (controlador ou operador) precisar demonstrar boa-fé e cooperação"
+  - "Quando o cliente (controlador ou operador) precisar demonstrar boa-fé e cooperaç"
   - "Para mitigar sanções demonstrando adoção de boas práticas de governança"
 ---
 
@@ -108,6 +108,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido subsidiário de advertência formulado?
 - [ ] Possibilidade de TAC avaliada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
