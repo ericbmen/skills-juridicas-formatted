@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/auditoria_ambiental_e_compliance
 description: >
-  Gera relatório de auditoria ambiental jurídica e plano de compliance ambiental para empresas, identificando passivos ambientais, riscos legais, adequação ao licenciamento, conformidade com o Código Florestal (Lei 12.651/2012), PNMA (Lei 6.938/81) e PNRS (Lei 12.305/2010), com mapa de riscos e plano 
+  Gera relatório de auditoria ambiental jurídica e plano de compliance ambiental para empresas, identificando passivos ambientais, riscos legais, adequação ao licenciamento, conformidade com o Código Florestal (Lei 12.651/2012), PNMA (Lei 6.938/81) e PNRS (Lei 12.305/2010), com map
 triggers:
   - "Para due diligence ambiental em operações de M&A (fusões e aquisições)"
   - "Para auditoria pré-licenciamento de novos empreendimentos"
-  - "Para mapeamento de passivos ambientais de empresas com histórico de irregularidades"
+  - "Para mapeamento de passivos ambientais de empresas com histórico de irregularida"
   - "Para implantação de programa de compliance ambiental (ISO 14001, EMAS)"
   - "Para avaliação de risco ambiental em transações imobiliárias rurais e urbanas"
-  - "Para empresas que querem antecipar adequação antes de fiscalização"
 ---
 
 # Auditoria Ambiental e Compliance
@@ -120,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Plano de ação com prazos e responsáveis elaborado?
 - [ ] Indicadores de compliance definidos?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **EMPRESA AUDITADA:**
 - Razão social: [nome]
 - CNPJ: [número]
