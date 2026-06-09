@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/defesa_em_acao_de_improbidade_administrativa
 description: >
-  Gera uma contestação completa em ação de improbidade administrativa, com preliminares, análise das tipificações imputadas (arts. 9º, 10 e 11 da Lei 8.429/92), demonstração da ausência de dolo específico e fundamentação nas reformas trazidas pela Lei 14.230/2021, que tornou o dolo elemento essencial 
+  Gera uma contestação completa em ação de improbidade administrativa, com preliminares, análise das tipificações imputadas (arts. 9º, 10 e 11 da Lei 8.429/92), demonstração da ausência de dolo específico e fundamentação nas reformas trazidas pela Lei 14.230/2021, que tornou o dolo
 triggers:
-  - "Ao receber citação em ação de improbidade administrativa promovida pelo Ministério Público"
+  - "Ao receber citação em ação de improbidade administrativa promovida pelo Ministér"
   - "Para demonstrar a ausência de dolo específico exigido pela Lei 14.230/2021"
-  - "Para arguir a inépcia da inicial por falta de indicação do tipo específico de improbidade"
-  - "Para impugnar a prescrição da ação (8 anos da data do fato — art. 23, Lei 8.429/92)"
-  - "Para demonstrar que o ato, embora irregular, não configura improbidade administrativa"
-  - "Contra imputação de enriquecimento ilícito (art. 9º) sem prova de locupletamento"
+  - "Para arguir a inépcia da inicial por falta de indicação do tipo específico de im"
+  - "Para impugnar a prescrição da ação (8 anos da data do fato — art. 23, Lei 8.429/"
+  - "Para demonstrar que o ato, embora irregular, não configura improbidade administr"
 ---
 
 # Defesa em Ação de Improbidade Administrativa
@@ -104,11 +103,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido subsidiário de proporcionalidade das sanções incluído?
 - [ ] Não há menção a jurisprudência inventada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara: [vara e comarca]
