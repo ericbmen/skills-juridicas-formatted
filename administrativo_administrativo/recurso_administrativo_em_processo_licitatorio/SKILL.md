@@ -1,13 +1,13 @@
 ---
 name: administrativo_administrativo/recurso_administrativo_em_processo_licitatorio
 description: >
-  Gera recurso administrativo completo em processo licitatório, atacando decisões de habilitação, inabilitação, classificação, desclassificação ou julgamento de propostas, com fundamentação na Lei 14.133/2021 (Nova Lei de Licitações), Lei 8.666/93 (quando aplicável) e CF/88 art. 37, explorando vícios 
+  Gera recurso administrativo completo em processo licitatório, atacando decisões de habilitação, inabilitação, classificação, desclassificação ou julgamento de propostas, com fundamentação na Lei 14.133/2021 (Nova Lei de Licitações), Lei 8.666/93 (quando aplicável) e CF/88 art. 37
 triggers:
   - "Inabilitação indevida por exigência desproporcional de habilitação"
   - "Desclassificação de proposta por critério subjetivo ou não previsto no edital"
-  - "Classificação incorreta de propostas em licitação de menor preço ou técnica e preço"
+  - "Classificação incorreta de propostas em licitação de menor preço ou técnica e pr"
   - "Julgamento do certame com favorecimento a determinado licitante"
-  - "Aplicação de penalidade (advertência, multa, suspensão) no curso ou após a licitação"
+  - "Aplicação de penalidade (advertência, multa, suspensão) no curso ou após a licit"
 ---
 
 # Recurso Administrativo em Processo Licitatório
@@ -92,11 +92,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentos de suporte listados como anexo?
 - [ ] Não há citação de jurisprudência inventada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO LICITATÓRIO:**
 - Modalidade: [Pregão Eletrônico / Concorrência / etc.]
 - Número: [ex: Pregão Eletrônico nº 012/2026]
