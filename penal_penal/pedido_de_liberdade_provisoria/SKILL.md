@@ -4,11 +4,10 @@ description: >
   Gera um pedido de liberdade provisória completo e fundamentado, com ou sem fiança, com base nos arts. 310, 321 e 319 do CPP, demonstrando que o acusado preenche os requisitos legais para responder ao processo em liberdade, com ou sem imposição de medidas cautelares alternativas.
 triggers:
   - "Após a prisão em flagrante, na audiência de custódia ou antes dela"
-  - "Quando a prisão preventiva foi decretada e se busca a revogação com liberdade provisória"
-  - "Para converter prisão em flagrante em liberdade provisória com medidas cautelares"
+  - "Quando a prisão preventiva foi decretada e se busca a revogação com liberdade pr"
+  - "Para converter prisão em flagrante em liberdade provisória com medidas cautelare"
   - "Quando o crime admite fiança e o preso tem condições de prestá-la"
   - "Para requerer relaxamento de prisão ilegal com concessão de liberdade provisória"
-  - "Quando houve mudança nas circunstâncias que motivaram a prisão"
 ---
 
 # Pedido de Liberdade Provisória
@@ -124,11 +123,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Comprovantes (residência, trabalho) foram indicados?
 - [ ] Proporcionalidade entre prisão e pena provável foi demonstrada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara Criminal: [vara e comarca]
