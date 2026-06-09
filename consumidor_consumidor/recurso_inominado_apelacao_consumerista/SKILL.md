@@ -1,14 +1,13 @@
 ---
 name: consumidor_consumidor/recurso_inominado_apelacao_consumerista
 description: >
-  Redige recurso inominado (Juizado Especial Cível — art. 41 da Lei 9.099/95) ou apelação cível (art. 1.009 do CPC/2015) em ações de Direito do Consumidor, com impugnação específica dos fundamentos da sentença, demonstração de erro de julgamento (error in judicando) ou de procedimento (error in proced
+  Redige recurso inominado (Juizado Especial Cível — art. 41 da Lei 9.099/95) ou apelação cível (art. 1.009 do CPC/2015) em ações de Direito do Consumidor, com impugnação específica dos fundamentos da sentença, demonstração de erro de julgamento (error in judicando) ou de procedime
 triggers:
-  - "Para recorrer de sentença desfavorável em ação consumerista no JEC (recurso inominado)"
+  - "Para recorrer de sentença desfavorável em ação consumerista no JEC (recurso inom"
   - "Para recorrer de sentença em Vara Cível (apelação — art. 1.009 CPC)"
   - "Para impugnar fixação de dano moral insuficiente ou excessivo"
-  - "Para contestar improcedência de pedido de restituição em dobro (art. 42, par. único, CDC)"
+  - "Para contestar improcedência de pedido de restituição em dobro (art. 42, par. ún"
   - "Para reformar sentença que negou inversão do ônus da prova (art. 6º, VIII, CDC)"
-  - "Para impugnar sentença que afastou responsabilidade objetiva do fornecedor"
 ---
 
 # Recurso Inominado / Apelação Consumerista
@@ -142,11 +141,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Para apelação: requisitos do art. 1.010 CPC atendidos?
 - [ ] Embargos de declaração anteriores? (interrompem prazo — art. 50 Lei 9.099/95; art. 1.026 CPC)
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **RECORRENTE / APELANTE:**
 - Nome completo: [nome]
 - Nacionalidade: [brasileira(o)]
