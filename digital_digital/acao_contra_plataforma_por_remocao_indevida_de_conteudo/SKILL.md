@@ -1,13 +1,13 @@
 ---
 name: digital_digital/acao_contra_plataforma_por_remocao_indevida_de_conteudo
 description: >
-  Gera peça de ação judicial (com pedido de tutela de urgência) contra plataforma digital que removeu, suspendeu ou baniu conta ou conteúdo de forma indevida, arbitrária ou sem observância de due process, com base no Marco Civil da Internet, no CDC e em princípios constitucionais de liberdade de expre
+  Gera peça de ação judicial (com pedido de tutela de urgência) contra plataforma digital que removeu, suspendeu ou baniu conta ou conteúdo de forma indevida, arbitrária ou sem observância de due process, com base no Marco Civil da Internet, no CDC e em princípios constitucionais d
 triggers:
-  - "Quando plataforma removeu conteúdo legítimo (notícia, post profissional, produto, serviço) sem justificativa válida"
-  - "Quando conta foi suspensa ou banida sem aviso prévio e sem oportunidade de defesa"
-  - "Quando perfil comercial ou canal no YouTube perdeu monetização ou alcance por decisão algorítmica opaca"
-  - "Quando a remoção causou dano econômico mensurável (vendas, seguidores, contratos, audiência)"
-  - "Quando a plataforma não respondeu à contestação administrativa ou respondeu de forma genérica e insuficiente"
+  - "Quando plataforma removeu conteúdo legítimo (notícia, post profissional, produto"
+  - "Quando conta foi suspensa ou banida sem aviso prévio e sem oportunidade de defes"
+  - "Quando perfil comercial ou canal no YouTube perdeu monetização ou alcance por de"
+  - "Quando a remoção causou dano econômico mensurável (vendas, seguidores, contratos"
+  - "Quando a plataforma não respondeu à contestação administrativa ou respondeu de f"
 ---
 
 # Ação contra Plataforma por Remoção Indevida de Conteúdo
