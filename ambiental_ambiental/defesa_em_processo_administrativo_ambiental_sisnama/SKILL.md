@@ -1,9 +1,9 @@
 ---
 name: ambiental_ambiental/defesa_em_processo_administrativo_ambiental_sisnama
 description: >
-  Gera defesa administrativa completa em processos sancionadores instaurados por órgãos do SISNAMA (IBAMA, ICMBio, órgãos estaduais como CETESB, INEA, FEPAM, IAT, SEMA etc. e órgãos municipais), em qualquer fase — defesa prévia, alegações finais, recurso hierárquico — impugnando as infrações descritas
+  Gera defesa administrativa completa em processos sancionadores instaurados por órgãos do SISNAMA (IBAMA, ICMBio, órgãos estaduais como CETESB, INEA, FEPAM, IAT, SEMA etc. e órgãos municipais), em qualquer fase — defesa prévia, alegações finais, recurso hierárquico — impugnando as
 triggers:
-  - "Notificação de instauração de processo administrativo ambiental por órgão do SISNAMA"
+  - "Notificação de instauração de processo administrativo ambiental por órgão do SIS"
   - "Necessidade de apresentar alegações finais após instrução do processo"
   - "Quando o processo avança sem oitiva prévia ou sem oportunidade de contraditório"
   - "Para impugnar provas produzidas unilateralmente pelo órgão ambiental"
@@ -103,11 +103,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Atenuantes do art. 14, Lei 9.605/98 exploradas para cada infração?
 - [ ] Conversão de multa em serviços avaliada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO ADMINISTRATIVO:**
 - Número do processo: [número]
 - Órgão do SISNAMA: [IBAMA / ICMBio / nome do órgão estadual / municipal]
