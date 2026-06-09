@@ -3,11 +3,11 @@ name: contratos_contratos/clausula_penal_elaboracao_e_revisao
 description: >
   Elabora ou revisa cláusulas penais (multa contratual) para qualquer tipo de contrato, verificando a adequação ao Código Civil, os limites legais, a função compensatória ou moratória, e redigindo a cláusula com precisão técnica para evitar questionamentos judiciais.
 triggers:
-  - "Para incluir multa por descumprimento de contrato (inadimplemento total ou parcial)"
-  - "Para definir multa por atraso na entrega, no pagamento ou no cumprimento de obrigação"
-  - "Quando se quer revisar cláusula penal existente que pode ser excessiva (sujeita a redução judicial — CC art. 413)"
-  - "Para distinguir cláusula penal compensatória (substitui perdas e danos) de moratória (pela mora, cumulável com o cumprimento)"
-  - "Para redigir cláusula penal em contratos de não concorrência, confidencialidade ou exclusividade"
+  - "Para incluir multa por descumprimento de contrato (inadimplemento total ou parci"
+  - "Para definir multa por atraso na entrega, no pagamento ou no cumprimento de obri"
+  - "Quando se quer revisar cláusula penal existente que pode ser excessiva (sujeita "
+  - "Para distinguir cláusula penal compensatória (substitui perdas e danos) de morat"
+  - "Para redigir cláusula penal em contratos de não concorrência, confidencialidade "
 ---
 
 # Cláusula Penal — Elaboração e Revisão
@@ -86,11 +86,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Exclusões de incidência (força maior, culpa do credor) previstas?
 - [ ] Cláusula penal compensatória não cumulada com cumprimento (CC art. 410)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O CONTRATO:**
 - Tipo: [prestação de serviços | compra e venda | locação | parceria | outro]
 - Valor total ou base de cálculo da obrigação principal: [R$]
