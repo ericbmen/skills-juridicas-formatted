@@ -1,12 +1,12 @@
 ---
 name: militar_militar/pedido_de_liberdade_provisoria_justica_militar
 description: >
-  Gera petição de pedido de liberdade provisória com ou sem fiança para militar preso em flagrante ou preventivamente no âmbito da Justiça Militar, com fundamento no CPPM (Decreto-Lei 1.002/1969) e na CF/88, buscando a soltura imediata do militar mediante o cumprimento de condições ou mediante o pagam
+  Gera petição de pedido de liberdade provisória com ou sem fiança para militar preso em flagrante ou preventivamente no âmbito da Justiça Militar, com fundamento no CPPM (Decreto-Lei 1.002/1969) e na CF/88, buscando a soltura imediata do militar mediante o cumprimento de condições
 triggers:
-  - "Militar preso em flagrante aguardando audiência de custódia ou decisão sobre o flagrante"
-  - "Militar com prisão preventiva decretada que passou a não preencher os requisitos (réu primário, crime de pequena gravidade, instrução encerrada)"
-  - "Militar preso preventivamente com instrução já encerrada e julgamento pendente — excesso de prazo"
-  - "Pedido subsidiário ao habeas corpus quando não há ilegalidade formal na prisão, mas os requisitos da preventiva não estão mais presentes"
+  - "Militar preso em flagrante aguardando audiência de custódia ou decisão sobre o f"
+  - "Militar com prisão preventiva decretada que passou a não preencher os requisitos"
+  - "Militar preso preventivamente com instrução já encerrada e julgamento pendente —"
+  - "Pedido subsidiário ao habeas corpus quando não há ilegalidade formal na prisão, "
   - "Militar que obteve fiança negada e busca reforma da decisão junto ao tribunal"
 ---
 
@@ -106,11 +106,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Condições alternativas propostas?
 - [ ] Excesso de prazo verificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O PROCESSO:**
 - Processo nº: [número]
 - Juízo: [ex: 1ª Auditoria da 3ª CJM — Porto Alegre]
