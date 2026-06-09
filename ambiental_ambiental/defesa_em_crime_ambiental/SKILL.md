@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/defesa_em_crime_ambiental
 description: >
-  Gera defesa criminal completa em processos por crimes ambientais previstos na Lei 9.605/98 (crimes contra a fauna, flora, poluição, ordenamento urbano e patrimônio cultural), incluindo resposta à acusação, alegações finais e habeas corpus, explorando atipicidade, excludentes de ilicitude, extinção d
+  Gera defesa criminal completa em processos por crimes ambientais previstos na Lei 9.605/98 (crimes contra a fauna, flora, poluição, ordenamento urbano e patrimônio cultural), incluindo resposta à acusação, alegações finais e habeas corpus, explorando atipicidade, excludentes de i
 triggers:
   - "Ao defender réu em ação penal por crime ambiental (Lei 9.605/98)"
-  - "Para resposta à acusação em crimes de desmatamento, poluição, maus-tratos a animais, pesca ilegal"
-  - "Para buscar a extinção da punibilidade pela reparação do dano (art. 9º, Lei 9.605/98)"
-  - "Para requerer suspensão condicional do processo (art. 89, Lei 9.099/95 c/c art. 28, Lei 9.605/98)"
+  - "Para resposta à acusação em crimes de desmatamento, poluição, maus-tratos a anim"
+  - "Para buscar a extinção da punibilidade pela reparação do dano (art. 9º, Lei 9.60"
+  - "Para requerer suspensão condicional do processo (art. 89, Lei 9.099/95 c/c art. "
   - "Para impugnar o auto de prisão em flagrante por crime ambiental"
-  - "Para defender pessoa jurídica responsabilizada criminalmente (art. 3º, Lei 9.605/98)"
 ---
 
 # Defesa em Crime Ambiental
@@ -123,11 +122,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Fundamentação com artigos reais da Lei 9.605/98 e CP?
 - [ ] Atenuantes do art. 14 da Lei 9.605/98 exploradas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara Criminal / Vara Ambiental: [vara e comarca]
