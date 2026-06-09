@@ -1,14 +1,13 @@
 ---
 name: militar_militar/habeas_corpus_na_justica_militar
 description: >
-  Gera petição de habeas corpus para impugnar prisão ilegal de militar perante a Justiça Militar (federal ou estadual), o STM ou os Tribunais de Justiça Militar estaduais, com fundamento no CPPM (Decreto-Lei 1.002/1969), na CF/88 e na Lei 6.880/80, buscando a soltura imediata do paciente ou a concessã
+  Gera petição de habeas corpus para impugnar prisão ilegal de militar perante a Justiça Militar (federal ou estadual), o STM ou os Tribunais de Justiça Militar estaduais, com fundamento no CPPM (Decreto-Lei 1.002/1969), na CF/88 e na Lei 6.880/80, buscando a soltura imediata do pa
 triggers:
   - "Militar preso em flagrante sem as formalidades do CPPM (arts. 243-252)"
-  - "Prisão preventiva decretada sem fundamentação adequada ou sem os requisitos do CPPM (art. 254)"
+  - "Prisão preventiva decretada sem fundamentação adequada ou sem os requisitos do C"
   - "Excesso de prazo na instrução criminal militar sem justificativa"
   - "Militar civil preso por autoridade militar sem competência para tanto"
   - "Cumprimento de pena com excesso de prazo ou regime indevido"
-  - "Punição disciplinar que restringe liberdade além do prazo legal (prisão disciplinar)"
 ---
 
 # Habeas Corpus na Justiça Militar
@@ -101,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo razoável da instrução verificado?
 - [ ] Documentos anexados (auto de flagrante / decisão da preventiva)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O HC:**
 - Tribunal competente: [ex: TJM-SP / STM / 3ª Auditoria da 3ª CJM]
 - Tipo de ação: [HC liberatório (preso) / HC preventivo (salvo-conduto)]
