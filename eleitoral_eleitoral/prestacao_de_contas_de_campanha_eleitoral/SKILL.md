@@ -1,12 +1,12 @@
 ---
 name: eleitoral_eleitoral/prestacao_de_contas_de_campanha_eleitoral
 description: >
-  Gera orientação estruturada e minuta para a prestação de contas de campanha eleitoral perante a Justiça Eleitoral, com base na Lei 9.504/1997 e na resolução do TSE vigente para o pleito, incluindo checklist documental, regras de escrituração e alertas sobre irregularidades que geram rejeição de cont
+  Gera orientação estruturada e minuta para a prestação de contas de campanha eleitoral perante a Justiça Eleitoral, com base na Lei 9.504/1997 e na resolução do TSE vigente para o pleito, incluindo checklist documental, regras de escrituração e alertas sobre irregularidades que ge
 triggers:
   - "Para orientar candidatos e tesoureiros de campanha sobre como prestar contas"
   - "Para revisar a prestação de contas antes do prazo de envio ao TRE/TSE"
   - "Quando há inconsistências nas contas que precisam ser justificadas"
-  - "Para preparar defesa quando a DRAP (Divisão de Recursos de Partidos e Prestação de Contas) aponta irregularidades"
+  - "Para preparar defesa quando a DRAP (Divisão de Recursos de Partidos e Prestação "
   - "Para organizar a documentação antes do prazo legal de prestação"
 ---
 
@@ -113,6 +113,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Nenhuma doação de pessoa jurídica foi recebida?
 - [ ] Prazo de prestação de contas verificado na resolução do TSE?
 - [ ] Pontos que exigem atenção especial do advogado e do contador: [liste]
+
+---
 </framework>
 
 <dicas>
