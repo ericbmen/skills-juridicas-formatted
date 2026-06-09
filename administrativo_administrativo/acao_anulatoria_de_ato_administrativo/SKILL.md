@@ -1,12 +1,12 @@
 ---
 name: administrativo_administrativo/acao_anulatoria_de_ato_administrativo
 description: >
-  Gera petição inicial completa de ação anulatória de ato administrativo ilegal, com pedido de tutela de urgência para suspensão dos efeitos do ato impugnado, declaração de nulidade e, quando cabível, indenização pelos danos causados, fundamentada na teoria dos vícios do ato administrativo, na Lei 9.7
+  Gera petição inicial completa de ação anulatória de ato administrativo ilegal, com pedido de tutela de urgência para suspensão dos efeitos do ato impugnado, declaração de nulidade e, quando cabível, indenização pelos danos causados, fundamentada na teoria dos vícios do ato admini
 triggers:
-  - "Prazo de 120 dias para MS já ultrapassado e o ato administrativo ainda produz efeitos"
-  - "Anulação de ato que exige produção de prova complexa (perícia, testemunhos) inviável no MS"
-  - "Ato administrativo que causou dano material ao particular e a indenização deve ser cumulada"
-  - "Cancelamento de registro, licença, concessão ou autorização com vício de nulidade"
+  - "Prazo de 120 dias para MS já ultrapassado e o ato administrativo ainda produz ef"
+  - "Anulação de ato que exige produção de prova complexa (perícia, testemunhos) invi"
+  - "Ato administrativo que causou dano material ao particular e a indenização deve s"
+  - "Cancelamento de registro, licença, concessão ou autorização com vício de nulidad"
   - "Rescisão unilateral de contrato administrativo sem o devido processo legal"
 ---
 
@@ -99,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Responsabilidade objetiva do Estado fundamentada (art. 37, §6º, CF/88)?
 - [ ] Prova pericial pedida se necessária?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATO ADMINISTRATIVO:**
 - Tipo: [portaria / resolução / decreto / despacho / auto / certidão / outro]
 - Número: [número]
