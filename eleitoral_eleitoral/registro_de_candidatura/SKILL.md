@@ -5,7 +5,7 @@ description: >
 triggers:
   - "Para orientar candidatos no pedido de registro junto ao TRE ou TRE/TSE"
   - "Para verificar as condições de elegibilidade antes do prazo de registro"
-  - "Quando há potencial causa de inelegibilidade que precisa ser afastada juridicamente"
+  - "Quando há potencial causa de inelegibilidade que precisa ser afastada juridicame"
   - "Para montar a documentação completa e evitar indeferimento por vício formal"
   - "Quando o partido precisa registrar toda a sua chapa de candidatos"
 ---
@@ -112,6 +112,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentação completa listada com base na resolução vigente?
 - [ ] Prazo de registro verificado no calendário eleitoral?
 - [ ] Pontos que exigem atenção especial do advogado eleitoralista: [liste]
+
+---
 </framework>
 
 <dicas>
