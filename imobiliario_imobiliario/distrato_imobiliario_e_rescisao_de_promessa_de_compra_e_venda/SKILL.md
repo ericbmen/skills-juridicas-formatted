@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/distrato_imobiliario_e_rescisao_de_promessa_de_compra_e_venda
 description: >
-  Gera petição inicial de ação de rescisão de promessa de compra e venda imobiliária com restituição das quantias pagas, ou minuta de distrato consensual entre as partes. Abrange tanto a rescisão por iniciativa do comprador (desistência) quanto por inadimplência do vendedor (atraso na entrega, vícios 
+  Gera petição inicial de ação de rescisão de promessa de compra e venda imobiliária com restituição das quantias pagas, ou minuta de distrato consensual entre as partes. Abrange tanto a rescisão por iniciativa do comprador (desistência) quanto por inadimplência do vendedor (atraso
 triggers:
-  - "Quando o comprador de imóvel na planta deseja desistir e reaver as parcelas pagas"
-  - "Quando a incorporadora atrasou a entrega do imóvel além do prazo de tolerância e o comprador quer rescindir"
-  - "Quando há vícios de construção graves e o comprador recusa o imóvel e busca rescisão"
-  - "Para calcular a retenção máxima permitida pela incorporadora no distrato (Lei 13.786/18)"
+  - "Quando o comprador de imóvel na planta deseja desistir e reaver as parcelas paga"
+  - "Quando a incorporadora atrasou a entrega do imóvel além do prazo de tolerância e"
+  - "Quando há vícios de construção graves e o comprador recusa o imóvel e busca resc"
+  - "Para calcular a retenção máxima permitida pela incorporadora no distrato (Lei 13"
   - "Para formalizar distrato consensual com as condições corretas de devolução"
-  - "Quando a incorporadora aplica multa abusiva acima do permitido pela Lei 13.786/18"
 ---
 
 # Distrato Imobiliário e Rescisão de Promessa de Compra e Venda
@@ -106,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo de devolução da incorporadora verificado (Lei 13.786/18)?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR/PARTE (Comprador):**
 - Nome completo: [nome]
 - CPF: [número]
