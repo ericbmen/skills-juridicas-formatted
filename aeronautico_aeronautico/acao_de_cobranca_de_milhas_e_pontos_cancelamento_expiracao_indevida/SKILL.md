@@ -1,14 +1,13 @@
 ---
 name: aeronautico_aeronautico/acao_de_cobranca_de_milhas_e_pontos_cancelamento_expiracao_indevida
 description: >
-  Gera petição inicial para ação de cobrança ou indenizatória por cancelamento ou expiração indevida de milhas, pontos ou benefícios em programas de fidelidade de companhias aéreas. Abrange situações de expiração sem prévia comunicação adequada, cancelamento unilateral do programa, alteração retroativ
+  Gera petição inicial para ação de cobrança ou indenizatória por cancelamento ou expiração indevida de milhas, pontos ou benefícios em programas de fidelidade de companhias aéreas. Abrange situações de expiração sem prévia comunicação adequada, cancelamento unilateral do programa,
 triggers:
-  - "Milhas expiradas sem aviso prévio adequado ou após alteração unilateral do prazo de validade"
+  - "Milhas expiradas sem aviso prévio adequado ou após alteração unilateral do prazo"
   - "Programa de fidelidade encerrado pela companhia sem prazo razoável para resgate"
   - "Companhia recusa o resgate de milhas válidas sem justificativa legal"
   - "Transferência de milhas bloqueada ou cancelada indevidamente"
   - "Conta de passageiro frequente bloqueada ou cancelada com saldo de milhas ativo"
-  - "Milhas acumuladas não creditadas após voo ou parceria com cartão de crédito"
 ---
 
 # Ação de Cobrança de Milhas e Pontos (Cancelamento/Expiração Indevida)
@@ -113,11 +112,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral proporcional ao valor e ao tempo de acúmulo das milhas?
 - [ ] Prazo prescricional verificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O PROGRAMA DE FIDELIDADE:**
 - Nome do programa: [ex: LATAM Pass, Smiles, TudoAzul]
 - Empresa gestora: [razão social e CNPJ]
