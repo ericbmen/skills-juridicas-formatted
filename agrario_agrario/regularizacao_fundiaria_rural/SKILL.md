@@ -1,12 +1,12 @@
 ---
 name: agrario_agrario/regularizacao_fundiaria_rural
 description: >
-  Gera parecer jurídico e roteiro de providências para regularização fundiária de imóvel rural, abrangendo análise da cadeia dominial, identificação de vícios de registro, procedimentos perante o INCRA, SIGEF e Cartório de Registro de Imóveis, com base no Estatuto da Terra (Lei 4.504/1964), na Lei 13.
+  Gera parecer jurídico e roteiro de providências para regularização fundiária de imóvel rural, abrangendo análise da cadeia dominial, identificação de vícios de registro, procedimentos perante o INCRA, SIGEF e Cartório de Registro de Imóveis, com base no Estatuto da Terra (Lei 4.5
 triggers:
   - "Imóvel rural sem matrícula ou com registro desatualizado (transcrição antiga)"
   - "Necessidade de georreferenciamento e certificação junto ao INCRA (SIGEF)"
   - "Cadeia dominial irregular (sucessivas transferências sem escritura ou registro)"
-  - "Herdeiros que precisam regularizar a situação fundiária do imóvel antes do inventário"
+  - "Herdeiros que precisam regularizar a situação fundiária do imóvel antes do inven"
   - "Imóvel adquirido sem escritura pública ou com escritura não registrada"
 ---
 
@@ -90,11 +90,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cadeia dominial completa ou com vícios mapeados?
 - [ ] Objetivo final do cliente definido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
