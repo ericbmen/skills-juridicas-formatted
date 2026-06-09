@@ -1,12 +1,12 @@
 ---
 name: aeronautico_aeronautico/indenizacao_por_overbooking
 description: >
-  Gera petição inicial para ação indenizatória por overbooking (preterição de embarque por excesso de vendas de passagens), com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990) e na Resolução ANAC n. 400/2016, pleiteando danos materiais, morais e eventuais indenizações tarifadas previstas
+  Gera petição inicial para ação indenizatória por overbooking (preterição de embarque por excesso de vendas de passagens), com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990) e na Resolução ANAC n. 400/2016, pleiteando danos materiais, morais e eventuais indenizações
 triggers:
-  - "Passageiro com reserva confirmada impedido de embarcar por excesso de vendas (overbooking)"
-  - "Passageiro que aceitou ser reacomodado voluntariamente sem receber as compensações prometidas"
-  - "Passageiro reacomodado em voo com chegada mais de 4 horas após o horário original"
-  - "Companhia que não prestou assistência material (alimentação, hospedagem, transporte) durante a espera"
+  - "Passageiro com reserva confirmada impedido de embarcar por excesso de vendas (ov"
+  - "Passageiro que aceitou ser reacomodado voluntariamente sem receber as compensaçõ"
+  - "Passageiro reacomodado em voo com chegada mais de 4 horas após o horário origina"
+  - "Companhia que não prestou assistência material (alimentação, hospedagem, transpo"
   - "Passageiro que teve compromisso perdido em razão da preterição involuntária"
 ---
 
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano material itemizado?
 - [ ] Compromisso perdido descrito para fundamentar o dano moral?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: AD4521]
