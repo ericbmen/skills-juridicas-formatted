@@ -1,14 +1,13 @@
 ---
 name: civel_civel/replica_a_contestacao_civel
 description: >
-  Gera uma réplica (impugnação à contestação) completa e fundamentada, abrangendo tanto a impugnação às preliminares arguidas pelo réu (art. 337 c/c art. 351, CPC/2015) quanto a manifestação sobre fatos impeditivos, modificativos ou extintivos alegados em defesa indireta de mérito (art. 350, CPC/2015)
+  Gera uma réplica (impugnação à contestação) completa e fundamentada, abrangendo tanto a impugnação às preliminares arguidas pelo réu (art. 337 c/c art. 351, CPC/2015) quanto a manifestação sobre fatos impeditivos, modificativos ou extintivos alegados em defesa indireta de mérito 
 triggers:
-  - "Quando o réu alegar preliminares processuais (art. 337, CPC) como incompetência, ilegitimidade, litispendência, coisa julgada, inépcia da inicial"
-  - "Quando o réu alegar fatos impeditivos, modificativos ou extintivos do direito do autor (prescrição, decadência, pagamento, compensação, novação)"
-  - "Para rebater fatos novos trazidos na contestação que distorçam a narrativa autoral"
+  - "Quando o réu alegar preliminares processuais (art. 337, CPC) como incompetência,"
+  - "Quando o réu alegar fatos impeditivos, modificativos ou extintivos do direito do"
+  - "Para rebater fatos novos trazidos na contestação que distorçam a narrativa autor"
   - "Para requerer produção de provas em resposta às alegações da defesa"
   - "Para reforçar a tese da inicial diante dos argumentos da contestação"
-  - "Para padronizar o formato das réplicas do escritório"
 ---
 
 # Réplica à Contestação Cível
@@ -116,11 +115,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A réplica mantém coerência com a petição inicial?
 - [ ] Há referência correta aos arts. 350 e/ou 351 do CPC?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DADOS DO PROCESSO:**
 - Número dos autos: [número]
 - Vara/Juízo: [vara cível]
