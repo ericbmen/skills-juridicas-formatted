@@ -1,13 +1,13 @@
 ---
 name: aeronautico_aeronautico/acao_de_reembolso_de_passagem_recusa_indevida_de_reembolso
 description: >
-  Gera petição inicial para ação de cobrança de reembolso de passagem aérea indevidamente recusado pela companhia, abrangendo tanto situações em que a companhia cancelou o voo e se recusou a reembolsar quanto situações em que o passageiro desistiu da viagem e a companhia negou o reembolso em desacordo
+  Gera petição inicial para ação de cobrança de reembolso de passagem aérea indevidamente recusado pela companhia, abrangendo tanto situações em que a companhia cancelou o voo e se recusou a reembolsar quanto situações em que o passageiro desistiu da viagem e a companhia negou o re
 triggers:
-  - "Companhia cancelou o voo e recusa o reembolso integral, oferecendo apenas crédito para uso futuro"
-  - "Passageiro desistiu da viagem com antecedência e a companhia aplica tarifa de cancelamento abusiva"
-  - "Companhia retém tarifas aeroportuárias e de embarque mesmo quando o serviço não foi utilizado"
-  - "Passageiro não embarcou por culpa da companhia (overbooking, atraso que impediu a viagem) e o reembolso é negado"
-  - "Reembolso prometido não foi efetivado no prazo estabelecido pela Resolução ANAC 400/2016"
+  - "Companhia cancelou o voo e recusa o reembolso integral, oferecendo apenas crédit"
+  - "Passageiro desistiu da viagem com antecedência e a companhia aplica tarifa de ca"
+  - "Companhia retém tarifas aeroportuárias e de embarque mesmo quando o serviço não "
+  - "Passageiro não embarcou por culpa da companhia (overbooking, atraso que impediu "
+  - "Reembolso prometido não foi efetivado no prazo estabelecido pela Resolução ANAC "
 ---
 
 # Ação de Reembolso de Passagem (Recusa Indevida de Reembolso)
@@ -112,11 +112,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dano moral fundamentado e proporcional?
 - [ ] Foro correto (JECível x Vara Cível) definido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **A PASSAGEM:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: AD4321]
