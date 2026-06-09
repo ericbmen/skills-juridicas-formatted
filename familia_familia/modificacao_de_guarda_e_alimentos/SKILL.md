@@ -1,14 +1,13 @@
 ---
 name: familia_familia/modificacao_de_guarda_e_alimentos
 description: >
-  Gera petição de ação de modificação de guarda e/ou revisão de alimentos completa — fundamentada em fato novo e alteração superveniente de circunstâncias — com demonstração do melhor interesse da criança/adolescente e do binômio necessidade/possibilidade, nos termos do Código Civil, ECA e CPC.
+  Gera petição de ação de modificação de guarda e/ou revisão de alimentos completa — fundamentada em fato novo e alteração superveniente de circunstâncias — com demonstração do melhor interesse da criança/adolescente e do binômio necessidade/possibilidade, nos termos do Código Civi
 triggers:
   - "Modificação de guarda unilateral para compartilhada (ou vice-versa)"
   - "Alteração de residência-base do menor"
-  - "Inversão de guarda por fato novo grave (negligência, alienação parental, mudança de cidade)"
-  - "Revisão de alimentos por alteração de renda do alimentante ou necessidades do alimentando"
+  - "Inversão de guarda por fato novo grave (negligência, alienação parental, mudança"
+  - "Revisão de alimentos por alteração de renda do alimentante ou necessidades do al"
   - "Exoneração de alimentos (maioridade, conclusão de estudos, autossuficiência)"
-  - "Modificação de regime de visitas vinculada à alteração de guarda"
 ---
 
 # Modificação de Guarda e Alimentos
@@ -136,11 +135,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Novo regime de visitas proposto?
 - [ ] Valor da causa compatível?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **SITUAÇÃO ATUAL:**
 - Processo originário nº: [número dos autos]
 - Vara/Comarca: [vara de família — cidade/UF]
