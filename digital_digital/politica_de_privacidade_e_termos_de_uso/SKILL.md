@@ -107,6 +107,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Tratamento de cookies em conformidade com o Marco Civil?
 - [ ] Foro e lei aplicável definidos nos Termos de Uso?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
