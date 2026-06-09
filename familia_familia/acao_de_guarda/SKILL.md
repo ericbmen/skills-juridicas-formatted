@@ -116,11 +116,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Fundamentação legal completa (CC, ECA, CF/88, Lei 13.058)?
 - [ ] Foro do domicílio do menor utilizado (Súmula 383 STJ)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE GUARDA PRETENDIDA:**
 - Modalidade: [compartilhada | unilateral]
 - Se unilateral, em favor de quem: [nome]
