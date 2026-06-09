@@ -100,6 +100,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A fundamentação legal está correta e atualizada?
 - [ ] O parecer final é claro e objetivo?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
