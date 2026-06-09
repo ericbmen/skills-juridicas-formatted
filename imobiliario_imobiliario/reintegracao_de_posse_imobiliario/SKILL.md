@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/reintegracao_de_posse_imobiliario
 description: >
-  Gera petição inicial de ação de reintegração de posse para o possuidor que foi esbulhado (perdeu a posse por ato de violência, clandestinidade ou precariedade) e deseja recuperá-la judicialmente, com pedido de liminar quando o esbulho for recente. Aplica-se a imóveis urbanos e rurais, diferenciando-
+  Gera petição inicial de ação de reintegração de posse para o possuidor que foi esbulhado (perdeu a posse por ato de violência, clandestinidade ou precariedade) e deseja recuperá-la judicialmente, com pedido de liminar quando o esbulho for recente. Aplica-se a imóveis urbanos e ru
 triggers:
   - "Quando o possuidor foi expulso do imóvel por invasão, força ou violência"
-  - "Quando o imóvel foi ocupado clandestinamente por terceiros durante a ausência do possuidor"
-  - "Quando o comodatário ou arrendatário não devolve o imóvel após o término do contrato (precariedade)"
-  - "Quando há invasão por movimento organizado (MST, ocupação urbana) ou por particular"
-  - "Para o locador cujo locatário reteve o imóvel após rescisão por abandono e invasão de terceiro"
-  - "Quando há turbação que evoluiu para esbulho completo da posse"
+  - "Quando o imóvel foi ocupado clandestinamente por terceiros durante a ausência do"
+  - "Quando o comodatário ou arrendatário não devolve o imóvel após o término do cont"
+  - "Quando há invasão por movimento organizado (MST, ocupação urbana) ou por particu"
+  - "Para o locador cujo locatário reteve o imóvel após rescisão por abandono e invas"
 ---
 
 # Reintegração de Posse (Imobiliário)
@@ -97,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Art. 565 CPC verificado (área urbana com mais de 250 famílias exige audiência de mediação)?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Possuidor):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
