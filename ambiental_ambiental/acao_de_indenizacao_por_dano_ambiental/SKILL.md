@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/acao_de_indenizacao_por_dano_ambiental
 description: >
-  Gera petição inicial completa de ação de indenização por dano ambiental (individual ou coletiva), com base na responsabilidade objetiva do art. 14, §1º, da Lei 6.938/81, combinada com os arts. 186, 927 e 944 do Código Civil e o art. 225 da CF/88, pleiteando reparação in natura, compensação ecológica
+  Gera petição inicial completa de ação de indenização por dano ambiental (individual ou coletiva), com base na responsabilidade objetiva do art. 14, §1º, da Lei 6.938/81, combinada com os arts. 186, 927 e 944 do Código Civil e o art. 225 da CF/88, pleiteando reparação in natura, c
 triggers:
-  - "Para propor ação indenizatória por dano ambiental individual (rural, imobiliário, saúde)"
+  - "Para propor ação indenizatória por dano ambiental individual (rural, imobiliário"
   - "Para vizinhos e comunidades afetadas por poluição, contaminação ou desmatamento"
-  - "Para reparação de danos decorrentes de rompimento de barragem, vazamento de óleo, queimadas"
-  - "Para cobrar indenização por danos à propriedade rural causados por atividade poluidora do vizinho"
+  - "Para reparação de danos decorrentes de rompimento de barragem, vazamento de óleo"
+  - "Para cobrar indenização por danos à propriedade rural causados por atividade pol"
   - "Para pleitear compensação ambiental e recuperação de área degradada"
-  - "Para MPE, associações e entes públicos que queiram indenização ambiental via ACP"
 ---
 
 # Ação de Indenização por Dano Ambiental
@@ -119,11 +118,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Perícia ambiental requerida?
 - [ ] Fundamentação com artigos reais da Lei 6.938/81 e CC?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Vara pretendida: [vara ambiental / vara cível / JEC]
 - Comarca: [cidade/UF]
