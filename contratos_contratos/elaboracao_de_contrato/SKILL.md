@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/elaboracao_de_contrato
 description: >
-  Elabora contratos completos e personalizados para qualquer tipo de relacao contratual, com clausulas fundamentadas nos arts. 421-480 do Codigo Civil (contratos em geral), legislacao especifica do tipo contratual (arts. 593-609 para prestacao de servicos, arts. 481-504 para compra e venda, etc.), CDC
+  Elabora contratos completos e personalizados para qualquer tipo de relacao contratual, com clausulas fundamentadas nos arts. 421-480 do Codigo Civil (contratos em geral), legislacao especifica do tipo contratual (arts. 593-609 para prestacao de servicos, arts. 481-504 para compra
 triggers:
   - "Ao formalizar uma relacao comercial entre duas ou mais partes"
-  - "Para redigir contratos de prestacao de servicos, fornecimento, licenciamento de software, parceria empresarial, consultoria, franquia, locacao, comodato, empreitada"
+  - "Para redigir contratos de prestacao de servicos, fornecimento, licenciamento de "
   - "Quando o cliente precisa de um contrato personalizado (nao modelo generico)"
   - "Para padronizar minutas do escritorio com fundamentacao juridica solida"
-  - "Quando e necessario incluir clausulas LGPD (controlador/operador) ou CDC (relacao de consumo)"
-  - "Para contratos atipicos ou mistos que exigem construcao clausula a clausula"
+  - "Quando e necessario incluir clausulas LGPD (controlador/operador) ou CDC (relaca"
 ---
 
 # Elaboracao de Contrato
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -145,6 +144,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] O contrato atende aos principios de boa-fe (art. 422 CC) e funcao social (art. 421 CC)?
 - [ ] Duas testemunhas previstas (titulo executivo extrajudicial)?
 - [ ] Pontos que exigem atencao especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
