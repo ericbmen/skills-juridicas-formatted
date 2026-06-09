@@ -1,13 +1,13 @@
 ---
 name: ambiental_ambiental/acao_de_regularizacao_de_reserva_legal_car
 description: >
-  Gera petição e orientação completa para regularização de Reserva Legal perante o órgão ambiental competente via Cadastro Ambiental Rural (CAR), incluindo requerimento de inscrição/retificação no SICAR, pedido de Programa de Regularização Ambiental (PRA) e, se necessário, impugnação de exigências adm
+  Gera petição e orientação completa para regularização de Reserva Legal perante o órgão ambiental competente via Cadastro Ambiental Rural (CAR), incluindo requerimento de inscrição/retificação no SICAR, pedido de Programa de Regularização Ambiental (PRA) e, se necessário, impugnaç
 triggers:
   - "Propriedade rural com Reserva Legal não averbada ou com CAR pendente de análise"
-  - "Imóvel com déficit de Reserva Legal que necessita aderir ao PRA (art. 59, Lei 12.651/2012)"
+  - "Imóvel com déficit de Reserva Legal que necessita aderir ao PRA (art. 59, Lei 12"
   - "Retificação de dados incorretos no CAR (área, coordenadas, tipo de vegetação)"
   - "Impugnação de cancelamento ou bloqueio indevido do CAR pelo órgão estadual"
-  - "Regularização fundiária ou ambiental para fins de acesso a crédito rural ou comercialização"
+  - "Regularização fundiária ou ambiental para fins de acesso a crédito rural ou come"
 ---
 
 # Ação de Regularização de Reserva Legal (CAR)
@@ -90,11 +90,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentação técnica necessária listada (georreferenciamento, ART, shapefile)?
 - [ ] Legislação estadual identificada [VERIFICAR se necessário]?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **IMÓVEL RURAL:**
 - Nome da propriedade: [nome]
 - Município/UF: [nome/UF]
