@@ -1,14 +1,13 @@
 ---
 name: familia_familia/regulamentacao_de_visitas
 description: >
-  Gera petição de ação de regulamentação do direito de convivência (visitas) completa — para genitores, avós ou outros parentes — com regime detalhado de convivência (dias, horários, férias, feriados, datas comemorativas), fundamentada no art. 1.589 do CC, ECA e CF/88, priorizando o melhor interesse d
+  Gera petição de ação de regulamentação do direito de convivência (visitas) completa — para genitores, avós ou outros parentes — com regime detalhado de convivência (dias, horários, férias, feriados, datas comemorativas), fundamentada no art. 1.589 do CC, ECA e CF/88, priorizando 
 triggers:
   - "Regulamentação inicial de visitas (genitor não-guardião sem regime definido)"
   - "Ampliação do regime de visitas existente (incluir pernoites, férias, feriados)"
   - "Restrição de visitas por risco ao menor (supervisão, ambiente terapêutico)"
-  - "Regulamentação de visitas para avós (art. 1.589, parágrafo único, CC — Lei 12.398/2011)"
+  - "Regulamentação de visitas para avós (art. 1.589, parágrafo único, CC — Lei 12.39"
   - "Visitas para outros parentes ou padrastos/madrastas com vínculo afetivo"
-  - "Visitas em contexto de alienação parental (Lei 12.318/2010)"
 ---
 
 # Regulamentação de Visitas
@@ -146,11 +145,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Tutela de urgência fundamentada (se requerida)?
 - [ ] Valor da causa compatível?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONTEXTO:**
 - Existe ação de guarda/divórcio prévia? [sim/não — nº do processo]
 - Guarda atual: [compartilhada | unilateral — com quem?]
