@@ -116,11 +116,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da causa compatível?
 - [ ] Se consensual: acordo assinado por ambos + advogado(s)?
 - [ ] Pontos de atenção para o advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE DIVÓRCIO:**
 - Modalidade: [consensual | litigioso]
 - Casamento civil realizado em: [dd/mm/aaaa]
