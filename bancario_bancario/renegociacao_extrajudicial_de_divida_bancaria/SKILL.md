@@ -1,11 +1,11 @@
 ---
 name: bancario_bancario/renegociacao_extrajudicial_de_divida_bancaria
 description: >
-  Gera carta de proposta de renegociação extrajudicial de dívida bancária, com análise da situação financeira do cliente, proposta de pagamento viável, fundamentação legal para desconto e argumentação estratégica para maximizar as concessões do banco (desconto de juros, parcelamento, carência).
+  Gera carta de proposta de renegociação extrajudicial de dívida bancária, com análise da situação financeira do cliente, proposta de pagamento viável, fundamentação legal para desconto e argumentação estratégica para maximizar as concessões do banco (desconto de juros, parcelament
 triggers:
-  - "Quando o cliente está inadimplente e quer regularizar a situação sem ação judicial"
-  - "Para formalizar proposta de acordo antes de ação de busca e apreensão ou execução"
-  - "Quando o banco está cobrando dívida com encargos abusivos e o cliente quer negociar o real"
+  - "Quando o cliente está inadimplente e quer regularizar a situação sem ação judici"
+  - "Para formalizar proposta de acordo antes de ação de busca e apreensão ou execuçã"
+  - "Quando o banco está cobrando dívida com encargos abusivos e o cliente quer negoc"
   - "Para propor reparcelamento de dívida antes que haja negativação"
   - "Como alternativa ao processo judicial quando o acordo é mais eficiente"
 ---
@@ -100,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A carta será enviada com prova de recebimento (email AR, carta registrada)?
 - [ ] Cópia da carta arquivada para eventual uso processual futuro?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
