@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/acao_revisional_de_aluguel
 description: >
-  Gera petição inicial de ação revisional de aluguel, tanto para o locador que busca o aumento do aluguel defasado quanto para o locatário que busca a redução de aluguel acima do mercado. Fundamentada no art. 19 da Lei 8.245/91, permite a revisão judicial do valor quando o aluguel está incompatível co
+  Gera petição inicial de ação revisional de aluguel, tanto para o locador que busca o aumento do aluguel defasado quanto para o locatário que busca a redução de aluguel acima do mercado. Fundamentada no art. 19 da Lei 8.245/91, permite a revisão judicial do valor quando o aluguel 
 triggers:
-  - "Quando o aluguel está muito abaixo do mercado e o locador quer reequilibrar (revisão para cima)"
-  - "Quando o aluguel está acima do mercado e o locatário quer reduzir (revisão para baixo)"
-  - "Quando se passaram 3 anos do contrato ou da última revisão judicial e há defasagem significativa"
+  - "Quando o aluguel está muito abaixo do mercado e o locador quer reequilibrar (rev"
+  - "Quando o aluguel está acima do mercado e o locatário quer reduzir (revisão para "
+  - "Quando se passaram 3 anos do contrato ou da última revisão judicial e há defasag"
   - "Quando o locador tentou negociação extrajudicial e o locatário recusou"
   - "Quando o locatário tentou negociação e o locador recusou proposta razoável"
-  - "Para locações comerciais e residenciais (procedimento é o mesmo, variando apenas o contexto)"
 ---
 
 # Ação Revisional de Aluguel
@@ -96,11 +95,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da causa calculado em 12 meses (art. 58, II)?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR:**
 - Nome completo / razão social: [nome]
 - CPF/CNPJ: [número]
