@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/nda_acordo_de_confidencialidade
 description: >
-  Elabora acordos de confidencialidade (NDA) completos e personalizados, unilaterais ou bilaterais, com fundamentacao nos arts. 421-422 do Codigo Civil (funcao social e boa-fe objetiva), art. 195 da Lei 9.279/1996 (concorrencia desleal por violacao de segredo industrial) e art. 39 da LGPD (sigilo de d
+  Elabora acordos de confidencialidade (NDA) completos e personalizados, unilaterais ou bilaterais, com fundamentacao nos arts. 421-422 do Codigo Civil (funcao social e boa-fe objetiva), art. 195 da Lei 9.279/1996 (concorrencia desleal por violacao de segredo industrial) e art. 39 
 triggers:
   - "Antes de negociacoes comerciais, parcerias ou M&A"
   - "Para proteger segredos industriais, know-how, formulas, processos ou algoritmos"
   - "Quando compartilhar dados financeiros, estrategicos ou de clientes com terceiros"
-  - "Em contratos com colaboradores, prestadores e fornecedores com acesso a informacoes sensiveis"
-  - "Para proteger projetos de software, produtos em desenvolvimento ou planos de negocios"
-  - "Em due diligences e avaliacoes de empresas"
+  - "Em contratos com colaboradores, prestadores e fornecedores com acesso a informac"
+  - "Para proteger projetos de software, produtos em desenvolvimento ou planos de neg"
 ---
 
 # NDA — Acordo de Confidencialidade
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -102,6 +101,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Clausula LGPD incluida se ha dados pessoais envolvidos?
 - [ ] Foro eleito e competente?
 - [ ] Duas testemunhas previstas para titulo executivo extrajudicial?
+
+---
 </framework>
 
 <dicas>
