@@ -1,11 +1,11 @@
 ---
 name: agrario_agrario/reintegracao_de_posse_rural
 description: >
-  Gera petição inicial de reintegração de posse de imóvel rural, com fundamento no Código de Processo Civil (arts. 554-568) e no Código Civil (arts. 1.196-1.210), para recuperar a posse de área esbulhada por terceiros, incluindo requerimento de liminar inaudita altera parte quando presentes os requisi
+  Gera petição inicial de reintegração de posse de imóvel rural, com fundamento no Código de Processo Civil (arts. 554-568) e no Código Civil (arts. 1.196-1.210), para recuperar a posse de área esbulhada por terceiros, incluindo requerimento de liminar inaudita altera parte quando 
 triggers:
-  - "Proprietário ou possuidor que teve o imóvel rural invadido ou ocupado por terceiros"
-  - "Esbulho possessório por movimentos de ocupação, antigos arrendatários, ex-empregados ou vizinhos"
-  - "Necessidade de liminar para retomada imediata da posse (esbulho recente — até 1 ano e 1 dia)"
+  - "Proprietário ou possuidor que teve o imóvel rural invadido ou ocupado por tercei"
+  - "Esbulho possessório por movimentos de ocupação, antigos arrendatários, ex-empreg"
+  - "Necessidade de liminar para retomada imediata da posse (esbulho recente — até 1 "
   - "Situação em que há turbação grave ou ameaça de invasão iminente"
   - "Reintegração após rescisão de arrendamento ou parceria não cumprida"
 ---
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] B.O. e fotos referenciados como prova?
 - [ ] Valor da causa correto?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (POSSUIDOR/PROPRIETÁRIO):**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
