@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/contrato_de_representacao_comercial
 description: >
-  Elabora contratos de representacao comercial completos, fundamentados na Lei 4.886/1965 (com alteracoes da Lei 8.420/1992) e nos arts. 710-721 do Codigo Civil, que regem especificamente a atividade de agenciamento comercial autonomo. Aplica o framework P.A.C.E.F para estruturar territorio, exclusivi
+  Elabora contratos de representacao comercial completos, fundamentados na Lei 4.886/1965 (com alteracoes da Lei 8.420/1992) e nos arts. 710-721 do Codigo Civil, que regem especificamente a atividade de agenciamento comercial autonomo. Aplica o framework P.A.C.E.F para estruturar t
 triggers:
-  - "Para contratar representantes comerciais autonomos (pessoas fisicas ou juridicas)"
+  - "Para contratar representantes comerciais autonomos (pessoas fisicas ou juridicas"
   - "Quando o representante ira agenciar propostas e pedidos em nome do representado"
   - "Para definir territorio, exclusividade e percentual de comissao"
   - "Sempre que houver agenciamento habitual de negocios por conta de terceiros"
   - "Para formalizar relacoes com distribuidores ou agentes com poderes limitados"
-  - "Para evitar confusao com relacao de emprego ou contrato de distribuicao"
 ---
 
 # Contrato de Representacao Comercial
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -95,6 +94,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Ha clausula de autonomia para afastar vinculo empregaticio?
 - [ ] O representante possui registro profissional (se exigido)?
 - [ ] Duas testemunhas previstas para titulo executivo extrajudicial?
+
+---
 </framework>
 
 <dicas>
