@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/contrato_de_agenciamento_desportivo
 description: >
-  Gera contrato de agenciamento desportivo entre atleta profissional e agente (representante) com cláusulas sobre escopo da representação, comissão, exclusividade, duração, obrigações de ambas as partes, confidencialidade, rescisão e foro, em conformidade com a Lei Pelé (Lei 9.615/1998), o Regulamento
+  Gera contrato de agenciamento desportivo entre atleta profissional e agente (representante) com cláusulas sobre escopo da representação, comissão, exclusividade, duração, obrigações de ambas as partes, confidencialidade, rescisão e foro, em conformidade com a Lei Pelé (Lei 9.615/
 triggers:
-  - "Atleta que deseja contratar um agente para representá-lo em negociações com clubes nacionais e internacionais"
-  - "Agente que precisa formalizar a representação de um atleta com cláusulas protetivas para ambas as partes"
-  - "Renovação ou revisão de contrato de agenciamento com ajuste de comissão, escopo ou exclusividade"
-  - "Atleta de categoria de base atingindo a maioridade e formalizando a relação com o agente"
-  - "Agente que representa múltiplos atletas e precisa de modelo padronizado conforme as novas regras FIFA 2023"
+  - "Atleta que deseja contratar um agente para representá-lo em negociações com club"
+  - "Agente que precisa formalizar a representação de um atleta com cláusulas proteti"
+  - "Renovação ou revisão de contrato de agenciamento com ajuste de comissão, escopo "
+  - "Atleta de categoria de base atingindo a maioridade e formalizando a relação com "
+  - "Agente que representa múltiplos atletas e precisa de modelo padronizado conforme"
 ---
 
 # Contrato de Agenciamento Desportivo
@@ -99,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Comissão residual após rescisão regulada?
 - [ ] Atleta menor de 18 anos? (regras especiais aplicáveis)
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA:**
 - Nome completo: [nome]
 - CPF: [número]
