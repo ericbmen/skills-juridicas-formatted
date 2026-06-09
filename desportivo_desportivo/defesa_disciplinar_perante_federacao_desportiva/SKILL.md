@@ -1,9 +1,9 @@
 ---
 name: desportivo_desportivo/defesa_disciplinar_perante_federacao_desportiva
 description: >
-  Gera defesa prévia e alegações finais em processo disciplinar perante tribunal de justiça desportiva (TJD) estadual ou nacional, com fundamento no Código Brasileiro de Justiça Desportiva (CBJD — Resolução CNE nº 29/2009), impugnando a imputação disciplinar, apresentando excludentes e requerendo abso
+  Gera defesa prévia e alegações finais em processo disciplinar perante tribunal de justiça desportiva (TJD) estadual ou nacional, com fundamento no Código Brasileiro de Justiça Desportiva (CBJD — Resolução CNE nº 29/2009), impugnando a imputação disciplinar, apresentando excludent
 triggers:
-  - "Atleta, técnico, dirigente ou clube denunciado em processo disciplinar desportivo"
+  - "Atleta, técnico, dirigente ou clube denunciado em processo disciplinar desportiv"
   - "Recebimento de denúncia pelo Ministério Público Desportivo perante o TJD"
   - "Necessidade de apresentar defesa prévia dentro do prazo fixado pelo TJD"
   - "Apresentação de alegações finais após a fase de instrução"
@@ -101,11 +101,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Atenuantes listadas?
 - [ ] Provas requeridas incluídas no pedido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO DESPORTIVO:**
 - Número do processo: [número]
 - Modalidade esportiva: [ex: futebol, basquete, handebol]
