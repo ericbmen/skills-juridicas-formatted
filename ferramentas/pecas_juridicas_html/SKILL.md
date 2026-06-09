@@ -1,7 +1,7 @@
 ---
 name: ferramentas/pecas_juridicas_html
 description: >
-  
+  Peça jurídica especializada.
 triggers:
   - "Quando precisar elaborar esta peça jurídica"
 ---
@@ -11,13 +11,10 @@ triggers:
 <area>ferramentas</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
-
+Peça jurídica especializada.
 </descricao>
 
-<quando_usar>
-
-</quando_usar>
