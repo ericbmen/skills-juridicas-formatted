@@ -1,12 +1,12 @@
 ---
 name: civel_civel/peticao_inicial_civel
 description: >
-  Gera uma petição inicial cível completa e fundamentada para ações de cobrança, indenização por danos materiais e morais, obrigação de fazer/não fazer e demais procedimentos comuns, seguindo rigorosamente os requisitos dos arts. 319 a 321 do CPC/2015, com qualificação das partes, causa de pedir, pedi
+  Gera uma petição inicial cível completa e fundamentada para ações de cobrança, indenização por danos materiais e morais, obrigação de fazer/não fazer e demais procedimentos comuns, seguindo rigorosamente os requisitos dos arts. 319 a 321 do CPC/2015, com qualificação das partes, 
 triggers:
-  - "Ao ajuizar ação cível pelo procedimento comum (cobrança, indenização, obrigação de fazer)"
+  - "Ao ajuizar ação cível pelo procedimento comum (cobrança, indenização, obrigação "
   - "Para montar a estrutura inicial da peça com todos os requisitos legais"
   - "Para verificar se algum requisito do art. 319 do CPC está faltando"
-  - "Como base para peças mais complexas (responsabilidade civil, vícios do produto, danos morais)"
+  - "Como base para peças mais complexas (responsabilidade civil, vícios do produto, "
   - "Para padronizar o formato das petições iniciais do escritório"
 ---
 
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Tutela provisória fundamentada (se requerida)?
 - [ ] Documentos essenciais indicados para juntada (art. 320, CPC)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR(A):**
 - Nome completo: [nome]
 - Nacionalidade: [brasileira(o)]
