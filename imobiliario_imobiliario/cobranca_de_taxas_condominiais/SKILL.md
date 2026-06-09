@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/cobranca_de_taxas_condominiais
 description: >
-  Gera petição inicial de ação de cobrança de taxas condominiais em atraso, tanto pelo rito de execução de título extrajudicial (quando há convenção ou ata de assembleia que preveja a contribuição) quanto pelo rito de cobrança ordinária. Abrange a cobrança de cotas de condomínio edilício (apartamentos
+  Gera petição inicial de ação de cobrança de taxas condominiais em atraso, tanto pelo rito de execução de título extrajudicial (quando há convenção ou ata de assembleia que preveja a contribuição) quanto pelo rito de cobrança ordinária. Abrange a cobrança de cotas de condomínio ed
 triggers:
   - "Quando condômino está inadimplente com cotas mensais de condomínio"
   - "Para cobrar taxas extras aprovadas em assembleia e não pagas"
-  - "Quando o condômino inadimplente é o locatário (responsabilidade solidária do locador)"
-  - "Para cobrar o adquirente do imóvel pelas cotas em atraso (propter rem — art. 1.345 CC)"
+  - "Quando o condômino inadimplente é o locatário (responsabilidade solidária do loc"
+  - "Para cobrar o adquirente do imóvel pelas cotas em atraso (propter rem — art. 1.3"
   - "Quando as notificações extrajudiciais não surtiram efeito"
-  - "Para executar boleto de condomínio como título executivo (Súmula 410 STJ — [VERIFICAR])"
 ---
 
 # Cobrança de Taxas Condominiais
@@ -106,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prescrição verificada?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Condomínio):**
 - Nome do condomínio: [nome]
 - CNPJ: [número]
