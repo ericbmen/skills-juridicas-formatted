@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/recurso_de_auto_de_infracao_administrativo
 description: >
-  Gera um recurso administrativo completo contra auto de infração lavrado por órgão regulador ou fiscalizatório (PROCON, ANVISA, ANATEL, Vigilância Sanitária, IBAMA, órgãos estaduais e municipais de fiscalização), com fundamentação técnica e jurídica, impugnando a multa ou penalidade aplicada e requer
+  Gera um recurso administrativo completo contra auto de infração lavrado por órgão regulador ou fiscalizatório (PROCON, ANVISA, ANATEL, Vigilância Sanitária, IBAMA, órgãos estaduais e municipais de fiscalização), com fundamentação técnica e jurídica, impugnando a multa ou penalida
 triggers:
   - "Contra auto de infração da Vigilância Sanitária (ANVISA ou estadual/municipal)"
   - "Contra autuação do PROCON por prática considerada abusiva contra o consumidor"
   - "Contra infração lavrada por órgão ambiental (IBAMA, FATMA, etc.)"
-  - "Contra auto de infração de órgão municipal de fiscalização (posturas, obras, CMVV)"
+  - "Contra auto de infração de órgão municipal de fiscalização (posturas, obras, CMV"
   - "Contra autuação da ANATEL, ANAC, ANEEL ou outra agência reguladora"
-  - "Quando a infração descrita não corresponde à conduta efetivamente praticada"
 ---
 
 # Recurso de Auto de Infração Administrativo
@@ -97,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido subsidiário de redução foi incluído?
 - [ ] Não há menção a normas inventadas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTO DE INFRAÇÃO:**
 - Número do auto: [número]
 - Órgão autuador: [ex: PROCON/SC, ANVISA, Vigilância Sanitária de Blumenau]
