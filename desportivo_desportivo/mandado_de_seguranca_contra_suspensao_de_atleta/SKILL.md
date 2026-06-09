@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/mandado_de_seguranca_contra_suspensao_de_atleta
 description: >
-  Gera petição de mandado de segurança (ou, alternativamente, medida cautelar inominada) impetrado perante o Tribunal de Justiça Desportiva (TJD) ou perante a Justiça Comum para suspender os efeitos de punição disciplinar aplicada ao atleta profissional por federação ou tribunal desportivo, em razão d
+  Gera petição de mandado de segurança (ou, alternativamente, medida cautelar inominada) impetrado perante o Tribunal de Justiça Desportiva (TJD) ou perante a Justiça Comum para suspender os efeitos de punição disciplinar aplicada ao atleta profissional por federação ou tribunal de
 triggers:
-  - "Atleta suspenso sem processo disciplinar prévio ou sem notificação adequada para se defender"
-  - "Punição aplicada com base em regulamento que não estava vigente à época dos fatos"
-  - "Suspensão desproporcional ao fato praticado, violando o princípio da proporcionalidade"
+  - "Atleta suspenso sem processo disciplinar prévio ou sem notificação adequada para"
+  - "Punição aplicada com base em regulamento que não estava vigente à época dos fato"
+  - "Suspensão desproporcional ao fato praticado, violando o princípio da proporciona"
   - "Decisão proferida por órgão desportivo sem competência para tanto"
-  - "Atleta impedido de atuar em competições enquanto ainda existe recurso pendente de julgamento"
+  - "Atleta impedido de atuar em competições enquanto ainda existe recurso pendente d"
 ---
 
 # Mandado de Segurança contra Suspensão de Atleta
@@ -108,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Direito líquido e certo demonstrado por documentos?
 - [ ] Calendário de competições juntado para comprovar o periculum?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA (IMPETRANTE):**
 - Nome completo: [nome]
 - CPF: [número]
