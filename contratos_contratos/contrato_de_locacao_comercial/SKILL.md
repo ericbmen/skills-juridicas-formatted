@@ -3,11 +3,11 @@ name: contratos_contratos/contrato_de_locacao_comercial
 description: >
   Elabora contrato de locação comercial completo, com todas as cláusulas essenciais e protetoras para locador e locatário — prazo, reajuste, destinação, benfeitorias, garantia locatícia, renovatória, retomada — fundamentado na Lei do Inquilinato (Lei 8.245/91).
 triggers:
-  - "Locação de sala, loja, galpão, conjunto, andar ou imóvel para fins não residenciais"
+  - "Locação de sala, loja, galpão, conjunto, andar ou imóvel para fins não residenci"
   - "Locação de espaço em shopping center (regime especial da Lei 8.245/91)"
-  - "Renovação de contrato de locação comercial (ação renovatória — art. 51, Lei 8.245/91)"
+  - "Renovação de contrato de locação comercial (ação renovatória — art. 51, Lei 8.24"
   - "Quando o locatário é pessoa jurídica ou usa o imóvel para atividade empresarial"
-  - "Para locações com prazo superior a 10 anos (que exigem outorga uxória ou autorização judicial)"
+  - "Para locações com prazo superior a 10 anos (que exigem outorga uxória ou autoriz"
 ---
 
 # Contrato de Locação Comercial
@@ -89,11 +89,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Direito à renovação compulsória analisado?
 - [ ] Sublocação e cessão tratadas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **LOCADOR:**
 - Nome/Razão social: [nome]
 - CPF/CNPJ: [número]
