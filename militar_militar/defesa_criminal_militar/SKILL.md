@@ -1,10 +1,10 @@
 ---
 name: militar_militar/defesa_criminal_militar
 description: >
-  Gera resposta à acusação e alegações finais em processo criminal militar perante a Justiça Militar (federal ou estadual), com fundamento no Código Penal Militar (Decreto-Lei 1.001/1969), no Código de Processo Penal Militar (Decreto-Lei 1.002/1969) e na CF/88, impugnando a tipificação do crime milita
+  Gera resposta à acusação e alegações finais em processo criminal militar perante a Justiça Militar (federal ou estadual), com fundamento no Código Penal Militar (Decreto-Lei 1.001/1969), no Código de Processo Penal Militar (Decreto-Lei 1.002/1969) e na CF/88, impugnando a tipific
 triggers:
   - "Militar (ativo, reserva ou reformado) denunciado perante a Justiça Militar"
-  - "Crime militar próprio (praticado por militar contra militar em local de serviço) ou impróprio (crime comum praticado em contexto militar)"
+  - "Crime militar próprio (praticado por militar contra militar em local de serviço)"
   - "Necessidade de resposta à acusação no prazo de 10 dias (CPPM, art. 406)"
   - "Alegações finais após instrução criminal militar"
   - "Questão prévia de incompetência da Justiça Militar (crime não é militar)"
@@ -104,11 +104,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Sursis possível (pena inferior a 2 anos — CPM, art. 84)?
 - [ ] Incompetência arguida se crime não for militar?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número do processo: [número]
 - Órgão julgador: [ex: 1ª Auditoria da 3ª CJM — Justiça Militar Federal; Vara da Auditoria Militar — SC]
