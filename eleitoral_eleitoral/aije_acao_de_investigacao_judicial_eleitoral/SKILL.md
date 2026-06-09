@@ -3,11 +3,11 @@ name: eleitoral_eleitoral/aije_acao_de_investigacao_judicial_eleitoral
 description: >
   Gera petição inicial de Ação de Investigação Judicial Eleitoral (AIJE) prevista no art. 22 da Lei Complementar 64/1990, para apurar abuso do poder econômico ou político durante a campanha eleitoral, com pedido de cassação do registro ou diploma e inelegibilidade de 8 anos.
 triggers:
-  - "Para investigar abuso do poder econômico (gastos irregulares, compra de votos em massa)"
+  - "Para investigar abuso do poder econômico (gastos irregulares, compra de votos em"
   - "Quando há uso indevido da máquina pública em benefício de candidato"
-  - "Para apurar abuso do poder político (pressão sobre servidores, uso de cargo para benefício eleitoral)"
+  - "Para apurar abuso do poder político (pressão sobre servidores, uso de cargo para"
   - "Quando a conduta ocorreu durante o período eleitoral e antes da diplomação"
-  - "Para buscar a inelegibilidade de 8 anos do investigado, além da cassação do registro"
+  - "Para buscar a inelegibilidade de 8 anos do investigado, além da cassação do regi"
 ---
 
 # AIJE — Ação de Investigação Judicial Eleitoral
@@ -110,11 +110,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedidos de cassação e inelegibilidade distintos e fundamentados?
 - [ ] Diligências investigativas requeridas (quebra de sigilo, etc.)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR:**
 - Nome/partido: [nome ou sigla do partido]
 - Qualidade: [candidato / partido político / Ministério Público Eleitoral]
