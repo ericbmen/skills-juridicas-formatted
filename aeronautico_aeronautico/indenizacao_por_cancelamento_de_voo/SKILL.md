@@ -1,7 +1,7 @@
 ---
 name: aeronautico_aeronautico/indenizacao_por_cancelamento_de_voo
 description: >
-  Gera petição inicial para ação indenizatória por cancelamento de voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais (reacomodação, hospedagem, alimentação) e morais, com opç
+  Gera petição inicial para ação indenizatória por cancelamento de voo, com fundamento no Código de Defesa do Consumidor (Lei 8.078/1990), na Resolução ANAC n. 400/2016 e na Convenção de Montreal (Decreto 5.910/2006), pleiteando danos materiais (reacomodação, hospedagem, alimentaçã
 triggers:
   - "Voo cancelado pela companhia aérea sem alternativas adequadas oferecidas"
   - "Cancelamento comunicado com menos de 72 horas de antecedência"
@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo prescricional verificado?
 - [ ] Foro correto (JECível x Vara Cível) escolhido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: LA3045]
