@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/acao_de_usucapiao
 description: >
-  Gera uma petição inicial de usucapião completa e fundamentada, identificando a modalidade aplicável (extraordinária, ordinária, especial urbana, especial rural ou coletiva), com narrativa fática detalhada, fundamentação nos arts. 1.238-1.244 do CC e art. 1.071 do CPC (arts. 216-A da Lei 6.015/73 par
+  Gera uma petição inicial de usucapião completa e fundamentada, identificando a modalidade aplicável (extraordinária, ordinária, especial urbana, especial rural ou coletiva), com narrativa fática detalhada, fundamentação nos arts. 1.238-1.244 do CC e art. 1.071 do CPC (arts. 216-A
 triggers:
   - "Para ajuizar ação de usucapião judicial de imóvel urbano ou rural"
-  - "Para requerer usucapião extrajudicial perante o Cartório de Registro de Imóveis (art. 216-A Lei 6.015/73)"
+  - "Para requerer usucapião extrajudicial perante o Cartório de Registro de Imóveis "
   - "Quando o cliente possui imóvel há anos sem escritura ou matrícula regular"
   - "Para regularizar posse de imóvel adquirido por contrato de gaveta sem registro"
   - "Em casos de posse mansa, pacífica e contínua que preenchem os requisitos legais"
-  - "Para usucapião especial urbana (até 250m²) ou rural (até 50ha) com função social"
 ---
 
 # Ação de Usucapião
@@ -122,11 +121,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Certidões negativas do imóvel e do autor foram listadas?
 - [ ] Valor da causa corresponde ao valor venal do imóvel?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VIA PRETENDIDA:**
 - [ ] Usucapião Judicial
 - [ ] Usucapião Extrajudicial (art. 216-A Lei 6.015/73)
