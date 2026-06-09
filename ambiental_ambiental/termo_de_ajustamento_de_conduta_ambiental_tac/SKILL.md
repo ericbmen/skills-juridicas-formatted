@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/termo_de_ajustamento_de_conduta_ambiental_tac
 description: >
-  Gera minuta de Termo de Ajustamento de Conduta (TAC) ambiental, instrumento extrajudicial firmado entre o infrator e o órgão ambiental ou Ministério Público para regularização de danos e adequação à legislação, com base no art. 79-A da Lei 9.605/98 e na Lei 7.347/85 (art. 5º, §6º).
+  Gera minuta de Termo de Ajustamento de Conduta (TAC) ambiental, instrumento extrajudicial firmado entre o infrator e o órgão ambiental ou Ministério Público para regularização de danos e adequação à legislação, com base no art. 79-A da Lei 9.605/98 e na Lei 7.347/85 (art. 5º, §6º
 triggers:
   - "Para regularizar passivos ambientais antes ou durante ação civil pública"
   - "Para negociar a reparação de dano ambiental com o MP ou órgão ambiental"
   - "Como alternativa à judicialização de conflitos ambientais"
   - "Para converter auto de infração em compromisso de regularização"
   - "Quando o cliente quer antecipar a conformidade e evitar sanções mais graves"
-  - "Para suspender ação civil pública ambiental já em curso (art. 5º, §6º, Lei 7.347/85)"
 ---
 
 # Termo de Ajustamento de Conduta Ambiental (TAC)
@@ -109,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] O mecanismo de monitoramento está definido?
 - [ ] Fundamentação com artigos reais da Lei 9.605/98 e Lei 7.347/85?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **IDENTIFICAÇÃO DO TAC:**
 - Origem: [auto de infração / ACP em curso / TAC preventivo]
 - Número do processo (se houver): [número]
