@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/regularizacao_fundiaria_reurb
 description: >
-  Gera requerimento de Regularização Fundiária Urbana (REURB) ao Município ou petição para regularização de assentamento informal, seguindo o procedimento da Lei 13.465/17 e do Decreto 9.310/18. Abrange a REURB-S (interesse social — baixa renda) e a REURB-E (interesse específico — outros casos), desde
+  Gera requerimento de Regularização Fundiária Urbana (REURB) ao Município ou petição para regularização de assentamento informal, seguindo o procedimento da Lei 13.465/17 e do Decreto 9.310/18. Abrange a REURB-S (interesse social — baixa renda) e a REURB-E (interesse específico — 
 triggers:
-  - "Para regularizar ocupações urbanas informais, favelas, loteamentos clandestinos ou irregulares"
-  - "Quando moradores de assentamento antigo querem título de propriedade da área que ocupam"
-  - "Para regularizar loteamentos aprovados mas não implantados conforme o projeto ou sem registro"
-  - "Para a prefeitura que deseja iniciar processo de REURB de ofício em área de ocupação consolidada"
+  - "Para regularizar ocupações urbanas informais, favelas, loteamentos clandestinos "
+  - "Quando moradores de assentamento antigo querem título de propriedade da área que"
+  - "Para regularizar loteamentos aprovados mas não implantados conforme o projeto ou"
+  - "Para a prefeitura que deseja iniciar processo de REURB de ofício em área de ocup"
   - "Para associação de moradores que representa ocupantes de núcleo urbano informal"
-  - "Quando há litígio sobre a área e a REURB é parte da solução para regularizar a posse"
 ---
 
 # Regularização Fundiária (REURB)
@@ -100,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Gratuidade de emolumentos verificada (REURB-S — art. 44)?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **REQUERENTE:**
 - Nome completo / razão social: [nome]
 - CPF/CNPJ: [número]
