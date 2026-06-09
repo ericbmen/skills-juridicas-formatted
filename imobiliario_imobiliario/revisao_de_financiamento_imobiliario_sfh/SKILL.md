@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/revisao_de_financiamento_imobiliario_sfh
 description: >
-  Gera petição inicial de ação revisional de financiamento imobiliário pelo Sistema Financeiro de Habitação (SFH), para discutir cláusulas abusivas, capitalização indevida de juros, índice de reajuste ilegal, cobranças indevidas e saldo devedor maior do que o esperado. Também abrange financiamentos pe
+  Gera petição inicial de ação revisional de financiamento imobiliário pelo Sistema Financeiro de Habitação (SFH), para discutir cláusulas abusivas, capitalização indevida de juros, índice de reajuste ilegal, cobranças indevidas e saldo devedor maior do que o esperado. Também abran
 triggers:
-  - "Quando o saldo devedor do financiamento cresceu ou não diminuiu após anos de pagamento das prestações"
-  - "Quando o índice de reajuste das prestações é diferente (maior) do índice de atualização do saldo devedor, criando desequilíbrio"
-  - "Para discutir a capitalização mensal de juros em contratos que não prevejam expressamente (juros sobre juros)"
-  - "Quando há cobrança de seguros (MIP e DFI) acima do mercado, sem possibilidade de escolha pelo mutuário"
+  - "Quando o saldo devedor do financiamento cresceu ou não diminuiu após anos de pag"
+  - "Quando o índice de reajuste das prestações é diferente (maior) do índice de atua"
+  - "Para discutir a capitalização mensal de juros em contratos que não prevejam expr"
+  - "Quando há cobrança de seguros (MIP e DFI) acima do mercado, sem possibilidade de"
   - "Para questionar o Coeficiente de Equiparação Salarial (CES) aplicado ilegalmente"
-  - "Quando a prestação foi calculada de forma a não amortizar o saldo devedor adequadamente"
 ---
 
 # Revisão de Financiamento Imobiliário (SFH)
@@ -101,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência (federal ou estadual) verificada?
 - [ ] Não há súmulas ou artigos inexistentes ou desatualizados citados sem ressalva?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Mutuário):**
 - Nome completo: [nome]
 - CPF: [número]
