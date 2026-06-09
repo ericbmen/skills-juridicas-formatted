@@ -1,14 +1,13 @@
 ---
 name: consumidor_consumidor/notificacao_extrajudicial_consumerista
 description: >
-  Redige notificação extrajudicial completa em relações de consumo, com identificação das partes, exposição dos fatos, fundamentação no CDC (Lei 8.078/90) e legislação correlata, constituição em mora, prazo para resposta e advertência de providências judiciais. Abrange recall de produtos (art. 10, §1º
+  Redige notificação extrajudicial completa em relações de consumo, com identificação das partes, exposição dos fatos, fundamentação no CDC (Lei 8.078/90) e legislação correlata, constituição em mora, prazo para resposta e advertência de providências judiciais. Abrange recall de pr
 triggers:
-  - "Para notificar fornecedor sobre vício do produto (art. 18 CDC) ou serviço (art. 20 CDC)"
-  - "Para exigir recall / convocação de consumidores por defeito de segurança (art. 10, §1º, CDC)"
+  - "Para notificar fornecedor sobre vício do produto (art. 18 CDC) ou serviço (art. "
+  - "Para exigir recall / convocação de consumidores por defeito de segurança (art. 1"
   - "Para requerer restituição por cobrança indevida (art. 42, par. único, CDC)"
   - "Para exigir retirada de negativação indevida (art. 43, §3º, CDC)"
   - "Para constituir o fornecedor em mora antes de ajuizar ação"
-  - "Para exigir cumprimento de oferta ou publicidade (art. 35 CDC)"
 ---
 
 # Notificação Extrajudicial Consumerista
@@ -136,11 +135,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Forma de envio definida (cartório RTD, AR, e-mail)?
 - [ ] Para recall: prazo do fornecedor para comunicação é imediato (art. 10, §1º, CDC)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **NOTIFICANTE (CONSUMIDOR):**
 - Nome completo: [nome]
 - Nacionalidade: [brasileira(o)]
