@@ -1,7 +1,7 @@
 ---
 name: agrario_agrario/inventario_de_imovel_rural
 description: >
-  Gera roteiro jurídico e peças processuais para o inventário de imóvel rural, abrangendo os aspectos específicos do direito agrário: regularidade do CCIR, georreferenciamento, CAR, ITR, condição de herdeiro-agricultor, partilha respeitando o princípio da indivisibilidade das áreas menores que o módul
+  Gera roteiro jurídico e peças processuais para o inventário de imóvel rural, abrangendo os aspectos específicos do direito agrário: regularidade do CCIR, georreferenciamento, CAR, ITR, condição de herdeiro-agricultor, partilha respeitando o princípio da indivisibilidade das áreas
 triggers:
   - "Falecimento de proprietário rural com imóvel a inventariar"
   - "Necessidade de regularizar o imóvel rural antes ou durante o inventário"
@@ -103,11 +103,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] ITCMD calculado e recolhido?
 - [ ] Herdeiro-agricultor identificado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DE CUJUS:**
 - Nome completo: [nome]
 - CPF: [número]
