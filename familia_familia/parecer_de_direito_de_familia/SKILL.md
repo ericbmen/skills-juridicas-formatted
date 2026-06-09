@@ -1,14 +1,13 @@
 ---
 name: familia_familia/parecer_de_direito_de_familia
 description: >
-  Gera um parecer jurídico completo em Direito de Família — análise técnica, doutrinária e jurisprudencial sobre questão concreta — com ementa, relatório, fundamentação e conclusão, nos padrões técnicos exigidos pela advocacia consultiva, seguindo a estrutura formal de parecer jurídico.
+  Gera um parecer jurídico completo em Direito de Família — análise técnica, doutrinária e jurisprudencial sobre questão concreta — com ementa, relatório, fundamentação e conclusão, nos padrões técnicos exigidos pela advocacia consultiva, seguindo a estrutura formal de parecer jurí
 triggers:
-  - "Consulta de cliente sobre viabilidade de ação de família (divórcio, guarda, alimentos, partilha, etc.)"
+  - "Consulta de cliente sobre viabilidade de ação de família (divórcio, guarda, alim"
   - "Análise de risco processual antes do ajuizamento"
-  - "Parecer para empresa sobre questão de família que impacta colaborador (ex.: desconto de pensão em folha)"
+  - "Parecer para empresa sobre questão de família que impacta colaborador (ex.: desc"
   - "Subsídio técnico para advogado associado ou estagiário conduzir o caso"
   - "Análise de proposta de acordo extrajudicial (aceitar ou não)"
-  - "Parecer sobre questões complexas: multiparentalidade, guarda de pet, alienação parental, bens no exterior"
 ---
 
 # Parecer de Direito de Família
@@ -168,6 +167,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Recomendações práticas são viáveis e específicas?
 - [ ] Parecer é autossuficiente (compreensível sem documentos externos)?
 - [ ] Pontos de atenção para o parecerista: [liste]
+
+---
 </framework>
 
 <dicas>
