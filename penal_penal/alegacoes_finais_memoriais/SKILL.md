@@ -3,7 +3,7 @@ name: penal_penal/alegacoes_finais_memoriais
 description: >
   Gera alegações finais (memoriais) completas para a defesa criminal, com análise minuciosa das provas produzidas na instrução, construção das teses defensivas, pedido fundamentado de absolvição (art. 386 CPP) e, subsidiariamente, teses de desclassificação ou redução de pena.
 triggers:
-  - "Após o encerramento da instrução criminal, quando o juiz converte os debates orais em memoriais"
+  - "Após o encerramento da instrução criminal, quando o juiz converte os debates ora"
   - "No prazo de 5 dias para apresentação de memoriais escritos (art. 403, §3º, CPP)"
   - "Quando o caso é complexo e exige análise detalhada das provas"
   - "Para consolidar toda a estratégia defensiva antes da sentença"
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Teses subsidiárias (dosimetria, desclassificação) foram incluídas?
 - [ ] Pedidos são coerentes com a argumentação?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara Criminal: [vara e comarca]
