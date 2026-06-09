@@ -1,7 +1,7 @@
 ---
 name: digital_digital/resposta_a_titular_de_dados
 description: >
-  Gera resposta formal e juridicamente adequada a requisições de titulares de dados pessoais, exercendo os direitos previstos nos arts. 17 a 22 da LGPD (acesso, correção, portabilidade, eliminação, revogação de consentimento, etc.), dentro do prazo de 15 dias estabelecido pela ANPD.
+  Gera resposta formal e juridicamente adequada a requisições de titulares de dados pessoais, exercendo os direitos previstos nos arts. 17 a 22 da LGPD (acesso, correção, portabilidade, eliminação, revogação de consentimento, etc.), dentro do prazo de 15 dias estabelecido pela ANPD
 triggers:
   - "Ao receber solicitação de acesso, correção ou exclusão de dados de um titular"
   - "Para responder pedidos de portabilidade de dados"
@@ -106,6 +106,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Canal do DPO e direito de reclamação à ANPD informados?
 - [ ] Requisição registrada no controle interno (ROPA)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
