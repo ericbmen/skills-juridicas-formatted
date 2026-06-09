@@ -1,13 +1,13 @@
 ---
 name: desportivo_desportivo/contrato_de_atleta_profissional
 description: >
-  Gera contrato de trabalho desportivo de atleta profissional em conformidade com a Lei Pelé (Lei 9.615/1998), a CLT e as normas das federações esportivas, com cláusulas sobre remuneração, direito de imagem, cláusula penal, luvas, direitos de arena e prazo determinado, protegendo o atleta e o clube/en
+  Gera contrato de trabalho desportivo de atleta profissional em conformidade com a Lei Pelé (Lei 9.615/1998), a CLT e as normas das federações esportivas, com cláusulas sobre remuneração, direito de imagem, cláusula penal, luvas, direitos de arena e prazo determinado, protegendo o
 triggers:
-  - "Clube ou entidade desportiva que deseja formalizar a contratação de atleta profissional"
+  - "Clube ou entidade desportiva que deseja formalizar a contratação de atleta profi"
   - "Atleta que precisa revisar ou negociar contrato de trabalho desportivo"
   - "Renovação de contrato com ajustes de remuneração, imagem e cláusula penal"
-  - "Elaboração de contrato com direitos de imagem e patrocínio vinculados ao contrato desportivo"
-  - "Clubes de futebol, basquete, vôlei, natação, atletismo e demais modalidades profissionalizadas"
+  - "Elaboração de contrato com direitos de imagem e patrocínio vinculados ao contrat"
+  - "Clubes de futebol, basquete, vôlei, natação, atletismo e demais modalidades prof"
 ---
 
 # Contrato de Atleta Profissional
@@ -95,11 +95,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Obrigações de ambas as partes detalhadas?
 - [ ] Registro na federação previsto?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ENTIDADE DESPORTIVA (EMPREGADOR):**
 - Razão social: [nome]
 - CNPJ: [número]
