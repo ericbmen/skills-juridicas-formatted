@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/cessao_de_direitos
 description: >
-  Elabora instrumentos de cessao de direitos completos, abrangendo cessao de creditos (arts. 286-298 CC), cessao de direitos autorais (Lei 9.610/1998), cessao de direitos sobre marcas e patentes (Lei 9.279/1996), cessao de direitos sobre software (Lei 9.609/1998) e cessao de posicao contratual. Distin
+  Elabora instrumentos de cessao de direitos completos, abrangendo cessao de creditos (arts. 286-298 CC), cessao de direitos autorais (Lei 9.610/1998), cessao de direitos sobre marcas e patentes (Lei 9.279/1996), cessao de direitos sobre software (Lei 9.609/1998) e cessao de posica
 triggers:
-  - "Para transferir definitivamente direitos autorais sobre obras literarias, artisticas ou musicais"
+  - "Para transferir definitivamente direitos autorais sobre obras literarias, artist"
   - "Para ceder marcas, patentes ou desenhos industriais registrados no INPI"
   - "Para transferir direitos sobre software desenvolvido sob encomenda"
   - "Para ceder creditos e direitos contratuais (ex: recebimento de parcelas futuras)"
   - "Para transferir posicao contratual integral (cedente sai, cessionario entra)"
-  - "Em operacoes de M&A envolvendo ativos intangiveis (propriedade intelectual)"
 ---
 
 # Cessao de Direitos
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -87,6 +86,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] O preco e forma de pagamento estao definidos?
 - [ ] Ha clausula de garantia de evicao?
 - [ ] Duas testemunhas previstas para titulo executivo extrajudicial?
+
+---
 </framework>
 
 <dicas>
