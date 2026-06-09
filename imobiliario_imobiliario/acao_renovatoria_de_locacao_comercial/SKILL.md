@@ -1,13 +1,13 @@
 ---
 name: imobiliario_imobiliario/acao_renovatoria_de_locacao_comercial
 description: >
-  Gera petição inicial de ação renovatória de locação não residencial (comercial), para o locatário com direito à renovação compulsória do contrato por igual prazo. Fundamentada nos arts. 51-57 da Lei 8.245/91 (Lei do Inquilinato), protege o fundo de comércio do locatário que preencheu os requisitos l
+  Gera petição inicial de ação renovatória de locação não residencial (comercial), para o locatário com direito à renovação compulsória do contrato por igual prazo. Fundamentada nos arts. 51-57 da Lei 8.245/91 (Lei do Inquilinato), protege o fundo de comércio do locatário que preen
 triggers:
-  - "Quando o contrato de locação comercial está próximo do vencimento e o locador se nega a renovar"
-  - "Para o locatário comercial que está há pelo menos 5 anos no mesmo ramo e tem contrato vigente há pelo menos 5 anos (podendo ser por sucessão de contratos)"
-  - "Quando o locador propõe condições abusivas para renovação que inviabilizam a continuidade do negócio"
+  - "Quando o contrato de locação comercial está próximo do vencimento e o locador se"
+  - "Para o locatário comercial que está há pelo menos 5 anos no mesmo ramo e tem con"
+  - "Quando o locador propõe condições abusivas para renovação que inviabilizam a con"
   - "Para garantir o direito ao fundo de comércio e evitar a perda do ponto comercial"
-  - "Quando o locador pretende usar o imóvel para atividade própria, mas não preenche os requisitos da exceção legal"
+  - "Quando o locador pretende usar o imóvel para atividade própria, mas não preenche"
 ---
 
 # Ação Renovatória de Locação Comercial
@@ -100,11 +100,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Valor da causa calculado em 12 meses de aluguel?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR (Locatário):**
 - Nome completo / razão social: [nome]
 - CPF/CNPJ: [número]
