@@ -1,14 +1,13 @@
 ---
 name: militar_militar/mandado_de_seguranca_contra_ato_de_autoridade_militar
 description: >
-  Gera petição de mandado de segurança para impugnar ato ilegal ou abusivo de autoridade militar que viole direito líquido e certo de militar ou de civil, com fundamento na Lei 12.016/09, na CF/88, na Lei 6.880/80 e no Estatuto dos Militares, buscando a anulação do ato e a imediata suspensão de seus e
+  Gera petição de mandado de segurança para impugnar ato ilegal ou abusivo de autoridade militar que viole direito líquido e certo de militar ou de civil, com fundamento na Lei 12.016/09, na CF/88, na Lei 6.880/80 e no Estatuto dos Militares, buscando a anulação do ato e a imediata
 triggers:
-  - "Militar preterido em promoção por ato discricionário ilegítimo (fora da ordem de merecimento ou antiguidade)"
-  - "Punição disciplinar aplicada sem due process (sem defesa prévia, sem motivação, fora do prazo)"
-  - "Remoção ou transferência de militar com caráter punitivo disfarçado, sem motivação legal"
+  - "Militar preterido em promoção por ato discricionário ilegítimo (fora da ordem de"
+  - "Punição disciplinar aplicada sem due process (sem defesa prévia, sem motivação, "
+  - "Remoção ou transferência de militar com caráter punitivo disfarçado, sem motivaç"
   - "Impedimento de militar acessar documentos do próprio processo disciplinar"
-  - "Ato de exclusão, demissão ou transferência para a reserva praticado com vício formal evidente"
-  - "Negativa de licença, férias ou afastamento garantido por lei ou regulamento"
+  - "Ato de exclusão, demissão ou transferência para a reserva praticado com vício fo"
 ---
 
 # Mandado de Segurança contra Ato de Autoridade Militar
@@ -100,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Liminar fundamentada com fumus + periculum?
 - [ ] Documentos relacionados ao pedido de liminar?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O MS:**
 - Juízo competente: [ex: 5ª Vara Federal de Curitiba / STM]
 - Data do ato impugnado: [dd/mm/aaaa]
