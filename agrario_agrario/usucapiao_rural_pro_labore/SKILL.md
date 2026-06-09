@@ -3,11 +3,11 @@ name: agrario_agrario/usucapiao_rural_pro_labore
 description: >
   Gera petição inicial de usucapião rural (pro labore), com fundamento no art. 191 da CF/88 e no art. 1.239 do Código Civil, destinada ao reconhecimento judicial da propriedade de imóvel rural pelo possuidor que o trabalha com sua família, sem oposição, pelo prazo legal exigido.
 triggers:
-  - "Possuidor exerce posse mansa, pacífica e ininterrupta de imóvel rural por 5 anos ou mais"
+  - "Possuidor exerce posse mansa, pacífica e ininterrupta de imóvel rural por 5 anos"
   - "Área de até 50 hectares"
   - "Possuidor não é proprietário de outro imóvel rural ou urbano"
   - "O imóvel é tornando produtivo com trabalho do possuidor e sua família"
-  - "Não há registro de matrícula ou o imóvel está em nome de terceiro sem oposição à posse"
+  - "Não há registro de matrícula ou o imóvel está em nome de terceiro sem oposição à"
 ---
 
 # Usucapião Rural (Pro Labore)
@@ -98,11 +98,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Registro de imóveis incluído na citação?
 - [ ] Pedido de registro da sentença incluído?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **POSSUIDOR (AUTOR):**
 - Nome completo: [nome]
 - CPF: [número]
