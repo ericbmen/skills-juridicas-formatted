@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/anulacao_de_ato_administrativo
 description: >
-  Gera uma ação judicial (ordinária ou mandado de segurança, conforme o caso) para anulação de ato administrativo ilegal, com pedido de tutela de urgência, fundamentada nos princípios da legalidade, motivação, proporcionalidade e ampla defesa, buscando o reconhecimento da nulidade do ato e a restauraç
+  Gera uma ação judicial (ordinária ou mandado de segurança, conforme o caso) para anulação de ato administrativo ilegal, com pedido de tutela de urgência, fundamentada nos princípios da legalidade, motivação, proporcionalidade e ampla defesa, buscando o reconhecimento da nulidade 
 triggers:
-  - "Contra ato administrativo praticado com vício de competência (agente incompetente)"
+  - "Contra ato administrativo praticado com vício de competência (agente incompetent"
   - "Contra ato com vício de forma (ausência de motivação, forma não prevista em lei)"
   - "Contra ato com vício de finalidade (desvio de poder)"
   - "Contra ato com vício de objeto (conteúdo ilegal ou impossível)"
-  - "Contra ato com vício de motivo (motivo falso, inexistente ou juridicamente inadequado)"
-  - "Para reverter penalidade administrativa aplicada sem contraditório e ampla defesa"
+  - "Contra ato com vício de motivo (motivo falso, inexistente ou juridicamente inade"
 ---
 
 # Anulação de Ato Administrativo
@@ -97,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Os pedidos estão claros e individualizados?
 - [ ] Não há menção a jurisprudência inventada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATO ADMINISTRATIVO IMPUGNADO:**
 - Descrição do ato: [o que a Administração fez]
 - Autoridade que praticou o ato: [nome, cargo, órgão]
