@@ -1,14 +1,13 @@
 ---
 name: militar_militar/recurso_em_sentido_estrito_cppm
 description: >
-  Gera razões de recurso em sentido estrito (RESE) no âmbito da Justiça Militar, com fundamento nos arts. 516-537 do CPPM (Decreto-Lei 1.002/1969), para impugnar decisões interlocutórias mistas (que extinguem o processo sem julgamento do mérito), rejeição de denúncia, pronúncia, impronúncia, decretaçã
+  Gera razões de recurso em sentido estrito (RESE) no âmbito da Justiça Militar, com fundamento nos arts. 516-537 do CPPM (Decreto-Lei 1.002/1969), para impugnar decisões interlocutórias mistas (que extinguem o processo sem julgamento do mérito), rejeição de denúncia, pronúncia, im
 triggers:
-  - "Rejeição de denúncia pelo juiz-auditor — recurso da acusação (MPM ou advogado do ofendido)"
-  - "Decisão que extingue o processo sem julgamento do mérito (prescrição declarada equivocadamente, ilegitimidade declarada indevidamente)"
-  - "Pronúncia ou impronúncia nos crimes dolosos contra a vida de civil praticados por militar — recorrer da pronúncia ou impugnar a impronúncia"
-  - "Decretação ou revogação de medida cautelar ou de prisão preventiva (CPPM, art. 254)"
+  - "Rejeição de denúncia pelo juiz-auditor — recurso da acusação (MPM ou advogado do"
+  - "Decisão que extingue o processo sem julgamento do mérito (prescrição declarada e"
+  - "Pronúncia ou impronúncia nos crimes dolosos contra a vida de civil praticados po"
+  - "Decretação ou revogação de medida cautelar ou de prisão preventiva (CPPM, art. 2"
   - "Decisão sobre competência (recusa ou aceitação da competência pelo juiz-auditor)"
-  - "Decisão que concede ou denega habeas corpus de primeiro grau"
 ---
 
 # Recurso em Sentido Estrito (CPPM)
@@ -100,11 +99,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Efeito suspensivo necessário? Pleiteado?
 - [ ] Erro específico da decisão claramente identificado e fundamentado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O RECURSO:**
 - Processo nº: [número]
 - Juízo de origem: [ex: 2ª Auditoria da 1ª CJM — Brasília]
