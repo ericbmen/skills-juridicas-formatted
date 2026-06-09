@@ -1,9 +1,9 @@
 ---
 name: internacional_internacional/apostilamento_e_legalizacao_de_documentos
 description: >
-  Gera orientação jurídica detalhada e petições relacionadas ao apostilamento (Convenção de Haia — Decreto 8.660/2016) e à legalização consular de documentos brasileiros para uso no exterior ou de documentos estrangeiros para uso no Brasil, com análise do procedimento correto conforme o país destinatá
+  Gera orientação jurídica detalhada e petições relacionadas ao apostilamento (Convenção de Haia — Decreto 8.660/2016) e à legalização consular de documentos brasileiros para uso no exterior ou de documentos estrangeiros para uso no Brasil, com análise do procedimento correto confo
 triggers:
-  - "Cliente precisa usar documento brasileiro no exterior (diploma, escritura, certidão)"
+  - "Cliente precisa usar documento brasileiro no exterior (diploma, escritura, certi"
   - "Documento estrangeiro precisa ser reconhecido no Brasil"
   - "Dúvida sobre qual procedimento usar: Apostila de Haia ou legalização consular"
   - "Necessidade de instrução de processo de homologação de sentença ou extradição"
@@ -96,11 +96,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prazo do cliente compatível com o procedimento?
 - [ ] Custos estimados comunicados ao cliente?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **DOCUMENTO:**
 - Tipo de documento: [diploma / certidão de nascimento / escritura / sentença / certidão criminal / procuração / contrato / outro]
 - Natureza: [público / notarial / administrativo / judicial]
