@@ -4,7 +4,7 @@ description: >
   Gera uma resposta à acusação completa e fundamentada (arts. 396 e 396-A do CPP), com preliminares, mérito, rol de testemunhas e requerimentos, pronta para apresentação antes da audiência de instrução e julgamento.
 triggers:
   - "Ao receber citação do réu para apresentar defesa preliminar no rito ordinário"
-  - "Para levantar preliminares que possam resultar em absolvição sumária (art. 397 CPP)"
+  - "Para levantar preliminares que possam resultar em absolvição sumária (art. 397 C"
   - "Para organizar a estratégia defensiva antes da instrução"
   - "Quando o prazo de 10 dias estiver correndo e precisar agilizar a peça"
   - "Para padronizar respostas à acusação no escritório criminal"
@@ -119,11 +119,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Documentos relevantes indicados?
 - [ ] Requerimento de provas formulado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número dos autos: [número]
 - Vara Criminal: [vara e comarca]
