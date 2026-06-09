@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/notificacao_imobiliaria_extrajudicial
 description: >
-  Gera notificações extrajudiciais completas e fundamentadas para situações imobiliárias, abrangendo desocupação de imóvel, cobrança de inadimplência locatícia, renovação ou não renovação de contrato, retomada para uso próprio, infração contratual e demais hipóteses previstas na Lei 8.245/91, no Códig
+  Gera notificações extrajudiciais completas e fundamentadas para situações imobiliárias, abrangendo desocupação de imóvel, cobrança de inadimplência locatícia, renovação ou não renovação de contrato, retomada para uso próprio, infração contratual e demais hipóteses previstas na Le
 triggers:
-  - "Para notificar locatário sobre desocupação do imóvel (denúncia vazia — arts. 46, 57)"
+  - "Para notificar locatário sobre desocupação do imóvel (denúncia vazia — arts. 46,"
   - "Para cobrar aluguéis e encargos em atraso antes de ajuizar despejo"
   - "Para comunicar não renovação de contrato de locação ao término do prazo"
   - "Para notificar retomada de imóvel por necessidade de uso próprio (art. 47, III)"
-  - "Para constituir em mora o devedor de obrigação imobiliária (comprador, locatário, compromissário)"
-  - "Para notificar infração contratual e exigir correção sob pena de rescisão"
+  - "Para constituir em mora o devedor de obrigação imobiliária (comprador, locatário"
 ---
 
 # Notificação Imobiliária Extrajudicial
@@ -107,11 +106,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Linguagem formal e adequada para registro em cartório?
 - [ ] Recibo de recebimento incluído?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **TIPO DE NOTIFICAÇÃO:**
 - [ ] Desocupação — denúncia vazia (art. 46 ou 57)
 - [ ] Desocupação — retomada para uso próprio (art. 47, III)
