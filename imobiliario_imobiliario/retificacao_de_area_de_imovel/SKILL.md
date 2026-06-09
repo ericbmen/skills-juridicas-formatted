@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/retificacao_de_area_de_imovel
 description: >
-  Gera requerimento de retificação administrativa de área ou petição inicial de retificação judicial de imóvel, para corrigir divergências entre a área constante na matrícula e a área real do imóvel. Abrange retificação unilateral (erro de descrição, sem prejuízo a confrontantes) e retificação com anu
+  Gera requerimento de retificação administrativa de área ou petição inicial de retificação judicial de imóvel, para corrigir divergências entre a área constante na matrícula e a área real do imóvel. Abrange retificação unilateral (erro de descrição, sem prejuízo a confrontantes) e
 triggers:
-  - "Quando a área constante na matrícula diverge da área real medida por georreferenciamento ou levantamento topográfico"
-  - "Para corrigir a descrição do imóvel (limites, confrontações, localização) que não corresponde à realidade"
-  - "Antes de averbação de construção que ficaria em desacordo com a área do terreno registrada"
-  - "Para regularizar imóvel rural com georreferenciamento obrigatório (Lei 10.267/01)"
+  - "Quando a área constante na matrícula diverge da área real medida por georreferen"
+  - "Para corrigir a descrição do imóvel (limites, confrontações, localização) que nã"
+  - "Antes de averbação de construção que ficaria em desacordo com a área do terreno "
+  - "Para regularizar imóvel rural com georreferenciamento obrigatório (Lei 10.267/01"
   - "Quando o imóvel será vendido ou financiado e a área divergente impede o negócio"
-  - "Para corrigir erro de digitação ou descrição no registro original sem alterar a substância do direito"
 ---
 
 # Retificação de Área de Imóvel
@@ -102,11 +101,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Se rural: georreferenciamento conforme Lei 10.267/01?
 - [ ] Não há normas ou artigos inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **REQUERENTE/AUTOR:**
 - Nome completo: [nome]
 - CPF/CNPJ: [número]
