@@ -1,14 +1,13 @@
 ---
 name: administrativo_administrativo/recurso_licitatorio
 description: >
-  Gera um recurso administrativo licitatório completo, contra decisões da comissão de licitação ou pregoeiro (inabilitação, desclassificação de proposta, julgamento do certame), com fundamentação na Lei 14.133/2021, requerendo a reforma da decisão e a habilitação ou classificação do recorrente.
+  Gera um recurso administrativo licitatório completo, contra decisões da comissão de licitação ou pregoeiro (inabilitação, desclassificação de proposta, julgamento do certame), com fundamentação na Lei 14.133/2021, requerendo a reforma da decisão e a habilitação ou classificação d
 triggers:
   - "Contra decisão de inabilitação do licitante (arts. 62-70, Lei 14.133/2021)"
   - "Contra desclassificação de proposta por irregularidade formal ou material"
-  - "Contra o julgamento do certame que declara outro licitante vencedor indevidamente"
+  - "Contra o julgamento do certame que declara outro licitante vencedor indevidament"
   - "Contra aplicação de penalidade no processo licitatório"
   - "Quando o pregoeiro ou comissão indefere pedido de esclarecimento relevante"
-  - "Contra decisão que admite proposta com vício que deveria gerar desclassificação"
 ---
 
 # Recurso Licitatório
@@ -88,11 +87,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Efeito suspensivo foi invocado (se Pregão)?
 - [ ] Não há menção a jurisprudência inventada?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO LICITATÓRIO:**
 - Modalidade: [Pregão Eletrônico | Concorrência | etc.]
 - Número: [ex: Pregão Eletrônico nº 010/2026]
