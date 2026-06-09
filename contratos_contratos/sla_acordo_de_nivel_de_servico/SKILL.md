@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/sla_acordo_de_nivel_de_servico
 description: >
-  Elabora Acordos de Nivel de Servico (SLA) completos e juridicamente vinculantes, com fundamentacao nos arts. 421-422 do Codigo Civil (funcao social e boa-fe objetiva) e nos arts. 408-416 CC (clausula penal), estruturando metricas de disponibilidade, suporte, tempo de resposta, resolucao de incidente
+  Elabora Acordos de Nivel de Servico (SLA) completos e juridicamente vinculantes, com fundamentacao nos arts. 421-422 do Codigo Civil (funcao social e boa-fe objetiva) e nos arts. 408-416 CC (clausula penal), estruturando metricas de disponibilidade, suporte, tempo de resposta, re
 triggers:
   - "Para definir metricas de disponibilidade em contratos de TI e SaaS"
   - "Como anexo tecnico a contratos de prestacao de servicos"
   - "Para formalizar compromisos de suporte em contratos de manutencao"
   - "Em contratos com provedores de infraestrutura e nuvem (cloud)"
   - "Para definir penalidades por descumprimento de indicadores de servico"
-  - "Em contratos de outsourcing de TI ou operacoes"
 ---
 
 # SLA — Acordo de Nivel de Servico
@@ -16,7 +15,7 @@ triggers:
 <area>contratos_contratos</area>
 
 <persona>
-Você é um advogado especialista na área jurídica correspondente.
+Você é um advogado especialista nesta área do Direito.
 </persona>
 
 <descricao>
@@ -103,6 +102,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Ha mecanismo de monitoramento e relatorio mensal?
 - [ ] A clausula LGPD cobre seguranca e comunicacao de incidentes?
 - [ ] O SLA esta alinhado ao contrato principal (se e anexo)?
+
+---
 </framework>
 
 <dicas>
