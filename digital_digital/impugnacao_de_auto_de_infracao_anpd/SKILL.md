@@ -1,13 +1,13 @@
 ---
 name: digital_digital/impugnacao_de_auto_de_infracao_anpd
 description: >
-  Gera peça de defesa administrativa (impugnação) contra auto de infração lavrado pela Autoridade Nacional de Proteção de Dados (ANPD), com análise dos elementos formais e materiais do auto, arguição de nulidades, contestação da tipificação e pedido de arquivamento ou redução da sanção, com base na LG
+  Gera peça de defesa administrativa (impugnação) contra auto de infração lavrado pela Autoridade Nacional de Proteção de Dados (ANPD), com análise dos elementos formais e materiais do auto, arguição de nulidades, contestação da tipificação e pedido de arquivamento ou redução da sa
 triggers:
-  - "Quando empresa ou controlador recebeu auto de infração da ANPD e precisa apresentar defesa no prazo"
-  - "Quando há vícios formais no auto de infração (nulidade, incompetência, prazo prescricional)"
-  - "Quando a tipificação da infração é equivocada ou a sanção desproporcional à infração cometida"
-  - "Quando a empresa já adotou medidas corretivas que podem ser usadas como atenuante"
-  - "Quando é necessário negociar TAC (Termo de Ajustamento de Conduta) como alternativa à multa"
+  - "Quando empresa ou controlador recebeu auto de infração da ANPD e precisa apresen"
+  - "Quando há vícios formais no auto de infração (nulidade, incompetência, prazo pre"
+  - "Quando a tipificação da infração é equivocada ou a sanção desproporcional à infr"
+  - "Quando a empresa já adotou medidas corretivas que podem ser usadas como atenuant"
+  - "Quando é necessário negociar TAC (Termo de Ajustamento de Conduta) como alternat"
 ---
 
 # Impugnação de Auto de Infração ANPD
