@@ -8,7 +8,6 @@ triggers:
   - "Para ampliar ou reduzir o escopo de serviços/fornecimento"
   - "Para incluir novas cláusulas (ex: LGPD, confidencialidade, SLA)"
   - "Para corrigir cláusulas ambíguas ou omissas do contrato original"
-  - "Para formalizar acordo de reequilíbrio econômico-financeiro"
 ---
 
 # Aditivo Contratual
@@ -99,6 +98,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Garantias e penalidades foram ajustadas proporcionalmente (se aplicável)?
 - [ ] Todas as partes do contrato original estão identificadas como signatárias?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
