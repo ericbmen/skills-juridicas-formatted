@@ -8,7 +8,6 @@ triggers:
   - "Contra decisão que nega liberdade provisória sem fundamentação idônea"
   - "Quando há constrangimento ilegal à liberdade de locomoção (ameaça concreta)"
   - "Para trancar inquérito policial ou ação penal manifestamente atípica"
-  - "Contra decisão que indefere pedido de progressão de regime ou livramento condicional"
 ---
 
 # Habeas Corpus
@@ -124,11 +123,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Medidas cautelares alternativas foram indicadas (art. 319 CPP)?
 - [ ] Fundamentação com artigos reais do CP, CPP, CF e súmulas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO ORIGINÁRIO:**
 - Número dos autos: [número]
 - Vara/Juízo de origem: [vara e comarca]
