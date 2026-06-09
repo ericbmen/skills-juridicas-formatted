@@ -1,13 +1,13 @@
 ---
 name: eleitoral_eleitoral/aime_acao_de_impugnacao_de_mandato_eletivo
 description: >
-  Gera petição inicial de Ação de Impugnação de Mandato Eletivo (AIME) com fundamento nos arts. 14 §10 e 11 da CF/88, para cassar o mandato de candidato eleito mediante abuso do poder econômico, corrupção ou fraude eleitoral, com os requisitos constitucionais e jurisprudenciais do TSE.
+  Gera petição inicial de Ação de Impugnação de Mandato Eletivo (AIME) com fundamento nos arts. 14 §10 e 11 da CF/88, para cassar o mandato de candidato eleito mediante abuso do poder econômico, corrupção ou fraude eleitoral, com os requisitos constitucionais e jurisprudenciais do 
 triggers:
-  - "Quando há prova ou indícios de abuso do poder econômico durante a campanha eleitoral"
+  - "Quando há prova ou indícios de abuso do poder econômico durante a campanha eleit"
   - "Para cassar mandato obtido mediante corrupção de eleitores (compra de votos)"
-  - "Quando houve fraude no processo eleitoral (falsidade de documentos, fraude no sistema)"
+  - "Quando houve fraude no processo eleitoral (falsidade de documentos, fraude no si"
   - "Para questionar a legitimidade do mandato após a diplomação do eleito"
-  - "Quando a AIJE (investigação) não foi ajuizada no prazo e a AIME é a via remanescente"
+  - "Quando a AIJE (investigação) não foi ajuizada no prazo e a AIME é a via remanesc"
 ---
 
 # AIME — Ação de Impugnação de Mandato Eletivo
@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Potencialidade de influência no resultado demonstrada?
 - [ ] Juízo competente identificado para o cargo?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR:**
 - Nome completo: [nome]
 - Qualidade: [candidato / partido / coligação / eleitor]
