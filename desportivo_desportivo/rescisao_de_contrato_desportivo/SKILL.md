@@ -1,10 +1,10 @@
 ---
 name: desportivo_desportivo/rescisao_de_contrato_desportivo
 description: >
-  Gera notificação extrajudicial de rescisão e petição inicial para ação de rescisão indireta (ou direta) de contrato especial de trabalho desportivo, com fundamento na Lei Pelé (Lei 9.615/1998) e na CLT, em razão de descumprimento contratual pelo clube (salários atrasados, falta de assistência médica
+  Gera notificação extrajudicial de rescisão e petição inicial para ação de rescisão indireta (ou direta) de contrato especial de trabalho desportivo, com fundamento na Lei Pelé (Lei 9.615/1998) e na CLT, em razão de descumprimento contratual pelo clube (salários atrasados, falta d
 triggers:
-  - "Atleta com salários atrasados por 3 meses ou mais (rescisão indireta — art. 483 CLT)"
-  - "Clube que descumpriu obrigações contratuais (assistência médica, equipamentos, seguro)"
+  - "Atleta com salários atrasados por 3 meses ou mais (rescisão indireta — art. 483 "
+  - "Clube que descumpriu obrigações contratuais (assistência médica, equipamentos, s"
   - "Atleta vítima de assédio moral por parte de comissão técnica ou dirigentes"
   - "Clube que rescindiu o contrato sem justa causa (pagamento da cláusula penal)"
   - "Atleta que deseja rescindir o contrato antes do prazo por justa causa do clube"
@@ -108,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência da Justiça do Trabalho verificada?
 - [ ] Danos morais analisados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA (RECLAMANTE):**
 - Nome completo: [nome]
 - CPF: [número]
