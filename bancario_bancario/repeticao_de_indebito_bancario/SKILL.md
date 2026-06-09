@@ -1,13 +1,13 @@
 ---
 name: bancario_bancario/repeticao_de_indebito_bancario
 description: >
-  Gera petição inicial de ação de repetição de indébito para devolução de valores cobrados indevidamente por instituições financeiras, incluindo tarifas ilegais, juros abusivos, seguros não contratados e encargos irregulares, com pedido de devolução simples ou em dobro conforme o CDC.
+  Gera petição inicial de ação de repetição de indébito para devolução de valores cobrados indevidamente por instituições financeiras, incluindo tarifas ilegais, juros abusivos, seguros não contratados e encargos irregulares, com pedido de devolução simples ou em dobro conforme o C
 triggers:
-  - "Quando o cliente identificou cobrança de tarifas não autorizadas (TAC, TEC, seguros, etc.)"
+  - "Quando o cliente identificou cobrança de tarifas não autorizadas (TAC, TEC, segu"
   - "Para buscar devolução de valores pagos acima do contratado por erro do banco"
   - "Quando há cobrança de encargos após quitação ou novação do contrato"
   - "Para reaver IOF cobrado em excesso ou de forma irregular"
-  - "Quando o banco descontou valores não previstos em conta corrente ou folha de pagamento"
+  - "Quando o banco descontou valores não previstos em conta corrente ou folha de pag"
 ---
 
 # Repetição de Indébito Bancário
@@ -107,11 +107,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Foro correto (domicílio do consumidor)?
 - [ ] JEC avaliado pelo valor da causa?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CLIENTE:**
 - Nome completo: [nome]
 - CPF: [número]
