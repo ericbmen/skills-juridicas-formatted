@@ -1,14 +1,13 @@
 ---
 name: civel_civel/parecer_juridico_civel
 description: >
-  Gera um parecer jurídico cível completo, com análise técnica aprofundada de uma questão jurídica consultada, incluindo relatório dos fatos, fundamentação legal e doutrinária, análise de riscos, jurisprudência aplicável e conclusão com recomendação objetiva, seguindo a estrutura formal de parecer jur
+  Gera um parecer jurídico cível completo, com análise técnica aprofundada de uma questão jurídica consultada, incluindo relatório dos fatos, fundamentação legal e doutrinária, análise de riscos, jurisprudência aplicável e conclusão com recomendação objetiva, seguindo a estrutura f
 triggers:
-  - "Quando um cliente (pessoa física ou jurídica) consultar sobre a viabilidade de uma ação cível"
-  - "Para análise de risco jurídico antes de tomar decisão empresarial com impacto civil"
-  - "Para embasar decisões internas de empresas sobre contratos, responsabilidade civil, obrigações"
-  - "Quando solicitado parecer técnico por órgão público ou privado sobre matéria cível"
+  - "Quando um cliente (pessoa física ou jurídica) consultar sobre a viabilidade de u"
+  - "Para análise de risco jurídico antes de tomar decisão empresarial com impacto ci"
+  - "Para embasar decisões internas de empresas sobre contratos, responsabilidade civ"
+  - "Quando solicitado parecer técnico por órgão público ou privado sobre matéria cív"
   - "Para avaliar chances de êxito em litígio cível (ação ou defesa)"
-  - "Para orientar sobre estratégia processual em caso cível complexo"
 ---
 
 # Parecer Jurídico Cível
@@ -122,6 +121,8 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Todas as citações legais e doutrinárias são reais e verificáveis?
 - [ ] O parecer está coerente do relatório à conclusão?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <dicas>
