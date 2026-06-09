@@ -1,7 +1,7 @@
 ---
 name: internacional_internacional/contrato_internacional
 description: >
-  Gera contratos internacionais (comercial, prestação de serviços, licença, distribuição, compra e venda) com cláusulas de eleição de foro, lei aplicável, arbitragem internacional, force majeure e compliance, observando o art. 9º da LINDB, os princípios UNIDROIT e os usos do comércio internacional.
+  Gera contratos internacionais (comercial, prestação de serviços, licença, distribuição, compra e venda) com cláusulas de eleição de foro, lei aplicável, arbitragem internacional, force majeure e compliance, observando o art. 9º da LINDB, os princípios UNIDROIT e os usos do comérc
 triggers:
   - "Elaboração de contrato entre empresa brasileira e parceiro estrangeiro"
   - "Negociação de cláusula de lei aplicável e eleição de foro"
@@ -101,11 +101,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Mecanismo de garantia de pagamento definido?
 - [ ] LGPD/GDPR abordada se houver dados pessoais?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PARTES:**
 - Parte brasileira (contratante/contratado): [razão social, CNPJ, endereço, representante legal]
 - Parte estrangeira: [razão social, número de registro no país, endereço, representante legal]
