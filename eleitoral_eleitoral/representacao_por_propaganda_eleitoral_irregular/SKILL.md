@@ -1,11 +1,11 @@
 ---
 name: eleitoral_eleitoral/representacao_por_propaganda_eleitoral_irregular
 description: >
-  Gera representação eleitoral por propaganda irregular perante a Justiça Eleitoral, com base na Lei 9.504/1997 e nas resoluções do TSE, para denunciar propaganda antecipada, irregular, uso de outdoor proibido, propaganda negativa ilegal, impulsionamento irregular nas redes sociais ou propaganda no di
+  Gera representação eleitoral por propaganda irregular perante a Justiça Eleitoral, com base na Lei 9.504/1997 e nas resoluções do TSE, para denunciar propaganda antecipada, irregular, uso de outdoor proibido, propaganda negativa ilegal, impulsionamento irregular nas redes sociais
 triggers:
-  - "Para denunciar propaganda eleitoral antes do período permitido (propaganda antecipada)"
+  - "Para denunciar propaganda eleitoral antes do período permitido (propaganda antec"
   - "Quando o adversário usa materiais proibidos (outdoor, adesivos no carro, etc.)"
-  - "Para denunciar propaganda que ofende a honra ou caluniosamente atribui crime ao adversário"
+  - "Para denunciar propaganda que ofende a honra ou caluniosamente atribui crime ao "
   - "Quando há impulsionamento pago em redes sociais sem declaração ao TSE"
   - "Para denunciar uso da máquina pública em propaganda de candidato"
 ---
@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Sanção aplicável corretamente identificada?
 - [ ] Representado identificado com nome e partido?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **REPRESENTANTE:**
 - Nome/partido: [nome ou sigla]
 - Qualidade: [candidato / partido / coligação]
