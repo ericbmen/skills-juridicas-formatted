@@ -1,14 +1,13 @@
 ---
 name: aeronautico_aeronautico/recurso_anac_impugnacao_de_multa_administrativa
 description: >
-  Gera recurso administrativo para impugnar autuações e multas aplicadas pela ANAC (Agência Nacional de Aviação Civil) a companhias aéreas, operadores aéreos, aeroclubes, escolas de aviação, pilotos, mecânicos de aeronaves (AME) e demais pessoas físicas ou jurídicas sujeitas à fiscalização da agência.
+  Gera recurso administrativo para impugnar autuações e multas aplicadas pela ANAC (Agência Nacional de Aviação Civil) a companhias aéreas, operadores aéreos, aeroclubes, escolas de aviação, pilotos, mecânicos de aeronaves (AME) e demais pessoas físicas ou jurídicas sujeitas à fisc
 triggers:
-  - "Companhia aérea autuada pela ANAC por irregularidades operacionais, de segurança ou de proteção ao consumidor"
-  - "Piloto ou mecânico de aeronave (AME) com habilitação suspensa ou cancelada pela ANAC"
-  - "Escola de aviação ou aeroclube notificado por irregularidades nos RBAC 61, 91, 135 ou 141"
+  - "Companhia aérea autuada pela ANAC por irregularidades operacionais, de segurança"
+  - "Piloto ou mecânico de aeronave (AME) com habilitação suspensa ou cancelada pela "
+  - "Escola de aviação ou aeroclube notificado por irregularidades nos RBAC 61, 91, 1"
   - "Operador de táxi aéreo autuado por irregularidades no RBAC 135"
   - "Empresa de manutenção (ORAM) autuada por descumprimento do RBAC 145"
-  - "Qualquer autuado que recebeu auto de infração da ANAC e deseja impugnar via recurso administrativo"
 ---
 
 # Recurso ANAC — Impugnação de Multa Administrativa
@@ -114,11 +113,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Pedido subsidiário de redução da multa incluído?
 - [ ] Efeito suspensivo do recurso requerido (se cabível)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O AUTO DE INFRAÇÃO:**
 - Número do auto de infração: [número]
 - Data da lavratura: [dd/mm/aaaa]
