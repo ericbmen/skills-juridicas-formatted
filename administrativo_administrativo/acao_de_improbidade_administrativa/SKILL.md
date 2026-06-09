@@ -1,10 +1,10 @@
 ---
 name: administrativo_administrativo/acao_de_improbidade_administrativa
 description: >
-  Gera petição inicial completa de Ação de Improbidade Administrativa ajuizada pelo Ministério Público ou pela pessoa jurídica lesada, com enquadramento dos atos nas modalidades da Lei 8.429/1992 (enriquecimento ilícito, lesão ao erário ou violação a princípios), pedido de medidas cautelares (indispon
+  Gera petição inicial completa de Ação de Improbidade Administrativa ajuizada pelo Ministério Público ou pela pessoa jurídica lesada, com enquadramento dos atos nas modalidades da Lei 8.429/1992 (enriquecimento ilícito, lesão ao erário ou violação a princípios), pedido de medidas 
 triggers:
-  - "Agente público que obteve vantagem indevida em razão do cargo (enriquecimento ilícito — art. 9º)"
-  - "Dispensa ou inexigibilidade de licitação fraudulenta causando lesão ao erário (art. 10)"
+  - "Agente público que obteve vantagem indevida em razão do cargo (enriquecimento il"
+  - "Dispensa ou inexigibilidade de licitação fraudulenta causando lesão ao erário (a"
   - "Nomeação de parente em cargo comissionado (nepotismo — violação ao art. 11)"
   - "Superfaturamento em contratos públicos com participação do agente"
   - "Desvio de verbas públicas de programa social ou convênio federal"
@@ -109,11 +109,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Legitimidade ativa do autor fundamentada?
 - [ ] Sanções do art. 12 corretamente identificadas para cada enquadramento?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATOS DE IMPROBIDADE:**
 [Para cada ato:
 - Descrição do ato: [o que aconteceu]
