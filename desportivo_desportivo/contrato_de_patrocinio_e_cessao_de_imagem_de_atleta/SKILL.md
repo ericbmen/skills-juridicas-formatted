@@ -1,10 +1,10 @@
 ---
 name: desportivo_desportivo/contrato_de_patrocinio_e_cessao_de_imagem_de_atleta
 description: >
-  Gera contrato de patrocínio esportivo e cessão de direitos de imagem de atleta profissional, com fundamento na Lei 9.615/1998 (Lei Pelé), na Lei 9.610/1998 (Direitos Autorais — imagem), no Código Civil e no Marco Civil da Internet, regulando o uso da imagem, nome, voz e marca pessoal do atleta para 
+  Gera contrato de patrocínio esportivo e cessão de direitos de imagem de atleta profissional, com fundamento na Lei 9.615/1998 (Lei Pelé), na Lei 9.610/1998 (Direitos Autorais — imagem), no Código Civil e no Marco Civil da Internet, regulando o uso da imagem, nome, voz e marca pes
 triggers:
   - "Atleta que deseja formalizar contrato com patrocinador (marca, produto, empresa)"
-  - "Empresa que deseja usar a imagem de atleta em campanhas publicitárias, produtos ou eventos"
+  - "Empresa que deseja usar a imagem de atleta em campanhas publicitárias, produtos "
   - "Contrato de embaixador de marca com atleta de alta visibilidade"
   - "Cessão de imagem vinculada ou desvinculada de contrato de trabalho desportivo"
   - "Contrato de endorsement digital (redes sociais, influência digital de atleta)"
@@ -94,11 +94,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Conflito com imagem do clube verificado?
 - [ ] Plataformas digitais e redes sociais cobertas?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATLETA (CESSIONÁRIO DE IMAGEM):**
 - Nome completo: [nome]
 - CPF: [número]
