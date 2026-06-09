@@ -1,14 +1,13 @@
 ---
 name: desportivo_desportivo/recurso_ao_stjd
 description: >
-  Gera recurso ao Superior Tribunal de Justiça Desportiva (STJD) contra decisão de Tribunal de Justiça Desportiva (TJD) estadual, com fundamento no Código Brasileiro de Justiça Desportiva (CBJD — Resolução CNE nº 29/2009) e nas normas específicas da modalidade, buscando a reforma da decisão condenatór
+  Gera recurso ao Superior Tribunal de Justiça Desportiva (STJD) contra decisão de Tribunal de Justiça Desportiva (TJD) estadual, com fundamento no Código Brasileiro de Justiça Desportiva (CBJD — Resolução CNE nº 29/2009) e nas normas específicas da modalidade, buscando a reforma d
 triggers:
-  - "Atleta, técnico ou clube condenado pelo TJD estadual com recurso disponível ao STJD"
+  - "Atleta, técnico ou clube condenado pelo TJD estadual com recurso disponível ao S"
   - "Pena desportiva desproporcional à infração cometida"
-  - "Nulidade processual no julgamento do TJD (cerceamento de defesa, ausência de fundamentação)"
+  - "Nulidade processual no julgamento do TJD (cerceamento de defesa, ausência de fun"
   - "Condenação com base em prova produzida de forma irregular"
   - "Agravamento indevido de pena em grau recursal"
-  - "Decisão do TJD publicada e prazo de recurso ao STJD ainda aberto (verificar prazo no CBJD da modalidade)"
 ---
 
 # Recurso ao STJD
@@ -106,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Efeito suspensivo avaliado?
 - [ ] Jurisprudência do STJD citada (se disponível)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO DESPORTIVO:**
 - Número do processo: [número]
 - Modalidade esportiva: [ex: futebol, basquete, vôlei]
