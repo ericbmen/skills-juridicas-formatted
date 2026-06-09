@@ -1,14 +1,13 @@
 ---
 name: contratos_contratos/termo_de_responsabilidade
 description: >
-  Elabora Termo de Responsabilidade completo para uso corporativo — para bens, equipamentos, acesso a sistemas, dados confidenciais ou uso de veículo — definindo a responsabilidade do signatário pela guarda, uso adequado e devolução do bem ou dado, com previsão de consequências em caso de descumprimen
+  Elabora Termo de Responsabilidade completo para uso corporativo — para bens, equipamentos, acesso a sistemas, dados confidenciais ou uso de veículo — definindo a responsabilidade do signatário pela guarda, uso adequado e devolução do bem ou dado, com previsão de consequências em 
 triggers:
   - "Entrega de equipamentos ao colaborador (notebook, celular, tablet, ferramentas)"
   - "Concessão de acesso a sistemas, senhas e dados corporativos"
   - "Uso de veículo da empresa por colaborador"
   - "Acesso a dados pessoais de clientes (LGPD — responsabilidade do operador)"
   - "Entrega de materiais, EPI ou uniformes ao colaborador"
-  - "Controle de acesso a áreas restritas ou laboratórios"
 ---
 
 # Termo de Responsabilidade
@@ -87,11 +86,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Cláusula de proteção de dados incluída (se aplicável — LGPD)?
 - [ ] Consequências do descumprimento definidas e proporcionais?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **EMPRESA:**
 - Razão social: [nome]
 - CNPJ: [número]
