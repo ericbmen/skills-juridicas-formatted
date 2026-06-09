@@ -3,12 +3,11 @@ name: penal_penal/parecer_criminal
 description: >
   Gera um parecer criminal completo com análise de risco, viabilidade de teses defensivas, estratégia processual e recomendações práticas, permitindo ao cliente e ao advogado tomar decisões informadas sobre o caso criminal.
 triggers:
-  - "Quando o cliente procura o escritório com um caso criminal e precisa de análise prévia"
+  - "Quando o cliente procura o escritório com um caso criminal e precisa de análise "
   - "Para avaliar as chances de êxito antes de aceitar a causa"
   - "Para orientar a estratégia defensiva em casos complexos"
   - "Para fundamentar decisões sobre acordo, delação, ANPP ou prosseguimento"
   - "Para apresentar ao cliente um panorama claro dos riscos e possibilidades"
-  - "Para padronizar a análise de viabilidade de casos criminais no escritório"
 ---
 
 # Parecer Criminal
@@ -140,11 +139,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] A recomendação final está clara e justificada?
 - [ ] Fundamentação com artigos reais do CP, CPP e CF?
 - [ ] Pontos que exigem atenção especial ou informações adicionais: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **CONSULENTE:**
 - Nome completo: [nome]
 - CPF: [número]
