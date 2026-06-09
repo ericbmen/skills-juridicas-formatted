@@ -1,12 +1,12 @@
 ---
 name: internacional_internacional/defesa_em_processo_de_extradicao
 description: >
-  Gera defesa técnica em processo de extradição passiva perante o Supremo Tribunal Federal (STF), com fundamento nos arts. 81 a 101 da Lei n. 13.445/2017 (Lei de Migração), nos tratados bilaterais de extradição aplicáveis e na CF/88, explorando todas as causas de inadmissibilidade e os direitos do ext
+  Gera defesa técnica em processo de extradição passiva perante o Supremo Tribunal Federal (STF), com fundamento nos arts. 81 a 101 da Lei n. 13.445/2017 (Lei de Migração), nos tratados bilaterais de extradição aplicáveis e na CF/88, explorando todas as causas de inadmissibilidade 
 triggers:
   - "Cliente preso preventivamente para extradição a pedido de Estado estrangeiro"
   - "Necessidade de impugnar o pedido de extradição no STF"
-  - "Arguição de causas de inadmissibilidade (prescrição, crime político, bis in idem)"
-  - "Pedido de liberdade provisória ou substituição da prisão preventiva do extraditando"
+  - "Arguição de causas de inadmissibilidade (prescrição, crime político, bis in idem"
+  - "Pedido de liberdade provisória ou substituição da prisão preventiva do extradita"
   - "Quando há risco de pena de morte ou tortura no país requerente"
 ---
 
@@ -104,11 +104,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Tratado bilateral identificado e analisado?
 - [ ] Pedido de liberdade provisória formulado?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO NO STF:**
 - Número da extradição: [Ext. nº]
 - Relator: [Ministro]
