@@ -1,13 +1,13 @@
 ---
 name: militar_militar/revisao_criminal_militar_revisao_de_sentenca_condenatoria
 description: >
-  Gera petição de revisão criminal perante o Superior Tribunal Militar (STM) para impugnar sentença condenatória transitada em julgado na Justiça Militar, com fundamento nos arts. 593-606 do CPPM e na CF/88, buscando a absolvição do militar condenado, a redução da pena ou a alteração do regime de cump
+  Gera petição de revisão criminal perante o Superior Tribunal Militar (STM) para impugnar sentença condenatória transitada em julgado na Justiça Militar, com fundamento nos arts. 593-606 do CPPM e na CF/88, buscando a absolvição do militar condenado, a redução da pena ou a alteraç
 triggers:
-  - "Militar condenado pela Justiça Militar com trânsito em julgado que dispõe de prova nova capaz de alterar o resultado do julgamento"
-  - "Condenação baseada em prova declarada falsa (documento, testemunho, laudo) após o trânsito em julgado"
-  - "Condenação obtida com nulidade processual grave não arguida ou não decidida nas instâncias ordinárias (ex: ausência de defesa técnica, juiz suspeito ou impedido)"
-  - "Militar condenado por crime que, após o trânsito, passou a ser considerado atípico ou teve a lei penal revogada"
-  - "Pena aplicada em quantum superior ao máximo legal ou com agravantes não previstas no CPM"
+  - "Militar condenado pela Justiça Militar com trânsito em julgado que dispõe de pro"
+  - "Condenação baseada em prova declarada falsa (documento, testemunho, laudo) após "
+  - "Condenação obtida com nulidade processual grave não arguida ou não decidida nas "
+  - "Militar condenado por crime que, após o trânsito, passou a ser considerado atípi"
+  - "Pena aplicada em quantum superior ao máximo legal ou com agravantes não prevista"
 ---
 
 # Revisão Criminal Militar (Revisão de Sentença Condenatória)
@@ -105,11 +105,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Indenização por erro judiciário mencionada?
 - [ ] Proibição de reformatio in pejus observada (CPPM, art. 605, § 1º)?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **A REVISÃO:**
 - Tribunal competente: [STM / TJM-SP / TJM-MG / TJM-RS]
 - Processo originário: [nº, Auditoria, CJM]
