@@ -1,10 +1,10 @@
 ---
 name: aeronautico_aeronautico/indenizacao_por_negativa_de_embarque
 description: >
-  Gera petição inicial para ação indenizatória por negativa de embarque injustificada (distinta do overbooking), abrangendo situações como negativa por suposto comportamento inadequado, falha no sistema de check-in, documentação exigida indevidamente, discriminação ou cancelamento unilateral do bilhet
+  Gera petição inicial para ação indenizatória por negativa de embarque injustificada (distinta do overbooking), abrangendo situações como negativa por suposto comportamento inadequado, falha no sistema de check-in, documentação exigida indevidamente, discriminação ou cancelamento 
 triggers:
   - "Passageiro impedido de embarcar por motivo injustificado ou discriminatório"
-  - "Negativa de embarque por falha no sistema da companhia (check-in, assento, documentação)"
+  - "Negativa de embarque por falha no sistema da companhia (check-in, assento, docum"
   - "Passageiro com necessidade especial impedido de embarcar sem fundamento legal"
   - "Cancelamento unilateral do bilhete pela companhia sem aviso prévio adequado"
   - "Negativa de embarque a menor desacompanhado sem observar as regras da ANAC"
@@ -101,11 +101,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Testemunhas presenciais identificadas?
 - [ ] Cartão de embarque/bilhete em anexo?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **VOO:**
 - Companhia aérea: [nome e CNPJ]
 - Número do voo: [ex: LA3201]
