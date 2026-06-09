@@ -1,14 +1,13 @@
 ---
 name: ambiental_ambiental/licenca_de_operacao_corretiva_e_regularizacao_ambiental
 description: >
-  Gera requerimento de licença de operação corretiva (LOC) e peças de regularização ambiental para empreendimentos e atividades que operam sem licença ou com licença vencida, com base na Resolução CONAMA 237/97, na Lei 6.938/81 e nas normas estaduais de regularização ambiental, incluindo estratégia pa
+  Gera requerimento de licença de operação corretiva (LOC) e peças de regularização ambiental para empreendimentos e atividades que operam sem licença ou com licença vencida, com base na Resolução CONAMA 237/97, na Lei 6.938/81 e nas normas estaduais de regularização ambiental, inc
 triggers:
   - "Para regularizar atividade que opera sem licença ambiental (licença de operação)"
-  - "Para requerer renovação de licença de operação vencida antes da lavratura de auto de infração"
-  - "Para conduzir o processo de regularização ambiental de empreendimento implantado sem licença prévia"
-  - "Para acompanhar o processo de Programa de Regularização Ambiental (PRA) do Código Florestal"
-  - "Para empreendimentos que receberam auto de infração por ausência de licença e querem regularizar"
-  - "Para indústrias, mineradoras, agropecuária, postos de combustíveis e outros segmentos sujeitos ao licenciamento"
+  - "Para requerer renovação de licença de operação vencida antes da lavratura de aut"
+  - "Para conduzir o processo de regularização ambiental de empreendimento implantado"
+  - "Para acompanhar o processo de Programa de Regularização Ambiental (PRA) do Códig"
+  - "Para empreendimentos que receberam auto de infração por ausência de licença e qu"
 ---
 
 # Licença de Operação Corretiva e Regularização Ambiental
@@ -109,11 +108,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] PRA (Código Florestal) avaliado se há passivo florestal?
 - [ ] Fundamentação com artigos reais da legislação ambiental?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **EMPREENDIMENTO:**
 - Razão social / nome: [nome]
 - CNPJ/CPF: [número]
