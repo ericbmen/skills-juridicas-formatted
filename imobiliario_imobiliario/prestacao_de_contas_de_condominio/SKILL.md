@@ -1,14 +1,13 @@
 ---
 name: imobiliario_imobiliario/prestacao_de_contas_de_condominio
 description: >
-  Gera petição inicial de ação de prestação de contas em condomínio edilício, tanto para o condômino que exige contas do síndico (ação exigindo contas) quanto para o síndico que presta contas ao condomínio (ação oferecendo contas). Também abrange a prestação de contas na fase administrativa (assemblei
+  Gera petição inicial de ação de prestação de contas em condomínio edilício, tanto para o condômino que exige contas do síndico (ação exigindo contas) quanto para o síndico que presta contas ao condomínio (ação oferecendo contas). Também abrange a prestação de contas na fase admin
 triggers:
-  - "Quando o condômino suspeita de irregularidades na gestão do síndico e quer exigir contas judicialmente"
+  - "Quando o condômino suspeita de irregularidades na gestão do síndico e quer exigi"
   - "Quando a assembleia se recusa a analisar ou aprova as contas de forma irregular"
-  - "Quando o síndico não presta contas voluntariamente dentro do prazo legal (art. 1.348, VIII CC)"
-  - "Para o síndico que prestou contas e foi rejeitado na assembleia — ação para validação judicial"
-  - "Quando há suspeita de desvio de valores ou superfaturamento de obras no condomínio"
-  - "Para apurar a responsabilidade do síndico por prejuízos causados ao condomínio"
+  - "Quando o síndico não presta contas voluntariamente dentro do prazo legal (art. 1"
+  - "Para o síndico que prestou contas e foi rejeitado na assembleia — ação para vali"
+  - "Quando há suspeita de desvio de valores ou superfaturamento de obras no condomín"
 ---
 
 # Prestação de Contas de Condomínio
@@ -98,11 +97,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Prescrição verificada?
 - [ ] Não há artigos ou normas inexistentes citados?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **AUTOR:**
 - Nome completo / razão social: [nome]
 - CPF/CNPJ: [número]
