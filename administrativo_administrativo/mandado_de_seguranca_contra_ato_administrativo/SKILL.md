@@ -1,13 +1,13 @@
 ---
 name: administrativo_administrativo/mandado_de_seguranca_contra_ato_administrativo
 description: >
-  Gera petição inicial completa de Mandado de Segurança para atacar ato administrativo ilegal ou abusivo de autoridade pública, como indeferimento de licença, cancelamento de alvará, penalidade aplicada sem devido processo, exigência ilegal como condição de ato vinculado ou omissão da autoridade em pr
+  Gera petição inicial completa de Mandado de Segurança para atacar ato administrativo ilegal ou abusivo de autoridade pública, como indeferimento de licença, cancelamento de alvará, penalidade aplicada sem devido processo, exigência ilegal como condição de ato vinculado ou omissão
 triggers:
-  - "Ato administrativo ilegal que nega direito líquido e certo comprovável documentalmente"
-  - "Cancelamento de alvará, licença ou autorização sem prévio processo administrativo ou contraditório"
+  - "Ato administrativo ilegal que nega direito líquido e certo comprovável documenta"
+  - "Cancelamento de alvará, licença ou autorização sem prévio processo administrativ"
   - "Penalidade aplicada por autoridade sem competência ou sem devido processo legal"
-  - "Exigência ilegal imposta como condição para prática de ato vinculado (ex: registro, inscrição)"
-  - "Omissão de autoridade em praticar ato obrigatório dentro do prazo legal (MS por omissão)"
+  - "Exigência ilegal imposta como condição para prática de ato vinculado (ex: regist"
+  - "Omissão de autoridade em praticar ato obrigatório dentro do prazo legal (MS por "
 ---
 
 # Mandado de Segurança contra Ato Administrativo
@@ -97,11 +97,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Competência do juízo correta?
 - [ ] Cópia do ato coator disponível para anexar?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **ATO COATOR:**
 - Tipo: [ato comissivo (ação ilegal) / ato omissivo (recusa em praticar ato obrigatório)]
 - Descrição: [o que o ato faz ou deixa de fazer]
