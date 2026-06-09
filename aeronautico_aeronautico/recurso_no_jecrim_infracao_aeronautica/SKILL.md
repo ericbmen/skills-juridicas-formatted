@@ -1,12 +1,12 @@
 ---
 name: aeronautico_aeronautico/recurso_no_jecrim_infracao_aeronautica
 description: >
-  Gera recurso inominado no Juizado Especial Criminal (JECrim) para casos envolvendo condutas em ambiente aeroportuário ou aeronáutico tipificadas como infrações penais de menor potencial ofensivo, como perturbação da ordem em aeroporto, desacato a agentes de segurança, recusa de submissão a controle 
+  Gera recurso inominado no Juizado Especial Criminal (JECrim) para casos envolvendo condutas em ambiente aeroportuário ou aeronáutico tipificadas como infrações penais de menor potencial ofensivo, como perturbação da ordem em aeroporto, desacato a agentes de segurança, recusa de s
 triggers:
-  - "Cliente condenado no JECrim por infração praticada em aeroporto ou a bordo de aeronave"
-  - "Necessidade de recorrer de sentença condenatória em processo de menor potencial ofensivo aeronáutico"
+  - "Cliente condenado no JECrim por infração praticada em aeroporto ou a bordo de ae"
+  - "Necessidade de recorrer de sentença condenatória em processo de menor potencial "
   - "Impugnar transação penal ou suspensão condicional do processo indevida"
-  - "Recurso contra sentença que não reconheceu excludente de ilicitude ou inimputabilidade"
+  - "Recurso contra sentença que não reconheceu excludente de ilicitude ou inimputabi"
   - "Revisão de pena aplicada desproporcional à conduta no ambiente aeronáutico"
 ---
 
@@ -98,11 +98,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Dosimetria impugnada (se cabível)?
 - [ ] Pedido subsidiário de redução de pena incluído?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **PROCESSO:**
 - Número do processo: [número]
 - Juízo: [JECrim da comarca de ... / Juizado Especial Federal Criminal]
