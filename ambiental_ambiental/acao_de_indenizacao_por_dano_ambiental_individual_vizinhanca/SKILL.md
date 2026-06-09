@@ -1,13 +1,13 @@
 ---
 name: ambiental_ambiental/acao_de_indenizacao_por_dano_ambiental_individual_vizinhanca
 description: >
-  Gera petição inicial completa de ação indenizatória individual por dano ambiental causado por vizinho ou empreendimento próximo, como poluição sonora, hídrica, atmosférica, contaminação de solo, mau cheiro, geração excessiva de resíduos ou supressão indevida de vegetação que cause danos concretos à 
+  Gera petição inicial completa de ação indenizatória individual por dano ambiental causado por vizinho ou empreendimento próximo, como poluição sonora, hídrica, atmosférica, contaminação de solo, mau cheiro, geração excessiva de resíduos ou supressão indevida de vegetação que caus
 triggers:
-  - "Poluição sonora de atividade comercial ou industrial causando danos à saúde de vizinhos"
+  - "Poluição sonora de atividade comercial ou industrial causando danos à saúde de v"
   - "Contaminação de poço, nascente ou rio que abastece a propriedade do autor"
   - "Queimadas ou emissão de fumaça de vizinho causando dano à saúde e ao patrimônio"
-  - "Supressão de árvores pelo vizinho causando erosão, inundação ou perda de ambiência"
-  - "Descarte irregular de resíduos que contamina o solo ou água de propriedade lindeira"
+  - "Supressão de árvores pelo vizinho causando erosão, inundação ou perda de ambiênc"
+  - "Descarte irregular de resíduos que contamina o solo ou água de propriedade linde"
 ---
 
 # Ação de Indenização por Dano Ambiental Individual (Vizinhança)
@@ -102,11 +102,12 @@ Apresente dentro de um bloco <checklist_validacao>:
 - [ ] Perícia ambiental incluída nos pedidos?
 - [ ] Valor da causa fixado corretamente?
 - [ ] Pontos que exigem atenção especial do advogado: [liste]
+
+---
 </framework>
 
 <template_dados>
-## DADOS DO CASO (preencha todos os campos):
-
+## DADOS DO CASO:
 **O DANO AMBIENTAL INDIVIDUAL:**
 - Tipo de dano: [poluição sonora / hídrica / atmosférica / solo / flora / outro]
 - Descrição detalhada: [o que acontece, desde quando, frequência, intensidade]
